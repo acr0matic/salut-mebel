@@ -1,12 +1,34 @@
-// Основной цвет
 // Цветовая палитра блоков
-$palette-white: #ffffff;
+$block-primary: #ffffff;
+
+// Цветовая палитра заднего фона 
+$background-primary: #f9f9f9;
+$background-secondary: #dfdfdf;
 
 // Цветовая палитра кнопок
-$button-primary: #75b726;
+$button-primary: #c04343;
+$button-secondary: #c04343;
+$button-outline: #4c4c4c;
+
+// Цветовая палитра кнопок при наведении
+$button-primary--hover: #287373;
+$button-secondary--hover: #287373;
+$button-outline--hover: #287373;
+
+// Цветовая палитра текста кнопок
+$button-primary__text: #ffffff;
+$button-secondary__text: #ffffff;
+$button-outline__text: #ffffff;
 
 // Цветовая палитра инпутов
-$input-text: #a0a0a0;
+$input__text: #4c4c4c;
+$input__border--error: #c04343;
+
+// Цветовая палитра таблиц
+$table__heading: #c04343;
+$table__row: #ffffff;
 
 // Цветовая палитра текста
-$text-black: #0a0a19;
+$text-primary: #4c4c4c;
+$text-secondary: #6c6c6c;
+$text-primary--inverted: #ffffff;
