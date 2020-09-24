@@ -20,6 +20,12 @@ html {
   box-sizing: inherit;
 }
 
+header,
+section,
+footer {
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }

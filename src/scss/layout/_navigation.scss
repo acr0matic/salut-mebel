@@ -1,0 +1,15 @@
+.nav {
+  position: sticky;
+  top: 0;
+
+  &__list {
+    @include flex($justify: center);
+    background-color: $background-secondary;
+
+    padding: 25px 0;
+  }
+
+  &__item {
+    margin: 0 25px;
+  }
+}

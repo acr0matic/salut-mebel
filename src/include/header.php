@@ -96,3 +96,31 @@
     </div>
     <!-- /.container -->
   </header>
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a href="" class="nav__link">Главная</a>
+      </li>
+      <li class="nav__item">
+        <a href="" class="nav__link">
+          <img class="nav__icon" src="img/icons/mini-icons/burger-nav.svg" alt="">
+          Каталог</a>
+      </li>
+      <li class="nav__item">
+        <a href="" class="nav__link">Доставка и монтаж</a>
+      </li>
+      <li class="nav__item">
+        <a href="" class="nav__link">Портфолио</a>
+      </li>
+      <li class="nav__item">
+        <a href="" class="nav__link">О нас</a>
+      </li>
+      <li class="nav__item">
+        <a href="" class="nav__link">Статьи</a>
+      </li>
+      <li class="nav__item">
+        <a href="" class="nav__link">Контакты</a>
+      </li>
+    </ul>
+  </nav>
