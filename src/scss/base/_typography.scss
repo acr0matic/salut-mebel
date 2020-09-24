@@ -42,3 +42,12 @@ span {
   font-size: $font-size-6;
   font-weight: $weight-regular;
 }
+
+a {
+  color: $text-primary;
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: $text-hover;
+  }
+}

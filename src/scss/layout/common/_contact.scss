@@ -1,0 +1,21 @@
+.contact {
+  &__phone {
+    @include flex();
+    flex-direction: column;
+  }
+
+  &__address {
+    @include flex();
+
+    cursor: pointer;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: $text-hover;
+    }
+  }
+
+  &__icon {
+    margin-right: 5px;
+  }
+}

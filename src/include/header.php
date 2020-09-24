@@ -68,6 +68,31 @@
 
 <body>
   <!-- Шапка -->
-  <header></header>
+  <header class="header">
+    <div class="header__container container">
+      <div class="logo">
+        <img src="img/logo.svg" alt="" class="logo__image">
+      </div>
+      <!-- /.logo -->
 
- 
+      <div class="header__contact contact">
+        <div class="header__phone contact__phone">
+          <a href="tel:+7 (495) 978-59-51" class="contact__tel">+7 (495) 978-59-51</a>
+          <a href="tel:+7 (985) 338-99-85" class="contact__tel">+7 (985) 338-99-85</a>
+        </div>
+        <!-- /.contact__phone -->
+
+        <div class="header__address contact__address">
+          <img class="contact__icon" src="img/icons/mini-icons/geo.svg" alt="">
+          Адреса магазинов
+        </div>
+        <!-- /.contact-address -->
+
+        <button class="button button-outline">Заказать звонок</button>
+
+        <!-- /.header-contact__phone -->
+      </div>
+      <!-- /.header__contact -->
+    </div>
+    <!-- /.container -->
+  </header>
