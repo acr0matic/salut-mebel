@@ -1,0 +1,28 @@
+.promo-banner {
+  position: relative;
+  z-index: $z-index-main;
+
+  @include flex();
+
+  height: 435px;
+
+  &__image {
+    position: absolute;
+
+    pointer-events: none;
+  }
+
+  &__content {
+    position: relative;
+
+    padding-left: 120px;
+  }
+
+  &__title {
+    color: $text-primary--inverted;
+  }
+
+  &__button {
+    margin-top: 30px;
+  }
+}

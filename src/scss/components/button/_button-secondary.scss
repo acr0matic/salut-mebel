@@ -1,0 +1,20 @@
+.button-secondary {
+  @extend %button;
+
+  background-color: $button-secondary;
+  color: $button-secondary__text;
+
+  padding: 20px 25px;
+  margin-left: 5px;
+
+  transform: skewX(-7deg);
+
+  &:hover {
+    background-color: $button-secondary--hover;
+  }
+
+  &__text {
+    display: block;
+    transform: skewX(7deg);
+  }
+}

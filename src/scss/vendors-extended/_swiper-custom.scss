@@ -1,0 +1,42 @@
+.swiper-button-prev,
+.swiper-button-next {
+  width: 0;
+
+  transition: opacity 0.15s ease;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.swiper-button-prev {
+  &::after {
+    content: url("../img/icons/controls/arrow-left.svg");
+  }
+}
+
+.swiper-button-next {
+  &::after {
+    content: url("../img/icons/controls/arrow-right.svg");
+  }
+}
+
+.swiper-pagination {
+  display: none;
+
+  &-bullet {
+    width: 14px;
+    height: 14px;
+
+    margin: 0 5px;
+
+    background-color: transparent;
+
+    border: 2px solid #ffffff;
+    opacity: 1;
+
+    &-active {
+      background-color: #ffffff;
+    }
+  }
+}

@@ -3,8 +3,11 @@
 
   <!-- Скрипты -->
   <!-- build:js -->
+  <script src="scripts/libraries/swiper.js"></script>
+
+  <script src="scripts/sliders.js"></script>
   <script src="scripts/script.js"></script>
   <!-- endbuild -->
-</body>
+  </body>
 
-</html>
+  </html>

@@ -8,4 +8,45 @@
   margin-left: auto;
   margin-right: auto;
 }
- 
+
+.gradient {
+  display: inline-block;
+  background-image: linear-gradient(
+    75deg,
+    rgba(34, 34, 35, 0.49) -1%,
+    rgba(79, 79, 79, 0.283281) 65%,
+    rgba(255, 255, 255, 0) 89.46%
+  );
+
+  &__image {
+    position: relative;
+    z-index: -1;
+  }
+}
+
+.skewed {
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+
+    background: #fff;
+
+    width: 100px;
+    height: 500px;
+
+    transform: rotate(7deg);
+  }
+
+  &::before {
+    left: -65px;
+  }
+
+  &::after {
+    right: -60px;
+  }
+}
