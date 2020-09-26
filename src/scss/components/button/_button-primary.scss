@@ -1,0 +1,12 @@
+.button-primary {
+  @extend %button;
+
+  background-color: $button-secondary;
+  color: $button-secondary__text;
+
+  padding: 12px 25px;
+
+  &:hover {
+    background-color: $button-secondary--hover;
+  }
+}

@@ -61,8 +61,8 @@
               <h3 class="promo-item__title">Кухня Тропикана <br> (мдф + пленка)</h3>
               <div class="promo-item__info">
                 <div class="promo-item__price promo-cost">
-                  <span class="promo-cost__price promo-cost__price--old">220 000</span>
-                  <span class="promo-cost__price">200 000</span>
+                  <span class="promo-cost__price promo-cost__price--old price">220 000</span>
+                  <span class="promo-cost__price price">200 000</span>
                 </div>
                 <!-- /.promo-item__price -->
 
@@ -88,8 +88,8 @@
               <h3 class="promo-item__title">Кухня Ника <br> (массив Ясеня)</h3>
               <div class="promo-item__info">
                 <div class="promo-item__price promo-cost">
-                  <span class="promo-cost__price promo-cost__price--old">220 000</span>
-                  <span class="promo-cost__price">200 000</span>
+                  <span class="promo-cost__price promo-cost__price--old price">220 000</span>
+                  <span class="promo-cost__price price">200 000</span>
                 </div>
                 <!-- /.promo-item__price -->
 
@@ -115,8 +115,8 @@
               <h3 class="promo-item__title">Кухня Элла <br> (мдф + эмаль)</h3>
               <div class="promo-item__info">
                 <div class="promo-item__price promo-cost">
-                  <span class="promo-cost__price promo-cost__price--old">220 000</span>
-                  <span class="promo-cost__price">200 000</span>
+                  <span class="promo-cost__price promo-cost__price--old price">220 000</span>
+                  <span class="promo-cost__price price">200 000</span>
                 </div>
                 <!-- /.promo-item__price -->
 
@@ -214,6 +214,252 @@
         <!-- /.advantages__item -->
       </div>
       <!-- /.advantages -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="catalog">
+    <div class="container">
+      <div class="catalog">
+        <h2 class="catalog__title">
+          Кухни
+        </h2>
+
+        <div class="catalog__wrapper">
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+        </div>
+        <!-- /.catalog__wrapper -->
+
+        <h2 class="catalog__title">
+          Корпусная мебель
+        </h2>
+
+        <div class="catalog__wrapper">
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+        </div>
+        <!-- /.catalog__wrapper -->
+      </div>
+      <!-- /.catalog -->
     </div>
     <!-- /.container -->
   </section>

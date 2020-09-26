@@ -1,0 +1,10 @@
+.catalog {
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__wrapper {
+    @include flex($align: flex-start);
+    flex-wrap: wrap;
+  }
+}
