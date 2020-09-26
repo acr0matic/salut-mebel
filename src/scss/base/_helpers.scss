@@ -24,37 +24,14 @@
   }
 }
 
-.skewed {
-  overflow: hidden;
-
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-    z-index: 1;
-    top: -10px;
-
-    background: #fff;
-
-    width: 100px;
-    height: 500px;
-
-    transform: rotate(7deg);
-  }
-
-  &::before {
-    left: -65px;
-  }
-
-  &::after {
-    right: -60px;
-  }
-}
-
 .icon {
   display: inline-block;
-  
+
   &--mini {
     width: 16px;
   }
+}
+
+.block-skewed {
+  clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
 }

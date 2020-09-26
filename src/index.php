@@ -8,8 +8,8 @@
         <div class="swiper-container promo__slider-container">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="promo-banner">
-                <div class="promo-banner__image gradient skewed">
+              <div class="promo-banner block-skewed">
+                <div class="promo-banner__image gradient">
                   <img class="gradient__image" src="img/promo/1.jpg" alt="">
                 </div>
                 <!-- /.image -->
@@ -26,9 +26,9 @@
             <!-- /.swiper-slide -->
 
             <div class="swiper-slide">
-              <div class="promo-banner">
-                <div class="promo-banner__image gradient skewed">
-                  <img class="gradient__image" src="img/promo/1.jpg" alt="">
+              <div class="promo-banner block-skewed">
+                <div class="promo-banner__image gradient">
+                  <img class="gradient__image " src="img/promo/1.jpg" alt="">
                 </div>
                 <!-- /.image -->
                 <div class="promo-banner__content">

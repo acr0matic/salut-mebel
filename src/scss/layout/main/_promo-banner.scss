@@ -1,14 +1,13 @@
 .promo-banner {
+  @include flex();
+
   position: relative;
   z-index: $z-index-main;
-
-  @include flex();
 
   height: 435px;
 
   &__image {
     position: absolute;
-
     pointer-events: none;
   }
 
