@@ -139,6 +139,84 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="advantages">
+    <div class="container">
+      <div class="advantages">
+        <div class="advantages__item">
+          <div class="advantages__icon-wrapper">
+            <img src="img/icons/fix.svg" alt="" class="advantages__icon">
+          </div>
+          <!-- /.advantages__icon-wrapper -->
+
+          <h4 class="advantages__title">Собственное производство в Москве</h4>
+        </div>
+        <!-- /.advantages__item -->
+
+        <div class="advantages__item">
+          <div class="advantages__icon-wrapper">
+            <img src="img/icons/measurement.svg" alt="" class="advantages__icon">
+          </div>
+          <!-- /.advantages__icon-wrapper -->
+
+          <h4 class="advantages__title">Замер и консультация с дизайнерами</h4>
+        </div>
+        <!-- /.advantages__item -->
+
+        <div class="advantages__item">
+          <div class="advantages__icon-wrapper">
+            <img src="img/icons/product.svg" alt="" class="advantages__icon">
+          </div>
+          <!-- /.advantages__icon-wrapper -->
+
+          <h4 class="advantages__title">Полная комплектация</h4>
+        </div>
+        <!-- /.advantages__item -->
+
+        <div class="advantages__item">
+          <div class="advantages__icon-wrapper">
+            <img src="img/icons/delivery.svg" alt="" class="advantages__icon">
+          </div>
+          <!-- /.advantages__icon-wrapper -->
+
+          <h4 class="advantages__title">Доставка и установка в 1 день</h4>
+        </div>
+        <!-- /.advantages__item -->
+
+        <div class="advantages__item">
+          <div class="advantages__icon-wrapper">
+            <img src="img/icons/kitchen-1.svg" alt="" class="advantages__icon">
+          </div>
+          <!-- /.advantages__icon-wrapper -->
+
+          <h4 class="advantages__title">Кухни под любые размеры</h4>
+        </div>
+        <!-- /.advantages__item -->
+
+        <div class="advantages__item">
+          <div class="advantages__icon-wrapper">
+            <img src="img/icons/market.svg" alt="" class="advantages__icon">
+          </div>
+          <!-- /.advantages__icon-wrapper -->
+
+          <h4 class="advantages__title">Сеть фирменных салонов</h4>
+        </div>
+        <!-- /.advantages__item -->
+
+        <div class="advantages__item">
+          <div class="advantages__icon-wrapper">
+            <img src="img/icons/kitchen-2.svg" alt="" class="advantages__icon">
+          </div>
+          <!-- /.advantages__icon-wrapper -->
+
+          <h4 class="advantages__title">Кухонные гарнитуры по цене производителя</h4>
+        </div>
+        <!-- /.advantages__item -->
+      </div>
+      <!-- /.advantages -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once 'include/footer.php' ?>

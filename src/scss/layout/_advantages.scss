@@ -1,0 +1,26 @@
+#advantages {
+  background-color: $background-secondary;
+  padding: 35px 0;
+}
+
+.advantages {
+  @include flex($align: flex-start);
+
+  &__item {
+    width: 150px;
+  }
+
+  &__icon-wrapper {
+
+  }
+
+  &__icon {
+    width: 42px;
+    height: 45px;
+  }
+
+  &__title {
+    margin-top: 10px;
+    font-weight: $weight-regular;
+  }
+}
