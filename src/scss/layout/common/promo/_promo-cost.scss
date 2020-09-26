@@ -1,0 +1,21 @@
+.promo-cost {
+  @include flex($align: flex-start);
+  flex-direction: column;
+
+  margin: 15px 0;
+
+  &__price {
+    color: $text-primary--inverted;
+    font-size: $font-size-3;
+
+    &::after {
+      content: '₽';
+      margin-left: 5px;
+    }
+
+    &--old {
+      font-size: $font-size-5;
+      text-decoration: line-through;
+    }
+  }
+}

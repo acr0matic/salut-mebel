@@ -50,6 +50,90 @@
           <div class="swiper-button-next promo__slider-right"></div>
         </div>
         <!-- /.swiper-container -->
+
+        <div class="promo__list">
+          <div class="promo__list-item promo-item">
+            <div class="promo-item__image gradient">
+              <img src="img/promo/item-1.jpg" alt="" class="gradient__image">
+            </div>
+            <!-- /.gradient -->
+            <div class="promo-item__content">
+              <h3 class="promo-item__title">Кухня Тропикана <br> (мдф + пленка)</h3>
+              <div class="promo-item__info">
+                <div class="promo-item__price promo-cost">
+                  <span class="promo-cost__price promo-cost__price--old">220 000</span>
+                  <span class="promo-cost__price">200 000</span>
+                </div>
+                <!-- /.promo-item__price -->
+
+                <div class="promo-item__discount promo-discount">
+                  <div class="promo-discount__count">30</div>
+                </div>
+                <!-- /.promo-item__discount -->
+              </div>
+              <!-- /.promo-item__info -->
+
+              <button class="promo-item__button button button-outline button-outline--inverted">Подробнее</button>
+            </div>
+            <!-- /.promo-item__content -->
+          </div>
+          <!-- /.promo-list__item -->
+
+          <div class="promo__list-item promo-item">
+            <div class="promo-item__image gradient">
+              <img src="img/promo/item-2.jpg" alt="" class="gradient__image">
+            </div>
+            <!-- /.gradient -->
+            <div class="promo-item__content">
+              <h3 class="promo-item__title">Кухня Ника <br> (массив Ясеня)</h3>
+              <div class="promo-item__info">
+                <div class="promo-item__price promo-cost">
+                  <span class="promo-cost__price promo-cost__price--old">220 000</span>
+                  <span class="promo-cost__price">200 000</span>
+                </div>
+                <!-- /.promo-item__price -->
+
+                <div class="promo-item__discount promo-discount">
+                  <div class="promo-discount__count">30</div>
+                </div>
+                <!-- /.promo-item__discount -->
+              </div>
+              <!-- /.promo-item__info -->
+
+              <button class="promo-item__button button button-outline button-outline--inverted">Подробнее</button>
+            </div>
+            <!-- /.promo-item__content -->
+          </div>
+          <!-- /.promo-list__item -->
+
+          <div class="promo__list-item promo-item">
+            <div class="promo-item__image gradient">
+              <img src="img/promo/item-3.jpg" alt="" class="gradient__image">
+            </div>
+            <!-- /.gradient -->
+            <div class="promo-item__content">
+              <h3 class="promo-item__title">Кухня Элла <br> (мдф + эмаль)</h3>
+              <div class="promo-item__info">
+                <div class="promo-item__price promo-cost">
+                  <span class="promo-cost__price promo-cost__price--old">220 000</span>
+                  <span class="promo-cost__price">200 000</span>
+                </div>
+                <!-- /.promo-item__price -->
+
+                <div class="promo-item__discount promo-discount">
+                  <div class="promo-discount__count">30</div>
+                </div>
+                <!-- /.promo-item__discount -->
+              </div>
+              <!-- /.promo-item__info -->
+
+              <button class="promo-item__button button button-outline button-outline--inverted">Подробнее</button>
+            </div>
+            <!-- /.promo-item__content -->
+          </div>
+          <!-- /.promo-list__item -->
+        </div>
+        <!-- /.promo__list -->
       </div>
       <!-- /.promo -->
     </div>

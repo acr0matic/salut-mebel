@@ -1,0 +1,32 @@
+.promo-item {
+  position: relative;
+
+  width: calc(100% / 3 - 25px);
+
+
+  &__image {
+    position: absolute;
+
+    width: 100%;
+
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  &__content {
+    position: relative;
+
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  &__title {
+    color: $text-primary--inverted;
+  }
+
+  &__info {
+    position: relative;
+
+    @include flex();
+  }
+}

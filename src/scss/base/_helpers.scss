@@ -50,3 +50,11 @@
     right: -60px;
   }
 }
+
+.icon {
+  display: inline-block;
+  
+  &--mini {
+    width: 16px;
+  }
+}

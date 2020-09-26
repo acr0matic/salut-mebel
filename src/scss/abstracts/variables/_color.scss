@@ -9,6 +9,7 @@ $background-secondary: #dfdfdf;
 $button-primary: #c04343;
 $button-secondary: #c04343;
 $button-outline: #4c4c4c;
+$button-outline--inverted: #ffffff;
 
 // Цветовая палитра кнопок при наведении
 $button-primary--hover: #287373;
@@ -18,7 +19,8 @@ $button-outline--hover: #287373;
 // Цветовая палитра текста кнопок
 $button-primary__text: #ffffff;
 $button-secondary__text: #ffffff;
-$button-outline__text: #ffffff;
+$button-outline__text: #4c4c4c;
+$button-outline__text--inverted: #ffffff;
 
 // Цветовая палитра инпутов
 $input__text: #4c4c4c;

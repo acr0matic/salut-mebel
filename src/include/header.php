@@ -83,7 +83,7 @@
         <!-- /.contact__phone -->
 
         <div class="header__address contact__address">
-          <img class="contact__icon" src="img/icons/mini-icons/geo.svg" alt="">
+          <img class="contact__icon icon icon--mini" src="img/icons/mini-icons/geo.svg" alt="">
           Адреса магазинов
         </div>
         <!-- /.contact-address -->
@@ -104,7 +104,7 @@
       </li>
       <li class="nav__item">
         <a href="" class="nav__link">
-          <img class="nav__icon" src="img/icons/mini-icons/burger-nav.svg" alt="">
+          <img class="nav__icon icon icon--mini" src="img/icons/mini-icons/burger-nav.svg" alt="">
           Каталог</a>
       </li>
       <li class="nav__item">

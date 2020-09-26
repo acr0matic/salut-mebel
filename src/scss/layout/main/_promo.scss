@@ -1,0 +1,7 @@
+.promo {
+
+  &__list {
+    @include flex();
+    margin-top: 40px;
+  }
+}

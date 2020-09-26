@@ -2,11 +2,18 @@
   @extend %button;
 
   border: 2px solid $button-outline;
+
   background-color: transparent;
+  color: $button-outline__text;
 
   &:hover {
     background-color: $button-outline--hover;
-    color: $button-outline__text;
+    color: $button-outline__text--inverted;
     border-color: $button-outline--hover;
+  }
+
+  &--inverted {
+    color: $button-outline__text--inverted;
+    border: 2px solid $button-outline--inverted;
   }
 }
