@@ -466,6 +466,149 @@
 
   <?php include_once 'include/calculation.php' ?>
 
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Схема работы</h2>
+      <div class="work-scheme">
+        <div class="work-scheme__wrapper">
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">1</span>
+              <img src="img/work-scheme/1.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Звонок менеджера и консультация</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">2</span>
+              <img src="img/work-scheme/2.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">К Вам выезжает замерщик</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">3</span>
+              <img src="img/work-scheme/3.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Подписание договора</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">4</span>
+              <img src="img/work-scheme/4.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Изготовление кухни</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">5</span>
+              <img src="img/work-scheme/5.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Доставка и сборка кухни в 1 день</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">6</span>
+              <img src="img/work-scheme/6.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Вы получаете кухню мечты</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+        </div>
+        <!-- /.work-scheme__wrapper -->
+      </div>
+      <!-- /.work-scheme -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Схема работы</h2>
+      <div class="work-scheme">
+        <div class="work-scheme__wrapper">
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">1</span>
+              <img src="img/work-scheme/1.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Звонок менеджера и консультация</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">2</span>
+              <img src="img/work-scheme/2.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">К Вам выезжает замерщик</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">3</span>
+              <img src="img/work-scheme/3.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Подписание договора</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">4</span>
+              <img src="img/work-scheme/4.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Изготовление кухни</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">5</span>
+              <img src="img/work-scheme/5.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Доставка и сборка кухни в 1 день</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+
+          <div class="work-scheme__item">
+            <div class="work-scheme__picture gradient">
+              <span class="work-scheme__step">6</span>
+              <img src="img/work-scheme/6.jpg" alt="" class="work-scheme__image gradient__image">
+            </div>
+            <!-- /.work-scheme__picture -->
+            <h3 class="work-scheme__title">Вы получаете кухню мечты</h3>
+          </div>
+          <!-- /.work-scheme__item -->
+        </div>
+        <!-- /.work-scheme__wrapper -->
+      </div>
+      <!-- /.work-scheme -->
+    </div>
+    <!-- /.container -->
+  </section>
 
 </main>
 

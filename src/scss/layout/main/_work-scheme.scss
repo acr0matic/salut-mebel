@@ -1,0 +1,38 @@
+.work-scheme {
+  &__wrapper {
+    @include flex();
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 45px;
+
+    @include last(2) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__picture {
+    position: relative;
+  }
+
+  &__image {
+    height: 140px;
+    object-fit: cover;
+  }
+
+  &__step {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+
+    color: $text-primary--inverted;
+    font-size: $font-size-0;
+    font-weight: $weight-bold;
+  }
+
+  &__title {
+    margin-top: 10px;
+  }
+}
