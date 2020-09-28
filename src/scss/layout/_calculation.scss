@@ -1,0 +1,37 @@
+#calculation {
+  @include background("../img/calculation/bg-main.jpg");
+}
+
+.calculation {
+  @include flex($align: stretch);
+
+  padding: 110px 0;
+
+  &__image {
+    width: 50%;
+    height: 400px;
+
+    object-fit: cover;
+  }
+
+  &__content {
+    @include flex($align: flex-start, $justify: center);
+    flex-direction: column;
+    width: 50%;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background-color: $block-primary;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    margin-bottom: 30px;
+
+    font-size: $font-size-4;
+  }
+}
