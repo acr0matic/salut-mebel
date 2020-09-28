@@ -25,19 +25,24 @@
     padding: 15px;
   }
 
+  &__picture {
+
+  }
+
   &__image {
     position: relative;
     z-index: 1;
 
+    height: 190px;
+
     border-radius: 5px;
+    object-fit: cover;
 
     cursor: pointer;
 
     &--thumbnail {
       max-width: 70px;
       height: 38px;
-
-      object-fit: cover;
     }
   }
 

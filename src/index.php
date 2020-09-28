@@ -256,7 +256,35 @@
 
           <div class="catalog__item catalog-card">
             <div class="catalog-card__picture">
-              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+              <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image">
+            </div>
+            <!-- /.catalog-card__picture -->
+
+            <div class="catalog-card__wrapper">
+              <div class="catalog-card__thumbnails">
+                <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+                <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
+              </div>
+              <!-- /.catalog-card__thumbnails -->
+
+              <h3 class="catalog-card__title">
+                Кухня Элла
+                <br>
+                (МДФ + Эмаль)
+              </h3>
+
+              <div class="catalog-card__price price">80 000</div>
+              <!-- /.catalog-card__price -->
+              <button class="catalog-card__button button button-primary">Подробнее</button>
+            </div>
+            <!-- /.catalog-card__wrapper -->
+          </div>
+          <!-- /.catalog__item -->
+
+          <div class="catalog__item catalog-card">
+            <div class="catalog-card__picture">
+              <img src="img/catalog/kitchen/3.jpg" alt="" class="catalog-card__image">
             </div>
             <!-- /.catalog-card__picture -->
 
@@ -284,35 +312,7 @@
 
           <div class="catalog__item catalog-card">
             <div class="catalog-card__picture">
-              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
-            </div>
-            <!-- /.catalog-card__picture -->
-
-            <div class="catalog-card__wrapper">
-              <div class="catalog-card__thumbnails">
-                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
-                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
-                <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--thumbnail">
-              </div>
-              <!-- /.catalog-card__thumbnails -->
-
-              <h3 class="catalog-card__title">
-                Кухня Элла
-                <br>
-                (МДФ + Эмаль)
-              </h3>
-
-              <div class="catalog-card__price price">80 000</div>
-              <!-- /.catalog-card__price -->
-              <button class="catalog-card__button button button-primary">Подробнее</button>
-            </div>
-            <!-- /.catalog-card__wrapper -->
-          </div>
-          <!-- /.catalog__item -->
-
-          <div class="catalog__item catalog-card">
-            <div class="catalog-card__picture">
-              <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image">
+              <img src="img/catalog/kitchen/4.jpg" alt="" class="catalog-card__image">
             </div>
             <!-- /.catalog-card__picture -->
 
