@@ -13,12 +13,12 @@
 
     width: 31%;
     margin-bottom: 40px;
-
-    overflow: hidden;
   }
 
   &__image {
     object-fit: cover;
     height: 250px;
+
+    border-radius: 5px;
   }
 }
