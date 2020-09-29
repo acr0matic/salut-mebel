@@ -603,6 +603,52 @@
     <!-- /.container -->
   </section>
 
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Что о нас говорят клиенты</h2>
+
+      <div class="feedback">
+        <div class="feedback__wrapper">
+          <div class="feedback__card block-skewed">
+            <div class="feedback__content">
+              <span class="feedback__author">Володин Геннадий</span>
+              <h3 class="feedback__title">Спасибо Салют мебель</h3>
+              <p class="feedback__text feedback__text--trim">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Там одна сбить это залетают если, снова за домах силуэт?</p>
+            </div>
+            <!-- /.feedback__content -->
+            <a href="" class="feedback__link">Читать дальше</a>
+          </div>
+          <!-- /.feedback__card -->
+
+          <div class="feedback__card block-skewed">
+            <div class="feedback__content">
+              <span class="feedback__author">Володин Геннадий</span>
+              <h3 class="feedback__title">Спасибо Салют мебель</h3>
+              <p class="feedback__text feedback__text--trim">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Там одна сбить это залетают если, снова за домах силуэт?</p>
+            </div>
+            <!-- /.feedback__content -->
+            <a href="" class="feedback__link">Читать дальше</a>
+          </div>
+          <!-- /.feedback__card -->
+
+          <div class="feedback__card block-skewed">
+            <div class="feedback__content">
+              <span class="feedback__author">Володин Геннадий</span>
+              <h3 class="feedback__title">Спасибо Салют мебель</h3>
+              <p class="feedback__text feedback__text--trim">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Там одна сбить это залетают если, снова за домах силуэт?</p>
+            </div>
+            <!-- /.feedback__content -->
+            <a href="" class="feedback__link">Читать дальше</a>
+          </div>
+          <!-- /.feedback__card -->
+        </div>
+        <!-- /.feedback__wrapper -->
+      </div>
+      <!-- /.feedback -->
+    </div>
+    <!-- /.container -->
+  </section>
+
 </main>
 
 <?php include_once 'include/footer.php' ?>

@@ -1,0 +1,64 @@
+.feedback {
+  &__wrapper {
+    @include flex();
+    filter: drop-shadow($shadow-primary);
+  }
+
+  &__card {
+    @include flex($align: flex-start);
+    flex-direction: column;
+
+    width: 32.5%;
+    min-height: 215px;
+    padding: 15px 45px;
+
+    background-color: $block-primary;
+
+    &--full {
+    }
+  }
+
+  &__author {
+    display: block;
+    margin-bottom: 15px;
+
+    font-size: $font-size-4;
+    font-weight: $weight-medium;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+    font-size: $font-size-4;
+    font-weight: $weight-medium;
+
+    &::before,
+    &::after {
+      content: '"';
+    }
+  }
+
+  &__text {
+    color: $text-secondary;
+    overflow: hidden;
+
+    &--trim {
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  &__link {
+    display: block;
+    color: #c04343;
+
+    margin-top: auto;
+
+    &::after {
+      content: url("../img/icons/mini-icons/arrow-right-mini.svg");
+      margin-left: 5px;
+    }
+  }
+}
