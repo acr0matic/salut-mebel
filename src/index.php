@@ -538,6 +538,70 @@
     <!-- /.container -->
   </section>
 
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Наши последние работы</h2>
+      <div class="portfolio">
+        <div class="portfolio__wrapper">
+          <div class="portfolio__item">
+            <a data-fslightbox href="img/portfolio/1.jpg">
+              <img src="img/portfolio/1.jpg" alt="" class="portfolio__image">
+            </a>
+          </div>
+          <!-- /.portolio__item -->
+
+          <div class="portfolio__item">
+            <a data-fslightbox href="img/portfolio/2.jpg">
+              <img src="img/portfolio/2.jpg" alt="" class="portfolio__image">
+            </a>
+          </div>
+          <!-- /.portolio__item -->
+
+          <div class="portfolio__item">
+            <a data-fslightbox href="img/portfolio/3.jpg">
+              <img src="img/portfolio/3.jpg" alt="" class="portfolio__image">
+            </a>
+          </div>
+          <!-- /.portolio__item -->
+
+          <div class="portfolio__item">
+            <a data-fslightbox href="img/portfolio/4.jpg">
+              <img src="img/portfolio/4.jpg" alt="" class="portfolio__image">
+            </a>
+          </div>
+          <!-- /.portolio__item -->
+
+          <div class="portfolio__item">
+            <a data-fslightbox href="img/portfolio/5.jpg">
+              <img src="img/portfolio/5.jpg" alt="" class="portfolio__image">
+            </a>
+          </div>
+          <!-- /.portolio__item -->
+
+          <div class="portfolio__item">
+            <a data-fslightbox href="img/portfolio/6.jpg">
+              <img src="img/portfolio/6.jpg" alt="" class="portfolio__image">
+            </a>
+          </div>
+          <!-- /.portolio__item -->
+
+          <div class="portfolio__item">
+            <a data-fslightbox href="img/portfolio/7.jpg">
+              <img src="img/portfolio/7.jpg" alt="" class="portfolio__image">
+            </a>
+          </div>
+          <!-- /.portolio__item -->
+        </div>
+        <!-- /.portfolio__wrapper -->
+
+        <button class="portfolio__button button button-secondary">
+          <span class="button-secondary__text">Смотреть остальное </span>
+        </button>
+      </div>
+      <!-- /.portfolio -->
+    </div>
+    <!-- /.container -->
+  </section>
 
 </main>
 
