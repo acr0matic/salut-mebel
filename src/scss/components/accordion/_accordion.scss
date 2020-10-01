@@ -1,0 +1,77 @@
+.handorgel {
+  background-color: $block-primary;
+  box-shadow: $shadow-primary;
+
+  border-radius: 5px;
+  margin-bottom: 15px;
+
+  &__header {
+    display: block;
+    margin: 0;
+
+    &--open {
+      border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    }
+
+    &__button {
+      @include flex();
+
+      min-height: 50px;
+
+      padding: 6px 14px;
+      border-radius: 5px;
+
+      transition: box-shadow 0.15s ease;
+      cursor: pointer;
+    }
+  }
+
+  &__title {
+    max-width: 70%;
+    font-size: $font-size-5;
+    font-weight: $weight-medium;
+  }
+
+  &__icon {
+    transition: transform 0.15s ease;
+
+    &--opened {
+      transform: rotate(45deg);
+    }
+  }
+
+  &__content {
+    display: none;
+    height: 0;
+
+    overflow: hidden;
+    transition: height 0.1s ease 0.1s;
+
+    &__text {
+      color: $text-secondary;
+      font-size: $font-size-6;
+    }
+
+    &__inner {
+      padding: 16px 14px;
+
+      opacity: 0;
+      transition: opacity 0.1s ease;
+    }
+
+    &--open {
+      display: block;
+      transition: height 0.2s ease;
+    }
+
+    &--opened {
+      overflow: visible;
+
+      .handorgel__content__inner {
+        opacity: 1;
+        -webkit-transition: opacity 0.3s ease;
+        transition: opacity 0.3s ease;
+      }
+    }
+  }
+}

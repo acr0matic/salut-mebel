@@ -1,0 +1,9 @@
+.faq {
+  &__wrapper {
+    @include flex($align: flex-start);
+  }
+
+  &__column {
+    width: 48%;
+  }
+}

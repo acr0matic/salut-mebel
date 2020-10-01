@@ -649,6 +649,165 @@
     <!-- /.container -->
   </section>
 
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Часто задаваемые вопросы</h2>
+      <div class="faq">
+        <div class="faq__wrapper">
+          <div class="faq__column">
+            <div class="handorgel handorgel-1">
+              <div class="handorgel__header">
+                <div class="handorgel__header__button">
+                  <h3 class="handorgel__title">Можно ли приобрести кухню в рассрочку и по безналичному расчету?</h3>
+                  <div class="faq__action">
+                    <img src="img/icons/mini-icons/faq-icon.svg" alt="" class="handorgel__icon">
+                  </div>
+                  <!-- /.faq__header -->
+                </div>
+                <!-- /.handorgel__header__button -->
+              </div>
+              <!-- /.handorgel__header -->
+
+              <div class="handorgel__content" data-open>
+                <div class="handorgel__content__inner">
+                  <p class="handorgel__content__text">
+                    На фабрике САЛЮТ МЕБЕЛЬ есть возможность приобрести кухню оформив рассрочку, и для этого совершенно не нужно куда-то идти,
+                    наши менеджеры оформят рассрочку прямо в салоне.
+                    Мы как производители имеем гибкую и лояльную систему оплаты
+                    и работаем как с частными лицами , так и с организациями.
+                    В наших салонах установлены терминалы оплаты, которые позволяют работать нам с картами.
+                  </p>
+                </div>
+              </div>
+              <!-- /.handorgel__content -->
+
+            </div>
+            <!-- /.faq__item -->
+
+            <div class="handorgel handorgel-2">
+              <div class="handorgel__header">
+                <div class="handorgel__header__button">
+                  <h3 class="handorgel__title">Можно ли приобрести кухню в рассрочку и по безналичному расчету?</h3>
+                  <div class="faq__action">
+                    <img src="img/icons/mini-icons/faq-icon.svg" alt="" class="handorgel__icon">
+                  </div>
+                  <!-- /.faq__header -->
+                </div>
+                <!-- /.handorgel__header__button -->
+              </div>
+              <!-- /.handorgel__header -->
+
+              <div class="handorgel__content">
+                <div class="handorgel__content__inner">
+                  <p class="handorgel__content__text">
+                    На фабрике САЛЮТ МЕБЕЛЬ есть возможность приобрести кухню оформив рассрочку, и для этого совершенно не нужно куда-то идти,
+                    наши менеджеры оформят рассрочку прямо в салоне.
+                    Мы как производители имеем гибкую и лояльную систему оплаты
+                    и работаем как с частными лицами , так и с организациями.
+                    В наших салонах установлены терминалы оплаты, которые позволяют работать нам с картами.
+                  </p>
+                </div>
+              </div>
+              <!-- /.handorgel__content -->
+            </div>
+            <!-- /.faq__item -->
+
+            <div class="handorgel handorgel-3">
+              <div class="handorgel__header">
+                <div class="handorgel__header__button">
+                  <h3 class="handorgel__title">Можно ли приобрести кухню в рассрочку и по безналичному расчету?</h3>
+                  <div class="faq__action">
+                    <img src="img/icons/mini-icons/faq-icon.svg" alt="" class="handorgel__icon">
+                  </div>
+                  <!-- /.faq__header -->
+                </div>
+                <!-- /.handorgel__header__button -->
+              </div>
+              <!-- /.handorgel__header -->
+
+              <div class="handorgel__content">
+                <div class="handorgel__content__inner">
+                  <p class="handorgel__content__text">
+                    На фабрике САЛЮТ МЕБЕЛЬ есть возможность приобрести кухню оформив рассрочку, и для этого совершенно не нужно куда-то идти,
+                    наши менеджеры оформят рассрочку прямо в салоне.
+                    Мы как производители имеем гибкую и лояльную систему оплаты
+                    и работаем как с частными лицами , так и с организациями.
+                    В наших салонах установлены терминалы оплаты, которые позволяют работать нам с картами.
+                  </p>
+                </div>
+              </div>
+              <!-- /.handorgel__content -->
+            </div>
+            <!-- /.faq__item -->
+          </div>
+          <!-- /.faq__column -->
+
+          <div class="faq__column">
+            <div class="handorgel handorgel-4">
+              <div class="handorgel__header">
+                <div class="handorgel__header__button">
+                  <h3 class="handorgel__title">Можно ли приобрести кухню в рассрочку и по безналичному расчету?</h3>
+                  <div class="faq__action">
+                    <img src="img/icons/mini-icons/faq-icon.svg" alt="" class="handorgel__icon">
+                  </div>
+                  <!-- /.faq__header -->
+                </div>
+                <!-- /.handorgel__header__button -->
+              </div>
+              <!-- /.handorgel__header -->
+
+              <div class="handorgel__content">
+                <div class="handorgel__content__inner">
+                  <p class="handorgel__content__text">
+                    На фабрике САЛЮТ МЕБЕЛЬ есть возможность приобрести кухню оформив рассрочку, и для этого совершенно не нужно куда-то идти,
+                    наши менеджеры оформят рассрочку прямо в салоне.
+                    Мы как производители имеем гибкую и лояльную систему оплаты
+                    и работаем как с частными лицами , так и с организациями.
+                    В наших салонах установлены терминалы оплаты, которые позволяют работать нам с картами.
+                  </p>
+                </div>
+              </div>
+              <!-- /.handorgel__content -->
+            </div>
+            <!-- /.faq__item -->
+
+            <div class="handorgel handorgel-5">
+              <div class="handorgel__header">
+                <div class="handorgel__header__button">
+                  <h3 class="handorgel__title">Можно ли приобрести кухню в рассрочку и по безналичному расчету?</h3>
+                  <div class="faq__action">
+                    <img src="img/icons/mini-icons/faq-icon.svg" alt="" class="handorgel__icon">
+                  </div>
+                  <!-- /.faq__header -->
+                </div>
+                <!-- /.handorgel__header__button -->
+              </div>
+              <!-- /.handorgel__header -->
+
+              <div class="handorgel__content">
+                <div class="handorgel__content__inner">
+                  <p class="handorgel__content__text">
+                    На фабрике САЛЮТ МЕБЕЛЬ есть возможность приобрести кухню оформив рассрочку, и для этого совершенно не нужно куда-то идти,
+                    наши менеджеры оформят рассрочку прямо в салоне.
+                    Мы как производители имеем гибкую и лояльную систему оплаты
+                    и работаем как с частными лицами , так и с организациями.
+                    В наших салонах установлены терминалы оплаты, которые позволяют работать нам с картами.
+                  </p>
+                </div>
+              </div>
+              <!-- /.handorgel__content -->
+            </div>
+            <!-- /.faq__item -->
+          </div>
+          <!-- /.faq__column -->
+        </div>
+        <!-- /.faq__wrapper -->
+      </div>
+      <!-- /.faq -->
+    </div>
+    <!-- /.container -->
+  </section>
+
 </main>
 
 <?php include_once 'include/footer.php' ?>

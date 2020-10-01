@@ -18,6 +18,9 @@
 @import "base/typography.scss";
 @import "base/helpers.scss";
 
+// 5. Подключение стилей компонентов
+@import "components/components.scss";
+
 // 4. Подключение стилей разметки
 @import "layout/header.scss";
 @import "layout/navigation";
@@ -30,6 +33,7 @@
 @import "layout/main/promo-banner";
 @import "layout/main/work-scheme";
 @import "layout/main/portfolio";
+@import "layout/main/faq";
 
 @import "layout/footer.scss";
 
@@ -38,5 +42,3 @@
 @import "layout/common/promo";
 @import "layout/common/catalog-card";
 
-// 5. Подключение стилей компонентов
-@import "components/components.scss";
