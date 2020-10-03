@@ -808,6 +808,90 @@
     <!-- /.container -->
   </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="section__title">
+        <h2 class="section__heading">Популярные статьи</h2>
+        <div class="section__action">
+          <a class="section__link" href="">Все статьи</a>
+        </div>
+        <!-- /.section__action -->
+      </div>
+      <!-- /.section__title -->
+
+      <div class="article">
+        <div class="article__wrapper">
+          <article class="article__item">
+            <div class="article__picture">
+              <a href="">
+                <img src="img/articles/article-1.jpg" alt="" class="article__image">
+              </a>
+            </div>
+            <!-- /.article__picture -->
+
+            <div class="article__content">
+              <h3 class="article__title">Как собрать кухню самому?</h3>
+              <time class="article__date" datetime="2020-08-28">28.08.2020</time>
+            </div>
+            <!-- /.article__content -->
+          </article>
+          <!-- /.article__item -->
+
+          <article class="article__item">
+            <div class="article__picture">
+              <a href="">
+                <img src="img/articles/article-2.jpg" alt="" class="article__image">
+              </a>
+            </div>
+            <!-- /.article__picture -->
+
+            <div class="article__content">
+              <h3 class="article__title">Как собрать кухню самому?</h3>
+              <time class="article__date" datetime="2020-08-28">28.08.2020</time>
+            </div>
+            <!-- /.article__content -->
+          </article>
+          <!-- /.article__item -->
+
+          <article class="article__item">
+            <div class="article__picture">
+              <a href="">
+                <img src="img/articles/article-3.jpg" alt="" class="article__image">
+              </a>
+            </div>
+            <!-- /.article__picture -->
+
+            <div class="article__content">
+              <h3 class="article__title">Как собрать кухню самому?</h3>
+              <time class="article__date" datetime="2020-08-28">28.08.2020</time>
+            </div>
+            <!-- /.article__content -->
+          </article>
+          <!-- /.article__item -->
+
+          <article class="article__item">
+            <div class="article__picture">
+              <a href="">
+                <img src="img/articles/article-4.jpg" alt="" class="article__image">
+              </a>
+            </div>
+            <!-- /.article__picture -->
+
+            <div class="article__content">
+              <h3 class="article__title">Как собрать кухню самому?</h3>
+              <time class="article__date" datetime="2020-08-28">28.08.2020</time>
+            </div>
+            <!-- /.article__content -->
+          </article>
+          <!-- /.article__item -->
+        </div>
+        <!-- /.articles__wrapper -->
+      </div>
+      <!-- /.articles -->
+    </div>
+    <!-- /.container -->
+  </section>
+
 </main>
 
 <?php include_once 'include/footer.php' ?>

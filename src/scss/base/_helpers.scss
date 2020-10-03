@@ -6,7 +6,20 @@
   margin-top: 90px;
 
   &__title {
+    @include flex();
+
     margin-bottom: 30px;
+  }
+
+  &__link {
+    @include flex();
+
+    color: #c04343;
+
+    &::after {
+      content: url(../img/icons/mini-icons/arrow-right-mini.svg);
+      margin-left: 5px;
+    }
   }
 }
 
@@ -46,7 +59,7 @@
 
 .price {
   &::after {
-    content: '₽';
+    content: "₽";
     margin-left: 5px;
   }
 }

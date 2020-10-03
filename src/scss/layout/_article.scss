@@ -1,0 +1,39 @@
+.article {
+  &__wrapper {
+    @include flex();
+  }
+
+  &__item {
+    width: 100%;
+    max-width: 260px;
+
+    border-radius: 5px;
+
+    overflow: hidden;
+    box-shadow: $shadow-primary;
+  }
+
+  &__picture {
+
+  }
+
+  &__image {
+    height: 175px;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: 22px 18px;
+  }
+
+  &__title {
+    font-size: $font-size-6;
+    font-weight: $weight-medium;
+
+    margin-bottom: 12px;
+  }
+
+  &__date {
+    font-size: $font-size-7;
+  }
+}
