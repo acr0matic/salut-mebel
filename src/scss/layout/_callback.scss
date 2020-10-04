@@ -1,0 +1,29 @@
+.callback {
+  &__wrapper {
+    @include flex($align: flex-start);
+  }
+
+  &__content {
+    width: 48%;
+  }
+
+  &__image {
+    margin-bottom: 36px;
+
+    border-radius: 5px;
+  }
+
+  &__form {
+    @include flex($align: flex-start);
+    flex-direction: column;
+    width: 43%;
+  }
+
+  &__input {
+    margin-bottom: 15px;
+  }
+
+  &__button {
+    margin-top: 40px;
+  }
+}

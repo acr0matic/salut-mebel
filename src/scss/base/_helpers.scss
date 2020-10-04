@@ -9,6 +9,15 @@
     @include flex();
 
     margin-bottom: 30px;
+
+    &--secondary {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__subtitle {
+    font-size: $font-size-4;
+    margin-bottom: 40px;
   }
 
   &__link {

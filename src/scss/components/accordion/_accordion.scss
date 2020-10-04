@@ -24,6 +24,10 @@
       transition: box-shadow 0.15s ease;
       cursor: pointer;
     }
+
+    &__icon {
+      width: 56px;
+    }
   }
 
   &__title {

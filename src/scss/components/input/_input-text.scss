@@ -1,0 +1,12 @@
+.input-text {
+  @extend %input;
+
+  padding: 15px 20px;
+
+  border-radius: 5px;
+  box-shadow: $shadow-primary;
+
+  &::placeholder {
+    color: $text-primary;
+  }
+}
