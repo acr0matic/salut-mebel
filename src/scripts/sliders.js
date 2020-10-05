@@ -1,6 +1,6 @@
 /* global Swiper */
 
-const mySwiper = new Swiper('.promo__slider-container', {
+const promoSlider = new Swiper('.promo__slider-container', {
   loop: true,
   autoplay: {
     delay: 5000,
@@ -11,10 +11,45 @@ const mySwiper = new Swiper('.promo__slider-container', {
   },
 
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.promo__slider-right',
+    prevEl: '.promo__slider-left',
   },
-
 });
 
-mySwiper.init();
+promoSlider.init();
+
+const articleSlider = new Swiper('.article__slider', {
+  slidesPerView: 4,
+  spaceBetween: 40,
+
+  navigation: {
+    nextEl: '.article__slider-next',
+    prevEl: '.article__slider-prev',
+  },
+});
+
+articleSlider.init();
+
+const kitchenSlider = new Swiper('.catalog__slider--kitchen', {
+  slidesPerView: 4,
+  spaceBetween: 40,
+
+  navigation: {
+    nextEl: '.catalog__slider--kitchen-right',
+    prevEl: '.catalog__slider--kitchen-left',
+  },
+});
+
+kitchenSlider.init();
+
+const hullSlider = new Swiper('.catalog__slider--hull', {
+  slidesPerView: 4,
+  spaceBetween: 40,
+
+  navigation: {
+    nextEl: '.catalog__slider--hull-right',
+    prevEl: '.catalog__slider--hull-left',
+  },
+});
+
+hullSlider.init();

@@ -1,12 +1,11 @@
 .article {
   &__wrapper {
-    @include flex();
+    @include flex($align: flex-start);
+
+    padding: 10px 0;
   }
 
   &__item {
-    width: 100%;
-    max-width: 260px;
-
     border-radius: 5px;
 
     overflow: hidden;
@@ -14,7 +13,6 @@
   }
 
   &__picture {
-
   }
 
   &__image {
@@ -23,6 +21,9 @@
   }
 
   &__content {
+    @include flex($align: flex-start);
+    flex-direction: column;
+
     padding: 22px 18px;
   }
 
@@ -35,5 +36,10 @@
 
   &__date {
     font-size: $font-size-7;
+  }
+
+  &__button {
+    width: 100%;
+    margin-top: 15px;
   }
 }

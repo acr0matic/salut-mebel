@@ -19,17 +19,6 @@
     font-size: $font-size-4;
     margin-bottom: 40px;
   }
-
-  &__link {
-    @include flex();
-
-    color: #c04343;
-
-    &::after {
-      content: url(../img/icons/mini-icons/arrow-right-mini.svg);
-      margin-left: 5px;
-    }
-  }
 }
 
 .container {
@@ -70,5 +59,34 @@
   &::after {
     content: "₽";
     margin-left: 5px;
+  }
+}
+
+.link {
+  @include flex();
+
+  color: $link-primary;
+  font-size: $font-size-6;
+
+  transition: color 0.15s ease;
+
+  &--small {
+    font-size: $font-size-7;
+  }
+
+  &::after {
+    content: url(../img/icons/mini-icons/arrow-right-mini.svg);
+    display: block;
+    margin-left: 5px;
+
+    transition: transform 0.15s ease;
+  }
+
+  &:hover {
+    color: $link-hover;
+
+    &::after {
+      transform: translateX(5px);
+    }
   }
 }

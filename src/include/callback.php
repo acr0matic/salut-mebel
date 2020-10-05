@@ -7,34 +7,11 @@
       <div class="callback__wrapper">
         <div class="callback__content">
           <img src="img/callback/callback-image.jpg" alt="" class="callback__image">
-          <div class="handorgel handorgel-address">
-            <div class="handorgel__header">
-              <div class="handorgel__header__button">
-              <img class="handorgel__header__icon" src="img/icons/market.svg" alt="">
-                <h3 class="handorgel__title">Все магазины фабрики "Салют Мебель"</h3>
-                <div class="faq__action">
-                  <img src="img/icons/mini-icons/faq-icon.svg" alt="" class="handorgel__icon">
-                </div>
-                <!-- /.faq__header -->
-              </div>
-              <!-- /.handorgel__header__button -->
-            </div>
-            <!-- /.handorgel__header -->
-
-            <div class="handorgel__content">
-              <div class="handorgel__content__inner">
-                <p class="handorgel__content__text">
-                  На фабрике САЛЮТ МЕБЕЛЬ есть возможность приобрести кухню оформив рассрочку, и для этого совершенно не нужно куда-то идти,
-                  наши менеджеры оформят рассрочку прямо в салоне.
-                  Мы как производители имеем гибкую и лояльную систему оплаты
-                  и работаем как с частными лицами , так и с организациями.
-                  В наших салонах установлены терминалы оплаты, которые позволяют работать нам с картами.
-                </p>
-              </div>
-            </div>
-            <!-- /.handorgel__content -->
+          <div class="callback__action">
+            <img class="callback__action__icon" src="img/icons/market.svg" alt="">
+            <h3 class="callback__action__title">Все магизины фабрики "Салют Мебель"</h3>
+            <a href="" class="callback__action__link link link--small">Перейти</a>
           </div>
-          <!-- /.faq__item -->
         </div>
         <!-- /.callback__content -->
 
@@ -50,6 +27,6 @@
       <!-- /.callback__wrapper -->
     </div>
     <!-- /.callback -->
-  </div>А
+  </div>
   <!-- /.container -->
 </section>

@@ -1,4 +1,8 @@
 .catalog {
+  &__row {
+    position: relative;
+  }
+  
   &__title {
     margin-bottom: 30px;
     margin-top: 60px;
@@ -6,6 +10,9 @@
 
   &__wrapper {
     @include flex($align: flex-start);
-    flex-wrap: wrap;
+
+    &--wrap {
+      flex-wrap: wrap;
+    }
   }
 }

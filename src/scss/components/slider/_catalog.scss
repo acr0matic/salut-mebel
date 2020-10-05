@@ -1,0 +1,30 @@
+.catalog__slider {
+  &-left,
+  &-right {
+    top: 165px;
+  }
+
+  &-left {
+    left: 0;
+    &::after {
+      content: url("../img/icons/controls/slider-left.svg");
+    }
+  }
+
+  &-right {
+    right: 0;
+    &::after {
+      content: url("../img/icons/controls/slider-right.svg");
+    }
+  }
+
+  &--kitchen-left,
+  &--kitchen-right {
+  }
+
+  &--kitchen-left {
+  }
+
+  &--kitchen-right {
+  }
+}

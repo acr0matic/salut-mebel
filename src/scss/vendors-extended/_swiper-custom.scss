@@ -1,6 +1,11 @@
+.swiper-wrapper {
+  box-sizing: border-box;
+}
+
 .swiper-button-prev,
 .swiper-button-next {
   width: 0;
+  outline: none;
 
   transition: opacity 0.15s ease;
 

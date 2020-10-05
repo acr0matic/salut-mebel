@@ -5,6 +5,11 @@
   border-radius: 5px;
   margin-bottom: 15px;
 
+  &-address {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
   &__header {
     display: block;
     margin: 0;
@@ -26,7 +31,7 @@
     }
 
     &__icon {
-      width: 56px;
+      width: 45px;
     }
   }
 
@@ -34,6 +39,10 @@
     max-width: 70%;
     font-size: $font-size-5;
     font-weight: $weight-medium;
+
+    &--regular {
+      font-weight: $weight-regular;
+    }
   }
 
   &__icon {
@@ -41,6 +50,17 @@
 
     &--opened {
       transform: rotate(45deg);
+    }
+  }
+
+  &__link {
+    @include flex();
+    color: #c04343;
+    font-size: $font-size-7;
+
+    &::after {
+      content: url("../img/icons/mini-icons/arrow-right-mini.svg");
+      margin-left: 5px;
     }
   }
 
@@ -73,7 +93,6 @@
 
       .handorgel__content__inner {
         opacity: 1;
-        -webkit-transition: opacity 0.3s ease;
         transition: opacity 0.3s ease;
       }
     }

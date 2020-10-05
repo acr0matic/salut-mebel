@@ -51,14 +51,6 @@
   }
 
   &__link {
-    display: block;
-    color: #c04343;
-
     margin-top: auto;
-
-    &::after {
-      content: url("../img/icons/mini-icons/arrow-right-mini.svg");
-      margin-left: 5px;
-    }
   }
 }
