@@ -10,7 +10,7 @@
           <div class="callback__action">
             <img class="callback__action__icon" src="img/icons/market.svg" alt="">
             <h3 class="callback__action__title">Все магизины фабрики "Салют Мебель"</h3>
-            <a href="" class="callback__action__link link link--small">Перейти</a>
+            <a href="" class="callback__action__link link link--arrow link--small">Перейти</a>
           </div>
         </div>
         <!-- /.callback__content -->

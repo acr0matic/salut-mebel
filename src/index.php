@@ -722,7 +722,8 @@
               <p class="feedback__text feedback__text--trim">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Там одна сбить это залетают если, снова за домах силуэт?</p>
             </div>
             <!-- /.feedback__content -->
-            <a href="" class="feedback__link link">Читать дальше</a>
+
+            <a href="" class="feedback__link link link--arrow">Читать дальше</a>
           </div>
           <!-- /.feedback__card -->
 
@@ -733,7 +734,8 @@
               <p class="feedback__text feedback__text--trim">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Там одна сбить это залетают если, снова за домах силуэт?</p>
             </div>
             <!-- /.feedback__content -->
-            <a href="" class="feedback__link link">Читать дальше</a>
+
+            <a href="" class="feedback__link link link--arrow">Читать дальше</a>
           </div>
           <!-- /.feedback__card -->
 
@@ -744,7 +746,8 @@
               <p class="feedback__text feedback__text--trim">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Там одна сбить это залетают если, снова за домах силуэт?</p>
             </div>
             <!-- /.feedback__content -->
-            <a href="" class="feedback__link link">Читать дальше</a>
+            
+            <a href="" class="feedback__link link link--arrow">Читать дальше</a>
           </div>
           <!-- /.feedback__card -->
         </div>
@@ -919,7 +922,7 @@
       <div class="section__title">
         <h2 class="section__heading">Популярные статьи</h2>
         <div class="section__action">
-          <a class="section__link link link--small" href="">Все статьи</a>
+          <a class="section__link link link--small link--arrow" href="">Все статьи</a>
         </div>
         <!-- /.section__action -->
       </div>

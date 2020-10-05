@@ -77,8 +77,8 @@
 
       <div class="header__contact contact">
         <div class="header__phone contact__phone">
-          <a href="tel:+7 (495) 978-59-51" class="contact__tel">+7 (495) 978-59-51</a>
-          <a href="tel:+7 (985) 338-99-85" class="contact__tel">+7 (985) 338-99-85</a>
+          <a href="tel:+7 (495) 978-59-51" class="contact__tel link">+7 (495) 978-59-51</a>
+          <a href="tel:+7 (985) 338-99-85" class="contact__tel link">+7 (985) 338-99-85</a>
         </div>
         <!-- /.contact__phone -->
 
@@ -100,27 +100,28 @@
   <nav class="nav">
     <ul class="nav__list">
       <li class="nav__item">
-        <a href="" class="nav__link">Главная</a>
+        <a href="" class="nav__link link">Главная</a>
       </li>
       <li class="nav__item">
-        <a href="" class="nav__link">
+        <a href="" class="nav__link link">
           <img class="nav__icon icon icon--mini" src="img/icons/mini-icons/burger-nav.svg" alt="">
-          Каталог</a>
+          Каталог
+        </a>
       </li>
       <li class="nav__item">
-        <a href="" class="nav__link">Доставка и монтаж</a>
+        <a href="" class="nav__link link">Доставка и монтаж</a>
       </li>
       <li class="nav__item">
-        <a href="" class="nav__link">Портфолио</a>
+        <a href="" class="nav__link link">Портфолио</a>
       </li>
       <li class="nav__item">
-        <a href="" class="nav__link">О нас</a>
+        <a href="" class="nav__link link">О нас</a>
       </li>
       <li class="nav__item">
-        <a href="" class="nav__link">Статьи</a>
+        <a href="" class="nav__link link">Статьи</a>
       </li>
       <li class="nav__item">
-        <a href="" class="nav__link">Контакты</a>
+        <a href="" class="nav__link link">Контакты</a>
       </li>
     </ul>
   </nav>

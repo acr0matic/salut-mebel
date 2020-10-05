@@ -64,29 +64,35 @@
 
 .link {
   @include flex();
-
   color: $link-primary;
-  font-size: $font-size-6;
+  font-size: $font-size-5;
 
   transition: color 0.15s ease;
+
+  &--arrow {
+    color: $link-secondary;
+    font-size: $font-size-6;
+
+    &::after {
+      content: url(../img/icons/mini-icons/arrow-right-mini.svg);
+      display: block;
+      margin-left: 5px;
+
+      transition: transform 0.15s ease;
+    }
+
+    &:hover {
+      &::after {
+        transform: translateX(5px);
+      }
+    }
+  }
 
   &--small {
     font-size: $font-size-7;
   }
 
-  &::after {
-    content: url(../img/icons/mini-icons/arrow-right-mini.svg);
-    display: block;
-    margin-left: 5px;
-
-    transition: transform 0.15s ease;
-  }
-
   &:hover {
     color: $link-hover;
-
-    &::after {
-      transform: translateX(5px);
-    }
   }
 }
