@@ -1,0 +1,56 @@
+.contact-address {
+  position: absolute;
+  z-index: $z-index-modal;
+  top: 50px;
+  left: -18px;
+
+  width: 320px;
+  padding: 30px 20px 0 20px;
+
+  border-radius: 5px;
+  background-color: $block-primary;
+  box-shadow: $shadow-primary;
+
+  visibility: hidden;
+  opacity: 0;
+
+  transition: all 0.15s ease;
+
+  &--visible {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 10px;
+
+    width: 0;
+    height: 0;
+
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid $block-primary;
+  }
+
+  cursor: default;
+
+  &__item {
+    margin-bottom: 25px;
+  }
+
+  &__title {
+    font-size: $font-size-6;
+    font-weight: $weight-bold;
+  }
+
+  &__description {
+    display: block;
+
+    margin-top: 5px;
+
+    line-height: 20px;
+  }
+}

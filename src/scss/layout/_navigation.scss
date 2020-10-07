@@ -1,12 +1,29 @@
 .nav {
-  position: sticky;
   z-index: $z-index-header;
-
   top: 0;
+
+  &--dublicated {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+
+    width: 100%;
+
+    visibility: hidden;
+    opacity: 0;
+
+    box-shadow: $shadow-navbar;
+    transition: all 0.15s ease;
+  }
+
+  &--visible {
+    visibility: visible;
+    opacity: 1;
+  }
 
   &__list {
     @include flex($justify: center);
-    background-color: $background-secondary;
+    background-color: $background-primary;
 
     padding: 25px 0;
   }
@@ -16,10 +33,11 @@
   }
 
   &__link {
-
+    
   }
 
   &__icon {
     margin-right: 5px;
   }
 }
+

@@ -8,7 +8,7 @@ $background-secondary: #dfdfdf;
 // Цветовая палитра кнопок
 $button-primary: #c04343;
 $button-secondary: #c04343;
-$button-outline: #4c4c4c;
+$button-outline: #c04343;
 $button-outline--inverted: #ffffff;
 
 // Цветовая палитра кнопок при наведении
@@ -19,7 +19,7 @@ $button-outline--hover: #287373;
 // Цветовая палитра текста кнопок
 $button-primary__text: #ffffff;
 $button-secondary__text: #ffffff;
-$button-outline__text: #4c4c4c;
+$button-outline__text: #c04343;
 $button-outline__text--inverted: #ffffff;
 
 // Цветовая палитра инпутов
@@ -37,6 +37,9 @@ $text-hover: #287373;
 $text-primary--inverted: #ffffff;
 
 // Цветовая палитра ссылок
-$link-primary: #4c4c4c;
-$link-secondary: #c04343;
+$link-primary: #c04343;
+$link-secondary: #4c4c4c;
 $link-hover: #287373;
+
+// Цветовая палитра SVG
+$svg-hover: #287373;

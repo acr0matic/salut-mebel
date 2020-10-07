@@ -83,11 +83,48 @@
         <!-- /.contact__phone -->
 
         <div class="header__address contact__address">
-          <img class="contact__icon icon icon--mini" src="img/icons/mini-icons/geo.svg" alt="">
-          Адреса магазинов
+          <div id="contactAddress" class="contact__geo svg-wrapper svg-wrapper--hover">
+            <svg class="contact__icon icon icon--mini" width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.49967 0.083252C3.46842 0.083252 0.208008 3.34367 0.208008 7.37492C0.208008 12.8437 7.49967 20.9166 7.49967 20.9166C7.49967 20.9166 14.7913 12.8437 14.7913 7.37492C14.7913 3.34367 11.5309 0.083252 7.49967 0.083252ZM7.49967 9.97909C6.06217 9.97909 4.89551 8.81242 4.89551 7.37492C4.89551 5.93742 6.06217 4.77075 7.49967 4.77075C8.93717 4.77075 10.1038 5.93742 10.1038 7.37492C10.1038 8.81242 8.93717 9.97909 7.49967 9.97909Z" fill="#4C4C4C" />
+            </svg>
+            Адреса магазинов
+          </div>
+          <!-- /.contact__geo -->
+
+          <div id="contactList" class="contact-address">
+            <div class="contact-address__item">
+              <h3 class="contact-address__title">Салон при фабрике</h3>
+              <span class="contact-address__description">М. Нагорная, Электролитный проезд, <br> дом 3, строение 2</span>
+            </div>
+            <!-- /.contact-address__item -->
+
+            <div class="contact-address__item">
+              <h3 class="contact-address__title">Теплый стан</h3>
+              <span class="contact-address__description">Ул. Профсоюзная, д.129А, <br> м. Теплый стан, ТРЦ "ПРИНЦ ПЛАЗА" помещение расположено на 5-м этаже</span>
+            </div>
+            <!-- /.contact-address__item -->
+
+            <div class="contact-address__item">
+              <h3 class="contact-address__title">м. Пражская</h3>
+              <span class="contact-address__description">Ул. Кировоградская, д. 15, 2 этаж, <br> ТЦ ГРАНД-ЮГ, на 5-м этаже</span>
+            </div>
+            <!-- /.contact-address__item -->
+
+            <div class="contact-address__item">
+              <h3 class="contact-address__title">Планерная, Сходная, Тушинская</h3>
+              <span class="contact-address__description">Ул. Свободы, дом 29, <br> ТЦ "Свобода мебель", 1 этаж, место 20</span>
+            </div>
+            <!-- /.contact-address__item -->
+
+            <div class="contact-address__item">
+              <h3 class="contact-address__title">м. Домодедово</h3>
+              <span class="contact-address__description">м. Домодедовская, Каширское шоссе <br> д. 61, ТЦ Москва, этаж 2, место 2М-20</span>
+            </div>
+            <!-- /.contact-address__item -->
+          </div>
+          <!-- /.contact-address -->
         </div>
         <!-- /.contact-address -->
-
         <button class="button button-outline">Заказать звонок</button>
 
         <!-- /.header-contact__phone -->
@@ -95,33 +132,80 @@
       <!-- /.header__contact -->
     </div>
     <!-- /.container -->
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item link">
+          <a href="" class="nav__link link__item link__item--nav">Главная</a>
+        </li>
+
+        <li class="nav__item link">
+          <a href="" class="nav__link link__item link__item--nav svg-wrapper svg-wrapper--hover">
+            <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect y="10" width="17" height="3" fill="#4C4C4C" />
+              <rect y="5" width="17" height="3" fill="#4C4C4C" />
+              <rect width="17" height="3" fill="#4C4C4C" />
+            </svg>
+            Каталог
+          </a>
+        </li>
+
+        <li class="nav__item link">
+          <a href="" class="nav__link link__item link__item--nav">Доставка и монтаж</a>
+        </li>
+
+        <li class="nav__item link">
+          <a href="" class="nav__link link__item link__item--nav">Портфолио</a>
+        </li>
+        <li class="nav__item link">
+          <a href="" class="nav__link link__item link__item--nav">О нас</a>
+        </li>
+
+        <li class="nav__item link">
+          <a href="" class="nav__link link__item link__item--nav">Статьи</a>
+        </li>
+
+        <li class="nav__item link">
+          <a href="" class="nav__link link__item link__item--nav">Контакты</a>
+        </li>
+      </ul>
+    </nav>
   </header>
 
-  <nav class="nav">
+  <div id="headerNav" class="nav nav--dublicated">
     <ul class="nav__list">
-      <li class="nav__item">
-        <a href="" class="nav__link link">Главная</a>
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Главная</a>
       </li>
-      <li class="nav__item">
-        <a href="" class="nav__link link">
-          <img class="nav__icon icon icon--mini" src="img/icons/mini-icons/burger-nav.svg" alt="">
+
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav svg-wrapper svg-wrapper--hover">
+          <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="10" width="17" height="3" fill="#4C4C4C" />
+            <rect y="5" width="17" height="3" fill="#4C4C4C" />
+            <rect width="17" height="3" fill="#4C4C4C" />
+          </svg>
           Каталог
         </a>
       </li>
-      <li class="nav__item">
-        <a href="" class="nav__link link">Доставка и монтаж</a>
+
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Доставка и монтаж</a>
       </li>
-      <li class="nav__item">
-        <a href="" class="nav__link link">Портфолио</a>
+
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Портфолио</a>
       </li>
-      <li class="nav__item">
-        <a href="" class="nav__link link">О нас</a>
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">О нас</a>
       </li>
-      <li class="nav__item">
-        <a href="" class="nav__link link">Статьи</a>
+
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Статьи</a>
       </li>
-      <li class="nav__item">
-        <a href="" class="nav__link link">Контакты</a>
+
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Контакты</a>
       </li>
     </ul>
-  </nav>
+  </div>

@@ -51,6 +51,22 @@
   }
 }
 
+.svg-wrapper {
+  &--hover {
+    path,
+    rect {
+      transition: all 0.15s ease;
+    }
+
+    &:hover {
+      path,
+      rect {
+        fill: $svg-hover;
+      }
+    }
+  }
+}
+
 .block-skewed {
   clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
 }
@@ -64,35 +80,41 @@
 
 .link {
   @include flex();
-  color: $link-primary;
-  font-size: $font-size-5;
 
   transition: color 0.15s ease;
 
-  &--arrow {
-    color: $link-secondary;
-    font-size: $font-size-6;
+  &:hover {
+    color: $link-hover;
+  }
 
-    &::after {
-      content: url(../img/icons/mini-icons/arrow-right-mini.svg);
-      display: block;
+  &:hover {
+    .link__item {
+      color: $link-hover;
+    }
+
+    .link__item--arrow {
+      transform: translateX(5px);
+    }
+  }
+
+  &__item {
+    color: $link-primary;
+    font-size: $font-size-5;
+
+    transition: color 0.15s ease;
+
+    &--nav {
+      color: $link-secondary;
+    }
+
+    &--small {
+      font-size: $font-size-7;
+    }
+
+    &--arrow {
       margin-left: 5px;
 
       transition: transform 0.15s ease;
     }
-
-    &:hover {
-      &::after {
-        transform: translateX(5px);
-      }
-    }
-  }
-
-  &--small {
-    font-size: $font-size-7;
-  }
-
-  &:hover {
-    color: $link-hover;
   }
 }
