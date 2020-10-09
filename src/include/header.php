@@ -263,7 +263,7 @@
         <a href="" class="nav__link link__item link__item--nav">Главная</a>
       </li>
 
-      <li class="nav__item link">
+      <li class="nav__item link dropdown">
         <a href="" class="nav__link link__item link__item--nav svg-wrapper svg-wrapper--hover">
           <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect y="10" width="17" height="3" fill="#4C4C4C" />
@@ -272,6 +272,91 @@
           </svg>
           Каталог
         </a>
+
+        <div class="dropdown__menu dropdown__menu--bottom dropdown__menu--arrow">
+          <div class="dropdown__wrapper">
+            <div class="dropdown__item dropdown-item dropdown-item--line">
+              <div class="dropdown-item__container">
+                <a class="dropdown-item__link" href="">Кухни</a>
+              </div>
+              <!-- /.dropdown-item__container -->
+
+              <div class="dropdown-item__submenu dropdown-item__submenu--right">
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">ДСП</a>
+                  <a class="dropdown-item__link link" href="">МДФ</a>
+                  <a class="dropdown-item__link link" href="">Эмаль</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">Хай тек</a>
+                  <a class="dropdown-item__link link" href="">Модерн</a>
+                  <a class="dropdown-item__link link" href="">Классика</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">Пленка</a>
+                  <a class="dropdown-item__link link" href="">Шпон</a>
+                  <a class="dropdown-item__link link" href="">Из акрила</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">Пластик</a>
+                  <a class="dropdown-item__link link" href="">Массив Италия</a>
+                  <a class="dropdown-item__link link" href="">Российский массив</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+              </div>
+              <!-- /.dropdown-item__submenu -->
+            </div>
+
+            <div class="dropdown__item dropdown-item dropdown-item--line">
+              <div class="dropdown-item__container">
+                <a class="dropdown-item__link" href="">Корпусная мебель</a>
+              </div>
+              <!-- /.dropdown-item__container -->
+
+              <div class="dropdown-item__submenu dropdown-item__submenu--right">
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">ДСП</a>
+                  <a class="dropdown-item__link link" href="">МДФ</a>
+                  <a class="dropdown-item__link link" href="">Эмаль</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">Хай тек</a>
+                  <a class="dropdown-item__link link" href="">Модерн</a>
+                  <a class="dropdown-item__link link" href="">Классика</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+              </div>
+              <!-- /.dropdown-item__submenu -->
+            </div>
+
+            <div class="dropdown__item dropdown-item">
+              <div class="dropdown-item__container">
+                <a class="dropdown-item__link" href="">Кухонные гарнитуры</a>
+              </div>
+              <!-- /.dropdown-item__container -->
+
+              <div class="dropdown-item__submenu dropdown-item__submenu--right">
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">ДСП</a>
+                  <a class="dropdown-item__link link" href="">МДФ</a>
+                  <a class="dropdown-item__link link" href="">Эмаль</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+              </div>
+              <!-- /.dropdown-item__submenu -->
+            </div>
+          </div>
+          <!-- /.dropdown__wrapper -->
+        </div>
+        <!-- /.dropdown__menu -->
       </li>
 
       <li class="nav__item link">

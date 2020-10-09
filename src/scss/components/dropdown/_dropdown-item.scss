@@ -43,12 +43,15 @@
 
   &__submenu {
     position: absolute;
+    z-index: 0;
 
     @include flex();
 
     background-color: $block-primary;
 
     visibility: hidden;
+    box-shadow: $shadow-primary;
+
 
     &--right {
       top: 0;
