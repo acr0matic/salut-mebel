@@ -1,0 +1,48 @@
+.product {
+  &__main {
+    @include flex($align: stretch);
+  }
+
+  &__gallery {
+    width: 47%;
+  }
+
+  &__description {
+    @include flex($align: flex-start);
+    flex-direction: column;
+
+    width: 47%;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-size: $font-size-4;
+  }
+
+  &__list {
+  }
+
+  &__advantage {
+    margin-bottom: 15px;
+
+    &::before {
+      content: "- ";
+    }
+  }
+
+  &__action {
+    margin-top: auto;
+  }
+
+  &__price {
+    margin-bottom: 30px;
+
+    font-size: $font-size-3;
+    font-weight: $weight-bold;
+  }
+
+  &__extra {
+    margin-top: 90px;
+  }
+}

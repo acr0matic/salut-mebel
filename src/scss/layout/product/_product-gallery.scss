@@ -1,0 +1,61 @@
+.product-gallery {
+  &__main {
+    position: relative;
+  }
+
+  &__thumbnails {
+    @include flex($justify: flex-start);
+
+    margin-top: 10px;
+  }
+
+  &__secondary {
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  &__image {
+    transition: opacity 0.15s ease;
+
+    &--current {
+      width: 100%;
+      height: 440px;
+
+      object-fit: cover;
+    }
+
+    &--selected {
+      opacity: 0.5;
+    }
+  }
+
+  &__prev,
+  &__next {
+    &::after {
+      position: absolute;
+      top: 50%;
+    }
+  }
+
+  &__prev {
+    &::after {
+      content: url("../img/icons/controls/arrow-left.svg");
+      left: 25px;
+    }
+  }
+
+  &__next {
+    &::after {
+      content: url("../img/icons/controls/arrow-right.svg");
+      right: 25px;
+    }
+  }
+}

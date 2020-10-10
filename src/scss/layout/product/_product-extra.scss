@@ -1,0 +1,29 @@
+.product-extra {
+  &__wrapper {
+    display: flex;
+  }
+
+  &__card {
+    width: 30%;
+
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+  }
+
+  &__title {
+    width: 80%;
+    min-height: 45px;
+    margin-bottom: 15px;
+
+    font-size: $font-size-4;
+    font-weight: $weight-medium;
+  }
+
+  &__picture {
+    margin-bottom: 15px;
+  }
+
+  &__button {
+  }
+}
