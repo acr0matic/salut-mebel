@@ -26,6 +26,9 @@
 
   &__image {
     border-radius: 5px;
+
+    height: 240px;
+    object-fit: cover;
   }
 
   &__button {

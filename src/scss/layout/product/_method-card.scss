@@ -3,6 +3,15 @@
     margin-bottom: 10px;
   }
 
+  &__image {
+    border-radius: 5px;
+
+    width: 360px;
+    height: 130px;
+
+    object-fit: cover;
+  }
+
   &__title {
     font-weight: $weight-medium;
     font-size: $font-size-4;
