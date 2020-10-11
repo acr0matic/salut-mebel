@@ -21,10 +21,11 @@
   }
 
   &__list {
+    margin-bottom: 20px;
   }
 
   &__advantage {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 
     &::before {
       content: "- ";
@@ -44,5 +45,14 @@
 
   &__extra {
     margin-top: 90px;
+  }
+
+  &__picture {
+    width: 47%;
+  }
+
+  &__image {
+    height: 560px;
+    object-fit: cover;
   }
 }
