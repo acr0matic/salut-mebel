@@ -251,7 +251,6 @@
 
   <script src="scripts/sliders.js"></script>
   <script src="scripts/accordions.js"></script>
-  <script src="scripts/stickyNavbar.js"></script>
   <script src="scripts/script.js"></script>
   <!-- endbuild -->
   </body>

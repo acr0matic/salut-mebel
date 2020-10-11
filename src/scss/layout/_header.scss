@@ -3,8 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .header {
-  z-index: $z-index-header;
-  box-shadow: $shadow-navbar;
+  z-index: $z-index-menu;
 
   padding: {
     top: 30px;
@@ -35,7 +34,6 @@
 
   &__address {
     position: relative;
-    z-index: 50;
     margin-right: 55px;
   }
 }
