@@ -1,0 +1,13 @@
+.solution {
+  &__wrapper {
+    @include flex($align: flex-start);
+  }
+
+  &__card {
+    width: 33%;
+
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+  }
+}

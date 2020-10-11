@@ -171,6 +171,69 @@
 
   <?php include_once 'include/calculation.php' ?>
 
+  <section id="solutions" class="section">
+    <div class="container">
+      <h2 class="section__title section__title section__title--secondary">
+        Типовые решения
+      </h2>
+
+      <h3 class="section__subtitle">
+        Вы можете выбрать типовый дизайн по размерам помещения
+        <br>
+        или заказать разработку индивидуального проекта
+      </h3>
+
+      <div class="solution">
+        <div class="solution__wrapper flex-wrapper-fix">
+          <div class="solution__card solution-card">
+            <div class="solution-card__picture">
+              <img src="img/product/solution/1.jpg" alt="" class="solution-card__image">
+            </div>
+            <!-- /.olution-card__picture -->
+
+            <div class="solution-card__wrapper">
+              <h4 class="solution-card__title">Типовой проект 1</h4>
+              <button class="solution-card__button button button-primary">Посмотреть</button>
+            </div>
+            <!-- /.olution-card__wrapper -->
+          </div>
+          <!-- /.solution-card -->
+
+          <div class="solution__card solution-card">
+            <div class="solution-card__picture">
+              <img src="img/product/solution/2.jpg" alt="" class="solution-card__image">
+            </div>
+            <!-- /.olution-card__picture -->
+
+            <div class="solution-card__wrapper">
+              <h4 class="solution-card__title">Типовой проект 2</h4>
+              <button class="solution-card__button button button-primary">Посмотреть</button>
+            </div>
+            <!-- /.olution-card__wrapper -->
+          </div>
+          <!-- /.solution-card -->
+
+          <div class="solution__card solution-card">
+            <div class="solution-card__picture">
+              <img src="img/product/solution/3.jpg" alt="" class="solution-card__image">
+            </div>
+            <!-- /.olution-card__picture -->
+
+            <div class="solution-card__wrapper">
+              <h4 class="solution-card__title">Типовой проект 3</h4>
+              <button class="solution-card__button button button-primary">Посмотреть</button>
+            </div>
+            <!-- /.olution-card__wrapper -->
+          </div>
+          <!-- /.solution-card -->
+        </div>
+        <!-- /.solution__wrapper -->
+      </div>
+      <!-- /.solution -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <?php include_once 'include/callback.php' ?>
 
 </main>

@@ -1,0 +1,23 @@
+.solution-card {
+  background-color: $block-primary;
+  box-shadow: $shadow-primary;
+
+  border-radius: 5px;
+
+  &__image {
+    border-radius: 5px;
+  }
+
+  &__wrapper {
+    padding: 0 25px;
+  }
+
+  &__title {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+
+  &__button {
+    margin-bottom: 30px;
+  }
+}
