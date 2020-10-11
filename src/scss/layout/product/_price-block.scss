@@ -1,0 +1,22 @@
+.price-block {
+  @include flex();
+
+  &__content {
+    width: 55%;
+  }
+
+  &__info {
+    width: 40%;
+
+    padding: 20px;
+
+    background-color: $block-primary;
+    box-shadow: $shadow-primary;
+  }
+
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}

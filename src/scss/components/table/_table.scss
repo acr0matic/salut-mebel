@@ -1,0 +1,27 @@
+.table {
+  width: 100%;
+
+  border-collapse: separate;
+  border-spacing: 0 5px;
+
+  &__head {
+    text-align: left;
+  }
+
+  &__row {
+    background-color: $table__row;
+
+    box-shadow: $shadow-primary;
+
+    &--head {
+      background-color: $table__heading;
+      color: $table__row;
+
+      margin-bottom: 12px;
+    }
+  }
+
+  &__column {
+    padding: 8px 18px;
+  }
+}

@@ -53,6 +53,111 @@
     <!-- /.container -->
   </section>
 
+  <section id="price" class="section">
+    <div class="container">
+      <h2 class="section__title">Цена</h2>
+
+      <div class="price-block">
+        <div class="price-block__content">
+          <table class="price-block__table table">
+            <thead class="table__head">
+              <tr class="table__row table__row--head">
+                <th class="table__column">Материал фасада</th>
+                <th class="table__column">Цена без скидки</th>
+                <th class="table__column">Цена со скидкой</th>
+              </tr>
+            </thead>
+
+            <tbody class="table__body">
+              <tr class="table__row">
+                <td class="table__column">ЛДСП</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+
+              <tr class="table__row">
+                <td class="table__column">МДФ + Пленка</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+
+              <tr class="table__row">
+                <td class="table__column">МДФ + Пластик</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+
+
+              <tr class="table__row">
+                <td class="table__column">МДФ + Эмаль (Глянец)</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+
+              <tr class="table__row">
+                <td class="table__column">Акрил</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+
+              <tr class="table__row">
+                <td class="table__column">Шпон</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+
+              <tr class="table__row">
+                <td class="table__column">Массив БУКА</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+
+              <tr class="table__row">
+                <td class="table__column">Массив ЯСЕНЯ</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+
+              <tr class="table__row">
+                <td class="table__column">Массив ДУБА</td>
+                <td class="table__column">49 980</td>
+                <td class="table__column">10 000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- /.price-block__content -->
+
+        <div class="price-block__info">
+          <p class="price-block__text">
+            Скидка на данный комплект не
+            <br>
+            распространяется, т.к. сумма кухни
+            <br>
+            <strong>менее 80 000р.</strong>
+          </p>
+
+          <p class="price-block__text">
+            Акция действует на кухни стоимостью
+            <br>
+            <strong>более 80 000р.</strong>
+          </p>
+
+          <p class="price-block__text">
+            Если добавить доп. элементы или фурнитуру (доводчики на ящики, стеновую панель и т.д.)
+            <br>
+            и цена будет более 80 000 руб. то будет
+            <br>
+            применена скидка до 30%, в зависимости от выбранной модели.
+          </p>
+        </div>
+        <!-- /.price-block__info -->
+      </div>
+      <!-- /.price-block -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <section id="solutions" class="section">
     <div class="container">
       <h2 class="section__title section__title">
