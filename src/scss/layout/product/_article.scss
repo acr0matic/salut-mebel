@@ -1,0 +1,33 @@
+.product-article {
+  @include flex($align: flex-start);
+
+  @include even() {
+    flex-direction: row-reverse;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 70px;
+  }
+
+  &__picture {
+    width: 40%;
+  }
+
+  &__image {
+    border-radius: 5px;
+  }
+
+  &__content {
+    width: 55%;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__paragraph {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}

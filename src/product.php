@@ -234,6 +234,87 @@
     <!-- /.container -->
   </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="product-article">
+        <div class="product-article__picture">
+          <img src="img/product/article/1.jpg" alt="" class="product-article__image">
+        </div>
+        <!-- /.product-article__picture -->
+
+        <div class="product-article__content">
+          <h2 class="product-article__title">Эмалированные кухни</h2>
+          <div class="product-article__text">
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+          </div>
+          <!-- /.product-article__text -->
+        </div>
+        <!-- /.product-article__content -->
+      </div>
+      <!-- /.product-article -->
+
+      <div class="product-article">
+        <div class="product-article__picture">
+          <img src="img/product/article/2.jpg" alt="" class="product-article__image">
+        </div>
+        <!-- /.product-article__picture -->
+
+        <div class="product-article__content">
+          <h2 class="product-article__title">Кухни фасад эмаль</h2>
+          <div class="product-article__text">
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+          </div>
+          <!-- /.product-article__text -->
+        </div>
+        <!-- /.product-article__content -->
+      </div>
+      <!-- /.product-article -->
+
+      <div class="product-article">
+        <div class="product-article__picture">
+          <img src="img/product/article/3.jpg" alt="" class="product-article__image">
+        </div>
+        <!-- /.product-article__picture -->
+
+        <div class="product-article__content">
+          <h2 class="product-article__title">Купить кухню эмаль</h2>
+          <div class="product-article__text">
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+          </div>
+          <!-- /.product-article__text -->
+        </div>
+        <!-- /.product-article__content -->
+      </div>
+      <!-- /.product-article -->
+
+      <div class="product-article">
+        <div class="product-article__picture">
+          <img src="img/product/article/4.jpg" alt="" class="product-article__image">
+        </div>
+        <!-- /.product-article__picture -->
+
+        <div class="product-article__content">
+          <h2 class="product-article__title">Кухня белая эмаль</h2>
+          <div class="product-article__text">
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+            <p class="product-article__paragraph">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Но пояс курсивных гор обеспечивает снова однажды, ручеек бросил путь всемогущая языком, которой оксмокс даль выйти рыбными моей большого! Выйти?</p>
+          </div>
+          <!-- /.product-article__text -->
+        </div>
+        <!-- /.product-article__content -->
+      </div>
+      <!-- /.product-article -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <?php include_once 'include/callback.php' ?>
 
 </main>
