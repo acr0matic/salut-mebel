@@ -132,3 +132,10 @@
     left: 0;
   }
 }
+
+.flex-wrapper-fix {
+  &:after {
+    content: "";
+    flex: auto;
+  }
+}

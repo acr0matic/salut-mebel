@@ -1,0 +1,24 @@
+.method-card {
+  &__picture {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-weight: $weight-medium;
+    font-size: $font-size-4;
+
+    margin-bottom: 10px;
+  }
+
+  &__list {
+
+  }
+
+  &__item {
+    margin-bottom: 5px;
+
+    &::before {
+      content: "- ";
+    }
+  }
+}
