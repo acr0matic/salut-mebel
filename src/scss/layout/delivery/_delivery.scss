@@ -1,0 +1,30 @@
+.delivery {
+  margin-bottom: 110px;
+
+  &__wrapper {
+    @include flex($align: flex-start);
+  }
+
+  &__content {
+    width: 46%;
+  }
+
+  &__picture {
+    width: 45%;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-size: $font-size-4;
+    font-weight: $weight-bold;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+
+    &--large {
+      font-size: $font-size-4;
+    }
+  }
+}
