@@ -3,6 +3,8 @@
 // -----------------------------------------------------------------------------
 
 %button {
+  display: inline-block;
+
   min-width: 145px;
 
   border-radius: 5px;
@@ -12,5 +14,8 @@
 
   outline: none;
   cursor: pointer;
+
   transition: all 0.15s ease;
+
+  text-align: center;
 }

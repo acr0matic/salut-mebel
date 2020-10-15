@@ -1,14 +1,17 @@
 <?php include_once 'include/header.php' ?>
 
 <main>
-
-
-  <section id="catalog">
+  <section class="section section--breadcrumbs" id="catalog">
     <div class="container">
       <div class="catalog">
-        <h2 class="catalog__title">
-          Каталог кухонь
-        </h2>
+        <ul class="section__breadcrumbs breadcrumbs">
+          <li class="breadcrumbs__item">
+            <a href="" class="breadcrumbs__link link">Главная</a>
+          </li>
+
+          <li class="breadcrumbs__item breadcrumbs__item--active">каталог кухонь</li>
+        </ul>
+        <h2 class="section__title catalog__title">Каталог кухонь</h2>
 
         <div class="catalog__wrapper catalog__wrapper--wrap">
           <div class="catalog__item catalog-card catalog-card catalog-card--shadow">

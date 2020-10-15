@@ -73,7 +73,7 @@
               </div>
               <!-- /.promo-item__info -->
 
-              <button class="promo-item__button button button-outline button-outline--inverted">Подробнее</button>
+              <a href="" class="promo-item__button button button-outline button-outline--inverted">Подробнее</a>
             </div>
             <!-- /.promo-item__content -->
           </div>
@@ -100,7 +100,7 @@
               </div>
               <!-- /.promo-item__info -->
 
-              <button class="promo-item__button button button-outline button-outline--inverted">Подробнее</button>
+              <a href="" class="promo-item__button button button-outline button-outline--inverted">Подробнее</a>
             </div>
             <!-- /.promo-item__content -->
           </div>
@@ -127,7 +127,7 @@
               </div>
               <!-- /.promo-item__info -->
 
-              <button class="promo-item__button button button-outline button-outline--inverted">Подробнее</button>
+              <a href="" class="promo-item__button button button-outline button-outline--inverted">Подробнее</a>
             </div>
             <!-- /.promo-item__content -->
           </div>
@@ -252,7 +252,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -283,7 +283,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -314,7 +314,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -345,7 +345,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -376,7 +376,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -423,7 +423,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -454,7 +454,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -485,7 +485,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -516,7 +516,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -547,7 +547,7 @@
 
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
-                    <button class="catalog-card__button button button-primary">Подробнее</button>
+                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>

@@ -5,6 +5,10 @@
 .section {
   margin-top: 90px;
 
+  &--breadcrumbs {
+    margin-top: 40px;
+  }
+
   &__title {
     @include flex();
 
@@ -20,6 +24,10 @@
   &__subtitle {
     font-size: $font-size-4;
     margin-bottom: 40px;
+  }
+
+  &__breadcrumbs {
+    margin-bottom: 10px;
   }
 }
 
@@ -137,5 +145,26 @@
   &:after {
     content: "";
     flex: auto;
+  }
+}
+
+.breadcrumbs {
+  @include flex($justify: flex-start);
+
+  &__item {
+    @include flex();
+    margin-right: 10px;
+
+    &:not(:last-child) {
+      &::after {
+        content: "/";
+        display: block;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  &__link {
+    color: $link-primary;
   }
 }

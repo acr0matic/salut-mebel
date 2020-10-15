@@ -2,8 +2,19 @@
 
 <main>
 
-  <section class="section">
+  <section class="section section--breadcrumbs">
     <div class="container">
+      <ul class="section__breadcrumbs breadcrumbs">
+        <li class="breadcrumbs__item">
+          <a href="" class="breadcrumbs__link link">Главная</a>
+        </li>
+
+        <li class="breadcrumbs__item">
+          <a href="" class="breadcrumbs__link link">каталог кухонь</a>
+        </li>
+
+        <li class="breadcrumbs__item breadcrumbs__item--active">кухни эмаль</li>
+      </ul>
       <h1 class="section__title">Кухни эмаль</h1>
 
       <div class="product">
