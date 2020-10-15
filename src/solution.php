@@ -86,57 +86,57 @@
             <tbody class="table__body">
               <tr class="table__row">
                 <td class="table__column">ЛДСП</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
 
               <tr class="table__row">
                 <td class="table__column">МДФ + Пленка</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
 
               <tr class="table__row">
                 <td class="table__column">МДФ + Пластик</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
 
 
               <tr class="table__row">
                 <td class="table__column">МДФ + Эмаль (Глянец)</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
 
               <tr class="table__row">
                 <td class="table__column">Акрил</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
 
               <tr class="table__row">
                 <td class="table__column">Шпон</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
 
               <tr class="table__row">
                 <td class="table__column">Массив БУКА</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
 
               <tr class="table__row">
                 <td class="table__column">Массив ЯСЕНЯ</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
 
               <tr class="table__row">
                 <td class="table__column">Массив ДУБА</td>
-                <td class="table__column">49 980</td>
-                <td class="table__column">10 000</td>
+                <td class="table__column price">49 980</td>
+                <td class="table__column price">10 000</td>
               </tr>
             </tbody>
           </table>

@@ -23,5 +23,11 @@
 
   &__column {
     padding: 8px 18px;
+
+    &--price {
+      &::after {
+        content: " руб.";
+      }
+    }
   }
 }
