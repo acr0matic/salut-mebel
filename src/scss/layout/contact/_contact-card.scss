@@ -1,0 +1,62 @@
+.contact-card {
+  width: 24%;
+
+  padding: 15px;
+  border-radius: 5px;
+
+  background-color: $block-primary;
+  box-shadow: $shadow-primary;
+
+  font-size: $font-size-6;
+
+  &:first-child {
+    width: 44%;
+  }
+
+  &:not(:first-child) {
+    margin-top: 15px;
+  }
+
+  &__title {
+    height: 36px;
+
+    margin-bottom: 10px;
+
+    font-size: $font-size-5;
+    font-weight: $weight-bold;
+  }
+
+  &__content {
+    @include flex($align: flex-start);
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+
+    height: 170px;
+  }
+
+  &__text {
+    max-width: 230px;
+    margin-bottom: 20px;
+
+    &--important {
+    }
+  }
+
+  &__communication {
+    margin-top: auto;
+  }
+
+  &__link {
+    @include flex($align: flex-start);
+    flex-direction: column;
+
+    color: $link-primary;
+
+    &:not(:last-child) {
+      margin-bottom: 5px;
+    }
+  }
+}

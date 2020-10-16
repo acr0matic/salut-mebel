@@ -1,3 +1,17 @@
 .contact {
-  
+  &__wrapper {
+    @include flex($align: stretch);
+    flex-wrap: wrap;
+  }
+
+  &__picture {
+    width: 55%;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  &__image {
+    height: 242px;
+    object-fit: cover;
+  }
 }

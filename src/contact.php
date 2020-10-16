@@ -17,21 +17,147 @@
         <div class="contact__wrapper">
           <div class="contact__card contact-card">
             <h3 class="contact-card__title">Салон при фабрике</h3>
-            <p class="contact-card__text">
-              М. Нагорная, Электролитный проезд, дом 3, строение 2
-            </p>
+            <div class="contact-card__content">
+              <div class="contact-card__column">
+                <p class="contact-card__text">
+                  М. Нагорная, Электролитный проезд, дом 3, строение 2
+                </p>
 
-            <div class="contact-card__communication">
-              <a href="tel:+79005003040" class="contact-card__link">+79005003040</a>
-              <a href="mailto:9785951@mail.ru" class="contact-card__link">9785951@mail.ru</a>
+                <p class="contact-card__text">
+                  Режим работы: 10.00 - 18.00
+                  Салон работает по будням
+                  (ПН-ПТ)
+                </p>
+
+                <div class="contact-card__communication">
+                  <a href="tel:+79005003040" class="contact-card__link">+7 (900) 500 30 40</a>
+                  <a href="mailto:9785951@mail.ru" class="contact-card__link">9785951@mail.ru</a>
+                </div>
+                <!-- /.contact-card__communication -->
+              </div>
+              <!-- /.contact-card__column -->
+
+              <div class="contact-card__column">
+                <p class="contact-card__text contact-card__text--important">
+                  На фабрике действует пропускная система.
+                  Необходимо заказать ПРОПУСК
+                  для прохода на территорию фабрики
+                </p>
+              </div>
+              <!-- /.contact-card__column -->
             </div>
-            <!-- /.contact-card__communication -->
+            <!-- /.contact-card__content -->
+          </div>
+          <!-- /.contact__card -->
 
-            <p class="contact-card__text contact-card__text--important">
-              На фабрике действует пропускная система.
-              Необходимо заказать ПРОПУСК
-              для прохода на территорию фабрики
-            </p>
+          <div class="contact__picture">
+            <img src="img/contact/contact-image.jpg" alt="" class="contact__image">
+          </div>
+          <!-- /.contact__picture -->
+
+          <div class="contact__card contact-card">
+            <h3 class="contact-card__title">Теплый стан</h3>
+            <div class="contact-card__content">
+              <div class="contact-card__column">
+                <p class="contact-card__text">
+                  Ул. Профсоюзная, д.129А,
+                  м. Теплый стан, ТРЦ "ПРИНЦ ПЛАЗА"
+                  помещение расположено
+                  на 5-м этаже
+                </p>
+
+                <p class="contact-card__text">
+                  Режим работы: 10.00 - 20.00
+                  (салон работает ежедневно)
+                </p>
+
+                <div class="contact-card__communication">
+                  <a href="tel:+79005003040" class="contact-card__link">+7 (900) 500 30 40</a>
+                  <a href="mailto:9785951@mail.ru" class="contact-card__link">9785951@mail.ru</a>
+                </div>
+                <!-- /.contact-card__communication -->
+              </div>
+              <!-- /.contact-card__column -->
+            </div>
+            <!-- /.contact-card__content -->
+          </div>
+          <!-- /.contact__card -->
+
+          <div class="contact__card contact-card">
+            <h3 class="contact-card__title">М. Пражская</h3>
+            <div class="contact-card__content">
+              <div class="contact-card__column">
+                <p class="contact-card__text">
+                  Ул. Кировоградская, д. 15, 2 этаж,
+                  ТЦ ГРАНД-ЮГ, на 5-м этаже
+                </p>
+
+                <p class="contact-card__text">
+                  Режим работы: 10.00 - 20.00
+                  (салон работает ежедневно)
+                </p>
+
+                <div class="contact-card__communication">
+                  <a href="tel:+79005003040" class="contact-card__link">+7 (900) 500 30 40</a>
+                  <a href="mailto:9785951@mail.ru" class="contact-card__link">9785951@mail.ru</a>
+                </div>
+                <!-- /.contact-card__communication -->
+              </div>
+              <!-- /.contact-card__column -->
+            </div>
+            <!-- /.contact-card__content -->
+          </div>
+          <!-- /.contact__card -->
+
+          <div class="contact__card contact-card">
+            <h3 class="contact-card__title">Планерная, Сходненская, Тушинская</h3>
+            <div class="contact-card__content">
+              <div class="contact-card__column">
+                <p class="contact-card__text">
+                  Ул. Свободы, дом 29,
+                  ТЦ "Свобода мебель", 1 этаж, место 20
+                </p>
+
+                <p class="contact-card__text">
+                  Режим работы: 10.00 - 20.00
+                  (Салон работает ежедневно)
+                </p>
+
+                <div class="contact-card__communication">
+                  <a href="tel:+79005003040" class="contact-card__link">+7 (900) 500 30 40</a>
+                  <a href="mailto:9785951@mail.ru" class="contact-card__link">9785951@mail.ru</a>
+                </div>
+                <!-- /.contact-card__communication -->
+              </div>
+              <!-- /.contact-card__column -->
+            </div>
+            <!-- /.contact-card__content -->
+          </div>
+          <!-- /.contact__card -->
+
+          <div class="contact__card contact-card">
+            <h3 class="contact-card__title">М. Домодедовская, Каширское шоссе</h3>
+            <div class="contact-card__content">
+              <div class="contact-card__column">
+                <p class="contact-card__text">
+                  м. Домодедовская, Каширское шоссе д. 61
+                  ТЦ Москва,этаж 2, место 2М-20
+                </p>
+
+                <p class="contact-card__text">
+                  Режим работы: 10.00 - 20.00
+                  (Салон работает ежедневно)
+                </p>
+
+                <div class="contact-card__communication">
+                  <a href="tel:+79005003040" class="contact-card__link link">+7 (900) 500 30 40</a>
+                  <a href="mailto:9785951@mail.ru" class="contact-card__link link">9785951@mail.ru</a>
+                </div>
+                <!-- /.contact-card__communication -->
+              </div>
+              <!-- /.contact-card__column -->
+            </div>
+            <!-- /.contact-card__content -->
           </div>
           <!-- /.contact__card -->
         </div>
