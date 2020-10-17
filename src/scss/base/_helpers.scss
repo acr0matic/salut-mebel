@@ -36,6 +36,10 @@
   max-width: $container-max-width;
   margin-left: auto;
   margin-right: auto;
+
+  &--tight {
+    max-width: $container-tight-max-width;
+  }
 }
 
 .gradient {
