@@ -218,7 +218,7 @@
     <!-- /.container -->
   </section>
 
-  <section id="catalog">
+  <section class="section" id="catalog">
     <div class="container">
       <div class="catalog">
 
