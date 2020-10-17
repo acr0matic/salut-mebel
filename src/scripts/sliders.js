@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* global Swiper */
 
 const promoSlider = new Swiper('.promo__slider-container', {
@@ -16,8 +17,6 @@ const promoSlider = new Swiper('.promo__slider-container', {
   },
 });
 
-promoSlider.init();
-
 const articleSlider = new Swiper('.article__slider', {
   slidesPerView: 4,
   spaceBetween: 40,
@@ -27,8 +26,6 @@ const articleSlider = new Swiper('.article__slider', {
     prevEl: '.article__slider-prev',
   },
 });
-
-articleSlider.init();
 
 const kitchenSlider = new Swiper('.catalog__slider--kitchen', {
   slidesPerView: 4,
@@ -40,8 +37,6 @@ const kitchenSlider = new Swiper('.catalog__slider--kitchen', {
   },
 });
 
-kitchenSlider.init();
-
 const hullSlider = new Swiper('.catalog__slider--hull', {
   slidesPerView: 4,
   spaceBetween: 40,
@@ -51,5 +46,3 @@ const hullSlider = new Swiper('.catalog__slider--hull', {
     prevEl: '.catalog__slider--hull-left',
   },
 });
-
-hullSlider.init();
