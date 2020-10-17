@@ -1,15 +1,28 @@
 .article {
   &__wrapper {
-    @include flex($align: flex-start);
+    @include flex($align: stretch);
 
     padding: 10px 0;
+
+    &--wrap {
+      flex-wrap: wrap;
+    }
   }
 
   &__item {
+    width: 100%;
+    max-width: 260px;
+
+    margin-bottom: 40px;
+
     border-radius: 5px;
 
     overflow: hidden;
     box-shadow: $shadow-primary;
+
+    &:not(:nth-child(4n)) {
+      margin-right: 40px;
+    }
   }
 
   &__picture {
@@ -28,6 +41,8 @@
   }
 
   &__title {
+    min-height: 30px;
+
     font-size: $font-size-6;
     font-weight: $weight-medium;
 
