@@ -136,7 +136,7 @@
   <nav class="nav">
     <ul class="nav__list">
       <li class="nav__item link">
-        <a href="" class="nav__link link__item link__item--nav">Главная</a>
+        <a href="index.php" class="nav__link link__item link__item--nav">Главная</a>
       </li>
 
       <li class="nav__item link dropdown">
@@ -153,7 +153,7 @@
           <div class="dropdown__wrapper">
             <div class="dropdown__item dropdown-item dropdown-item--line">
               <div class="dropdown-item__container">
-                <a class="dropdown-item__link" href="">Кухни</a>
+                <a class="dropdown-item__link" href="/catalog.php">Кухни</a>
               </div>
               <!-- /.dropdown-item__container -->
 
@@ -236,22 +236,22 @@
       </li>
 
       <li class="nav__item link">
-        <a href="" class="nav__link link__item link__item--nav">Доставка и монтаж</a>
+        <a href="/delivery.php" class="nav__link link__item link__item--nav">Доставка и монтаж</a>
       </li>
 
       <li class="nav__item link">
-        <a href="" class="nav__link link__item link__item--nav">Портфолио</a>
+        <a href="/portfolio.php" class="nav__link link__item link__item--nav">Портфолио</a>
       </li>
       <li class="nav__item link">
-        <a href="" class="nav__link link__item link__item--nav">О нас</a>
-      </li>
-
-      <li class="nav__item link">
-        <a href="" class="nav__link link__item link__item--nav">Статьи</a>
+        <a href="/about.php" class="nav__link link__item link__item--nav">О нас</a>
       </li>
 
       <li class="nav__item link">
-        <a href="" class="nav__link link__item link__item--nav">Контакты</a>
+        <a href="/articles.php" class="nav__link link__item link__item--nav">Статьи</a>
+      </li>
+
+      <li class="nav__item link">
+        <a href="/contact.php" class="nav__link link__item link__item--nav">Контакты</a>
       </li>
     </ul>
   </nav>
