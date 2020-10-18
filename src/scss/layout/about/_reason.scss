@@ -1,0 +1,19 @@
+.reason {
+  &__row {
+    @include flex($align: stretch);
+
+    &--center {
+      justify-content: center;
+      margin-top: 35px;
+    }
+  }
+
+  &__card {
+    width: 260px;
+
+    &--margin {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+}

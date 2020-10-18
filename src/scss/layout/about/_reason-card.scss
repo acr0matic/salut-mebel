@@ -1,0 +1,28 @@
+.reason-card {
+  padding: 30px 20px 20px 20px;
+
+  background-color: $block-primary;
+  box-shadow: $shadow-primary;
+
+  &__wrapper {
+    width: 90%;
+  }
+
+  &__icon {
+    width: 42px;
+    height: 42px;
+
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-size: $font-size-5;
+    font-weight: $weight-medium;
+  }
+
+  &__text {
+    font-size: $font-size-6;
+  }
+}
