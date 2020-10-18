@@ -1,3 +1,9 @@
+/* global MicroModal */
+
+MicroModal.init({
+  awaitCloseAnimation: true,
+});
+
 const contactAddress = document.getElementById('contactAddress');
 const contactList = document.getElementById('contactList');
 let scrollPosition = window.pageYOffset;

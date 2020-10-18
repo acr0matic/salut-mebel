@@ -1,12 +1,18 @@
 .callback {
   margin-bottom: 90px;
-  
+
   &__wrapper {
     @include flex($align: flex-start);
   }
 
   &__content {
     width: 48%;
+  }
+
+  &__title {
+    margin-bottom: 30px;
+
+    font-weight: $weight-bold;
   }
 
   &__image {
@@ -43,6 +49,12 @@
     @include flex($align: flex-start);
     flex-direction: column;
     width: 43%;
+
+    &--modal {
+      width: 80%;
+
+      margin: 0 auto;
+    }
   }
 
   &__input {

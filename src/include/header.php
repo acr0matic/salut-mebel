@@ -125,7 +125,7 @@
           <!-- /.contact-address -->
         </div>
         <!-- /.contact-address -->
-        <button class="button button-outline">Заказать звонок</button>
+        <button data-micromodal-trigger="modal-callback" class="button button-outline">Заказать звонок</button>
         <!-- /.header-contact__phone -->
       </div>
       <!-- /.header__contact -->
@@ -134,124 +134,152 @@
   </header>
 
   <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item link">
-          <a href="" class="nav__link link__item link__item--nav">Главная</a>
-        </li>
+    <ul class="nav__list">
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Главная</a>
+      </li>
 
-        <li class="nav__item link dropdown">
-          <a href="" class="nav__link link__item link__item--nav svg-wrapper svg-wrapper--hover">
-            <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect y="10" width="17" height="3" fill="#4C4C4C" />
-              <rect y="5" width="17" height="3" fill="#4C4C4C" />
-              <rect width="17" height="3" fill="#4C4C4C" />
-            </svg>
-            Каталог
-          </a>
+      <li class="nav__item link dropdown">
+        <a href="" class="nav__link link__item link__item--nav svg-wrapper svg-wrapper--hover">
+          <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect y="10" width="17" height="3" fill="#4C4C4C" />
+            <rect y="5" width="17" height="3" fill="#4C4C4C" />
+            <rect width="17" height="3" fill="#4C4C4C" />
+          </svg>
+          Каталог
+        </a>
 
-          <div class="dropdown__menu dropdown__menu--bottom dropdown__menu--arrow">
-            <div class="dropdown__wrapper">
-              <div class="dropdown__item dropdown-item dropdown-item--line">
-                <div class="dropdown-item__container">
-                  <a class="dropdown-item__link" href="">Кухни</a>
-                </div>
-                <!-- /.dropdown-item__container -->
-
-                <div class="dropdown-item__submenu dropdown-item__submenu--right">
-                  <div class="dropdown-item__section">
-                    <a class="dropdown-item__link link" href="">ДСП</a>
-                    <a class="dropdown-item__link link" href="">МДФ</a>
-                    <a class="dropdown-item__link link" href="">Эмаль</a>
-                  </div>
-                  <!-- /.dropdown-item__section -->
-
-                  <div class="dropdown-item__section">
-                    <a class="dropdown-item__link link" href="">Хай тек</a>
-                    <a class="dropdown-item__link link" href="">Модерн</a>
-                    <a class="dropdown-item__link link" href="">Классика</a>
-                  </div>
-                  <!-- /.dropdown-item__section -->
-
-                  <div class="dropdown-item__section">
-                    <a class="dropdown-item__link link" href="">Пленка</a>
-                    <a class="dropdown-item__link link" href="">Шпон</a>
-                    <a class="dropdown-item__link link" href="">Из акрила</a>
-                  </div>
-                  <!-- /.dropdown-item__section -->
-
-                  <div class="dropdown-item__section">
-                    <a class="dropdown-item__link link" href="">Пластик</a>
-                    <a class="dropdown-item__link link" href="">Массив Италия</a>
-                    <a class="dropdown-item__link link" href="">Российский массив</a>
-                  </div>
-                  <!-- /.dropdown-item__section -->
-                </div>
-                <!-- /.dropdown-item__submenu -->
+        <div class="dropdown__menu dropdown__menu--bottom dropdown__menu--arrow">
+          <div class="dropdown__wrapper">
+            <div class="dropdown__item dropdown-item dropdown-item--line">
+              <div class="dropdown-item__container">
+                <a class="dropdown-item__link" href="">Кухни</a>
               </div>
+              <!-- /.dropdown-item__container -->
 
-              <div class="dropdown__item dropdown-item dropdown-item--line">
-                <div class="dropdown-item__container">
-                  <a class="dropdown-item__link" href="">Корпусная мебель</a>
+              <div class="dropdown-item__submenu dropdown-item__submenu--right">
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">ДСП</a>
+                  <a class="dropdown-item__link link" href="">МДФ</a>
+                  <a class="dropdown-item__link link" href="">Эмаль</a>
                 </div>
-                <!-- /.dropdown-item__container -->
+                <!-- /.dropdown-item__section -->
 
-                <div class="dropdown-item__submenu dropdown-item__submenu--right">
-                  <div class="dropdown-item__section">
-                    <a class="dropdown-item__link link" href="">ДСП</a>
-                    <a class="dropdown-item__link link" href="">МДФ</a>
-                    <a class="dropdown-item__link link" href="">Эмаль</a>
-                  </div>
-                  <!-- /.dropdown-item__section -->
-
-                  <div class="dropdown-item__section">
-                    <a class="dropdown-item__link link" href="">Хай тек</a>
-                    <a class="dropdown-item__link link" href="">Модерн</a>
-                    <a class="dropdown-item__link link" href="">Классика</a>
-                  </div>
-                  <!-- /.dropdown-item__section -->
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">Хай тек</a>
+                  <a class="dropdown-item__link link" href="">Модерн</a>
+                  <a class="dropdown-item__link link" href="">Классика</a>
                 </div>
-                <!-- /.dropdown-item__submenu -->
+                <!-- /.dropdown-item__section -->
+
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">Пленка</a>
+                  <a class="dropdown-item__link link" href="">Шпон</a>
+                  <a class="dropdown-item__link link" href="">Из акрила</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">Пластик</a>
+                  <a class="dropdown-item__link link" href="">Массив Италия</a>
+                  <a class="dropdown-item__link link" href="">Российский массив</a>
+                </div>
+                <!-- /.dropdown-item__section -->
               </div>
-
-              <div class="dropdown__item dropdown-item">
-                <div class="dropdown-item__container">
-                  <a class="dropdown-item__link" href="">Кухонные гарнитуры</a>
-                </div>
-                <!-- /.dropdown-item__container -->
-
-                <div class="dropdown-item__submenu dropdown-item__submenu--right">
-                  <div class="dropdown-item__section">
-                    <a class="dropdown-item__link link" href="">ДСП</a>
-                    <a class="dropdown-item__link link" href="">МДФ</a>
-                    <a class="dropdown-item__link link" href="">Эмаль</a>
-                  </div>
-                  <!-- /.dropdown-item__section -->
-                </div>
-                <!-- /.dropdown-item__submenu -->
-              </div>
+              <!-- /.dropdown-item__submenu -->
             </div>
-            <!-- /.dropdown__wrapper -->
+
+            <div class="dropdown__item dropdown-item dropdown-item--line">
+              <div class="dropdown-item__container">
+                <a class="dropdown-item__link" href="">Корпусная мебель</a>
+              </div>
+              <!-- /.dropdown-item__container -->
+
+              <div class="dropdown-item__submenu dropdown-item__submenu--right">
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">ДСП</a>
+                  <a class="dropdown-item__link link" href="">МДФ</a>
+                  <a class="dropdown-item__link link" href="">Эмаль</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">Хай тек</a>
+                  <a class="dropdown-item__link link" href="">Модерн</a>
+                  <a class="dropdown-item__link link" href="">Классика</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+              </div>
+              <!-- /.dropdown-item__submenu -->
+            </div>
+
+            <div class="dropdown__item dropdown-item">
+              <div class="dropdown-item__container">
+                <a class="dropdown-item__link" href="">Кухонные гарнитуры</a>
+              </div>
+              <!-- /.dropdown-item__container -->
+
+              <div class="dropdown-item__submenu dropdown-item__submenu--right">
+                <div class="dropdown-item__section">
+                  <a class="dropdown-item__link link" href="">ДСП</a>
+                  <a class="dropdown-item__link link" href="">МДФ</a>
+                  <a class="dropdown-item__link link" href="">Эмаль</a>
+                </div>
+                <!-- /.dropdown-item__section -->
+              </div>
+              <!-- /.dropdown-item__submenu -->
+            </div>
           </div>
-          <!-- /.dropdown__menu -->
-        </li>
+          <!-- /.dropdown__wrapper -->
+        </div>
+        <!-- /.dropdown__menu -->
+      </li>
 
-        <li class="nav__item link">
-          <a href="" class="nav__link link__item link__item--nav">Доставка и монтаж</a>
-        </li>
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Доставка и монтаж</a>
+      </li>
 
-        <li class="nav__item link">
-          <a href="" class="nav__link link__item link__item--nav">Портфолио</a>
-        </li>
-        <li class="nav__item link">
-          <a href="" class="nav__link link__item link__item--nav">О нас</a>
-        </li>
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Портфолио</a>
+      </li>
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">О нас</a>
+      </li>
 
-        <li class="nav__item link">
-          <a href="" class="nav__link link__item link__item--nav">Статьи</a>
-        </li>
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Статьи</a>
+      </li>
 
-        <li class="nav__item link">
-          <a href="" class="nav__link link__item link__item--nav">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+      <li class="nav__item link">
+        <a href="" class="nav__link link__item link__item--nav">Контакты</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="modal modal-callback micromodal-slide" id="modal-callback" aria-hidden="true">
+    <div class="modal__overlay" data-micromodal-close>
+      <div class="modal__container modal-callback__container" role="dialog" aria-modal="true">
+        <header class="modal__header">
+          <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+        </header>
+        <main class="modal__content">
+          <form action="" class="callback__form callback__form--modal form">
+            <h3 class="callback__title">
+              Оставьте свои контактные данные
+              <br>
+              и мы свяжемся с Вами в течение часа
+            </h3>
+            <input class="callback__input input input-text" name="user_name" require placeholder="Ваше ФИО" type="text">
+            <input class="callback__input input input-text" name="user_phone" require placeholder="Ваш номер телефона" type="tel">
+            <textarea class="input input-text input-textfield" name="user_message" placeholder="Ваш комментарий"></textarea>
+            <button class="callback__button button button-secondary">
+              <span class="button-secondary__text">Рассчитать стоимость</span>
+            </button>
+          </form>
+        </main>
+      </div>
+      <!-- /.modal__container -->
+    </div>
+    <!-- /.modal__overlay -->
+  </div>
+  <!-- /.modal -->
