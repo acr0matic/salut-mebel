@@ -1,0 +1,29 @@
+.press {
+  margin-bottom: 90px;
+
+  &__wrapper {
+    @include flex($align: flex-start);
+  }
+
+  &__videoblock {
+    width: 48%;
+  }
+
+  &__video-title {
+    display: block;
+    margin-top: 5px;
+
+    font-size: $font-size-5;
+    font-weight: $weight-bold;
+  }
+
+  &__content {
+    width: 48%;
+  }
+
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

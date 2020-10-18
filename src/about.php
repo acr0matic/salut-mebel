@@ -237,6 +237,45 @@
     <!-- /.container -->
   </section>
 
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Пресса о нас</h2>
+
+      <div class="press">
+        <div class="press__wrapper">
+          <div class="press__video-block">
+            <iframe class="press__video" width="560" height="315" src="https://www.youtube.com/embed/_VOrIXDAYOQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <span class="press__video-title">Передача о "Салют-мебель"</span>
+          </div>
+          <!-- /.press__video-block -->
+
+          <div class="press__content">
+            <p class="press__text">
+              Компания «Салют-Мебель» приняла участие в телепередаче «Московский бренд – современный знак качества».
+            </p>
+
+            <p class="press__text">
+              Мы привыкли считать, что если дешево - это значит
+              не качественно, а если качественно, то сильно дорого
+            </p>
+
+            <p class="press__text">
+              Но есть еще и третий вариант - качественно и недорого
+              - это кухни от фабрики «САЛЮТ МЕБЕЛЬ».
+            </p>
+
+            <p class="press__text">
+              На сегодняшний день такая мебель все больше и больше интересует потребителя, ведь приобрести аналоги такой мебельной продукции с такой же стоимостью невозможно.
+            </p>
+          </div>
+          <!-- /.press__content -->
+        </div>
+        <!-- /.press__wrapper -->
+      </div>
+      <!-- /.press -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once 'include/footer.php' ?>
