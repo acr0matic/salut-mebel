@@ -1,0 +1,67 @@
+.about {
+  margin-top: 70px;
+  filter: drop-shadow($shadow-primary);
+
+  &__header {
+    position: relative;
+  }
+
+  &__picture {
+    &--main {
+      position: relative;
+
+      margin-bottom: 180px;
+    }
+  }
+
+  &__image {
+
+  }
+
+  &__title {
+    position: absolute;
+    top: 30%;
+    left: 100px;
+
+    font-size: $font-size-1;
+    color: $text-primary--inverted;
+    font-weight: $weight-bold;
+  }
+
+  &__information {
+    position: absolute;
+    right: 0;
+    bottom: -20%;
+    left: 0;
+
+    width: 100%;
+    max-width: 620px;
+
+    margin: 0 auto;
+    padding: 30px 60px;
+
+    background-color: $block-primary;
+  }
+
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__content {
+
+  }
+
+  &__row {
+    @include flex();
+
+    &:not(:last-child) {
+      margin-bottom: 70px;
+    }
+  }
+
+  &__description {
+    width: 47%;
+  }
+}
