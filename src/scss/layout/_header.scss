@@ -5,9 +5,6 @@
 .header {
   z-index: $z-index-menu;
 
-  padding-top: 30px;
-  padding-bottom: 20px;
-
   @include breakpoint($breakpoint-mobile-large) {
     position: fixed;
     top: 0;
@@ -20,8 +17,13 @@
   }
 
   &__container {
+    position: relative;
+
     @include flex();
     flex-wrap: wrap;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
 
     &::after {
       content: '';
