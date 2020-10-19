@@ -1,0 +1,15 @@
+.hamburger {
+  padding: 0;
+  outline: none;
+
+  &-inner,
+  &-inner::after,
+  &-inner::before {
+    width: 36px;
+    height: 4px;
+
+    background-color: #4c4c4c;
+
+    border-radius: 0;
+  }
+}

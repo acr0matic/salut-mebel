@@ -6,6 +6,10 @@
 
   box-shadow: $shadow-navbar;
 
+  @include breakpoint($breakpoint-mobile-large) {
+    display: none;
+  }
+
   &__list {
     @include flex($justify: center);
     background-color: $background-primary;

@@ -1,3 +1,7 @@
 .logo {
   cursor: pointer;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    width: 30%;
+  }
 }
