@@ -1,6 +1,6 @@
 .catalog-card {
   position: relative;
-  
+
   background-color: #ffffff;
 
   margin-bottom: 40px;
@@ -37,8 +37,6 @@
   &__picture {
     overflow: hidden;
     border-radius: 5px;
-
-    backface-visibility: hidden;
   }
 
   &__image {
@@ -50,6 +48,7 @@
     object-fit: cover;
 
     cursor: pointer;
+    backface-visibility: hidden;
 
     &--thumbnail {
       max-width: 70px;

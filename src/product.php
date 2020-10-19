@@ -200,13 +200,13 @@
             <div class="solution-card__picture">
               <img src="img/product/solution/1.jpg" alt="" class="solution-card__image">
             </div>
-            <!-- /.olution-card__picture -->
+            <!-- /.solution-card__picture -->
 
             <div class="solution-card__wrapper">
               <h4 class="solution-card__title">Типовой проект 1</h4>
-              <button class="solution-card__button button button-primary">Посмотреть</button>
+              <a href="" class="solution-card__button button button-primary">Посмотреть</a>
             </div>
-            <!-- /.olution-card__wrapper -->
+            <!-- /.solution-card__wrapper -->
           </div>
           <!-- /.solution-card -->
 
@@ -214,13 +214,13 @@
             <div class="solution-card__picture">
               <img src="img/product/solution/2.jpg" alt="" class="solution-card__image">
             </div>
-            <!-- /.olution-card__picture -->
+            <!-- /.solution-card__picture -->
 
             <div class="solution-card__wrapper">
               <h4 class="solution-card__title">Типовой проект 2</h4>
-              <button class="solution-card__button button button-primary">Посмотреть</button>
+              <a href="" class="solution-card__button button button-primary">Посмотреть</a>
             </div>
-            <!-- /.olution-card__wrapper -->
+            <!-- /.solution-card__wrapper -->
           </div>
           <!-- /.solution-card -->
 
@@ -228,13 +228,13 @@
             <div class="solution-card__picture">
               <img src="img/product/solution/3.jpg" alt="" class="solution-card__image">
             </div>
-            <!-- /.olution-card__picture -->
+            <!-- /.solution-card__picture -->
 
             <div class="solution-card__wrapper">
               <h4 class="solution-card__title">Типовой проект 3</h4>
-              <button class="solution-card__button button button-primary">Посмотреть</button>
+              <a href="" class="solution-card__button button button-primary">Посмотреть</a>
             </div>
-            <!-- /.olution-card__wrapper -->
+            <!-- /.solution-card__wrapper -->
           </div>
           <!-- /.solution-card -->
         </div>

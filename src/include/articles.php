@@ -32,7 +32,7 @@
                 <div class="article__content">
                   <h3 class="article__title">Как собрать кухню самому?</h3>
                   <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-                  <button class="article__button button button-primary">Подробнее</button>
+                  <a href="" class="article__button button button-primary">Подробнее</a>
                 </div>
                 <!-- /.article__content -->
 
@@ -53,7 +53,7 @@
                 <div class="article__content">
                   <h3 class="article__title">Как собрать кухню самому?</h3>
                   <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-                  <button class="article__button button button-primary">Подробнее</button>
+                  <a href="" class="article__button button button-primary">Подробнее</a>
                 </div>
                 <!-- /.article__content -->
               </article>
@@ -73,7 +73,7 @@
                 <div class="article__content">
                   <h3 class="article__title">Как собрать кухню самому?</h3>
                   <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-                  <button class="article__button button button-primary">Подробнее</button>
+                  <a href="" class="article__button button button-primary">Подробнее</a>
                 </div>
                 <!-- /.article__content -->
               </article>
@@ -93,7 +93,7 @@
                 <div class="article__content">
                   <h3 class="article__title">Как собрать кухню самому?</h3>
                   <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-                  <button class="article__button button button-primary">Подробнее</button>
+                  <a href="" class="article__button button button-primary">Подробнее</a>
                 </div>
                 <!-- /.article__content -->
               </article>

@@ -140,7 +140,7 @@
       </li>
 
       <li class="nav__item link dropdown">
-        <a href="" class="nav__link link__item link__item--nav svg-wrapper svg-wrapper--hover">
+        <a class="nav__link link__item link__item--nav svg-wrapper svg-wrapper--hover">
           <svg width="17" height="13" viewBox="0 0 17 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect y="10" width="17" height="3" fill="#4C4C4C" />
             <rect y="5" width="17" height="3" fill="#4C4C4C" />

@@ -7,6 +7,9 @@
   }
 
   &__picture {
+    border-radius: 5px;
+    overflow: hidden;
+    
     &--main {
       position: relative;
 

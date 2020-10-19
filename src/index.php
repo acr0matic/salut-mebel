@@ -700,9 +700,9 @@
         </div>
         <!-- /.portfolio__wrapper -->
 
-        <button class="portfolio__button button button-secondary">
+        <a href="" class="portfolio__button button button-secondary">
           <span class="button-secondary__text">Смотреть остальное </span>
-        </button>
+        </a>
       </div>
       <!-- /.portfolio -->
     </div>
