@@ -13,6 +13,12 @@
     margin-top: 40px;
   }
 
+  &--hide {
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
+  }
+
   &__title {
     @include flex();
 
@@ -32,6 +38,12 @@
 
   &__breadcrumbs {
     margin-bottom: 10px;
+  }
+
+  &__action {
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
   }
 }
 

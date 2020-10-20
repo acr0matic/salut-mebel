@@ -794,7 +794,7 @@
     <!-- /.container -->
   </section>
 
-  <section class="section">
+  <section class="section section--hide">
     <div class="container">
       <h2 class="section__title">Наши последние работы</h2>
       <div class="portfolio">

@@ -1,6 +1,14 @@
 .article__slider {
+  @include breakpoint($breakpoint-mobile-large) {
+    padding: 0 30px;
+  }
+
   &-left,
   &-right {
     display: none;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: flex;
+    }
   }
 }

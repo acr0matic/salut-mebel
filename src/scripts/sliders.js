@@ -39,12 +39,19 @@ const offerSlider = new Swiper('.promo__offer', {
 });
 
 const articleSlider = new Swiper('.article__slider', {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 40,
 
   navigation: {
-    nextEl: '.article__slider-next',
-    prevEl: '.article__slider-prev',
+    nextEl: '.article__slider-right',
+    prevEl: '.article__slider-left',
+  },
+
+  breakpoints: {
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
   },
 });
 

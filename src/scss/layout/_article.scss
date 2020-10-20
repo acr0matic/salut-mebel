@@ -20,6 +20,10 @@
     overflow: hidden;
     box-shadow: $shadow-primary;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      max-width: unset;
+    }
+
     &:not(:nth-child(4n)) {
       margin-right: 40px;
     }
