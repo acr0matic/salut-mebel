@@ -25,6 +25,10 @@
     padding-top: 30px;
     padding-bottom: 20px;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      padding: 0;
+    }
+
     &::after {
       content: '';
       position: absolute;

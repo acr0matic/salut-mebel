@@ -253,7 +253,6 @@
   <section class="section" id="catalog">
     <div class="container">
       <div class="catalog">
-
         <div class="catalog__row">
           <h2 class="catalog__title">
             Кухни

@@ -15,6 +15,18 @@
 
       padding: 0 10px;
     }
+
+    &-pagination {
+      padding-right: 15px;
+
+      display: none;
+
+      text-align: right;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        display: block;
+      }
+    }
   }
 
   &__slider {
