@@ -6,7 +6,7 @@
     position: absolute;
     z-index: -1;
     top: -7px;
-    right: 0;
+    right: -11px;
   }
 
   &__count {
@@ -14,8 +14,6 @@
 
     font-size: $font-size-3;
     color: $text-primary--inverted;
-
-    margin-right: 8px;
 
     &::before {
       content: "-";

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* global Swiper */
 
-const promoSlider = new Swiper('.promo__slider-container', {
+const promoSlider = new Swiper('.promo__slider', {
   loop: true,
   autoplay: {
     delay: 5000,
@@ -14,6 +14,27 @@ const promoSlider = new Swiper('.promo__slider-container', {
   navigation: {
     nextEl: '.promo__slider-right',
     prevEl: '.promo__slider-left',
+  },
+});
+
+const offerSlider = new Swiper('.promo__offer', {
+  loop: true,
+  autoplay: {
+    delay: 2000,
+  },
+
+  slidesPerView: 1,
+  spaceBetween: 25,
+
+  breakpoints: {
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+
+  pagination: {
+    el: '.promo__offer-pagination',
   },
 });
 

@@ -2,8 +2,35 @@
   margin-bottom: 60px;
   margin-top: 40px;
 
-  &__list {
-    @include flex();
+  @include breakpoint($breakpoint-mobile-large) {
+    margin-top: 60px;
+    margin-bottom: 10px;
+  }
+
+  &__offer {
     margin-top: 40px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-top: 10px;
+
+      padding: 0 10px;
+    }
+  }
+
+  &__slider {
+    &-left,
+    &-right {
+      @include breakpoint($breakpoint-mobile-large) {
+        display: none;
+      }
+    }
+
+    &-pagination {
+      display: none;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        display: block;
+      }
+    }
   }
 }

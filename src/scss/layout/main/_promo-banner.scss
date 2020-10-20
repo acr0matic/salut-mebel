@@ -6,19 +6,35 @@
 
   height: 435px;
 
-  &__image {
+  &__picture {
     position: absolute;
+    height: 100%;
+
     pointer-events: none;
+  }
+
+  &__image {
+    height: 100%;
+
+    object-fit: cover;
   }
 
   &__content {
     position: relative;
 
     padding-left: 120px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      padding-left: 25px;
+    }
   }
 
   &__title {
     color: $text-primary--inverted;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-3;
+    }
   }
 
   &__button {

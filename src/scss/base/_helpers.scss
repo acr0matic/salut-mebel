@@ -83,6 +83,10 @@
 
 .block-skewed {
   clip-path: polygon(7% 0%, 100% 0%, 93% 100%, 0% 100%);
+
+  @include breakpoint($breakpoint-mobile-large) {
+    clip-path: unset;
+  }
 }
 
 .price {
@@ -98,9 +102,7 @@
 
   &:hover {
     color: $link-hover;
-  }
 
-  &:hover {
     .link__item {
       color: $link-hover;
     }
