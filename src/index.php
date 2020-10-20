@@ -175,7 +175,7 @@
   <section id="advantages">
     <div class="container">
       <div class="advantages">
-        <div class="advantages__item">
+        <div class="advantages__item ">
           <div class="advantages__icon-wrapper">
             <img src="img/icons/fix.svg" alt="" class="advantages__icon">
           </div>
@@ -215,7 +215,7 @@
         </div>
         <!-- /.advantages__item -->
 
-        <div class="advantages__item">
+        <div class="advantages__item advantages__item--hide">
           <div class="advantages__icon-wrapper">
             <img src="img/icons/kitchen-1.svg" alt="" class="advantages__icon">
           </div>
@@ -225,7 +225,7 @@
         </div>
         <!-- /.advantages__item -->
 
-        <div class="advantages__item">
+        <div class="advantages__item advantages__item--hide">
           <div class="advantages__icon-wrapper">
             <img src="img/icons/market.svg" alt="" class="advantages__icon">
           </div>
@@ -235,7 +235,7 @@
         </div>
         <!-- /.advantages__item -->
 
-        <div class="advantages__item">
+        <div class="advantages__item advantages__item--hide">
           <div class="advantages__icon-wrapper">
             <img src="img/icons/kitchen-2.svg" alt="" class="advantages__icon">
           </div>

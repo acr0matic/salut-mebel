@@ -6,8 +6,28 @@
 .advantages {
   @include flex($align: flex-start);
 
+  @include breakpoint($breakpoint-mobile-large) {
+    flex-wrap: wrap;
+  }
+
   &__item {
     width: 150px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      @include flex();
+      flex-direction: column;
+
+      width: 50%;
+      margin-bottom: 30px;
+
+      text-align: center;
+    }
+
+    &--hide {
+      @include breakpoint($breakpoint-mobile-large) {
+        display: none;
+      }
+    }
   }
 
   &__icon-wrapper {
@@ -22,5 +42,9 @@
   &__title {
     margin-top: 10px;
     font-weight: $weight-regular;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      max-width: 120px;
+    }
   }
 }
