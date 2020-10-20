@@ -3,7 +3,11 @@
 // -----------------------------------------------------------------------------
 
 .section {
-  margin-top: 90px;
+  margin-top: 60px;
+
+  @include breakpoint($breakpoint-mobile-large) {
+    padding: 0 10px;
+  }
 
   &--breadcrumbs {
     margin-top: 40px;

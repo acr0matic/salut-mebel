@@ -49,21 +49,35 @@ const articleSlider = new Swiper('.article__slider', {
 });
 
 const kitchenSlider = new Swiper('.catalog__slider--kitchen', {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 40,
 
   navigation: {
     nextEl: '.catalog__slider--kitchen-right',
     prevEl: '.catalog__slider--kitchen-left',
   },
+
+  breakpoints: {
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+  },
 });
 
 const hullSlider = new Swiper('.catalog__slider--hull', {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 40,
 
   navigation: {
     nextEl: '.catalog__slider--hull-right',
     prevEl: '.catalog__slider--hull-left',
+  },
+
+  breakpoints: {
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
   },
 });

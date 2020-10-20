@@ -8,6 +8,10 @@
 
   transition: box-shadow 0.15s ease;
 
+  @include breakpoint($breakpoint-mobile-large) {
+    box-shadow: $shadow-primary;
+  }
+
   &--shadow {
     box-shadow: $shadow-primary;
   }
@@ -35,25 +39,42 @@
   }
 
   &__picture {
+    height: 160px;
+
     overflow: hidden;
     border-radius: 5px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      height: 250px;
+    }
+
+    &--thumbnail {
+      height: 38px;
+
+      &:not(:last-child) {
+        margin-right: 5px;
+
+        @include breakpoint($breakpoint-mobile-large) {
+          margin-right: 10px;
+        }
+      }
+
+      @include breakpoint($breakpoint-mobile-large) {
+        height: 50px;
+      }
+    }
   }
 
   &__image {
     position: relative;
     z-index: 1;
 
-    height: 190px;
+    height: 100%;
 
     object-fit: cover;
 
     cursor: pointer;
     backface-visibility: hidden;
-
-    &--thumbnail {
-      max-width: 70px;
-      height: 38px;
-    }
 
     &--scale {
       transition: transform 0.15s ease;
@@ -67,6 +88,11 @@
     margin-bottom: -60px;
 
     transition: all 0.15s ease;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      transform: translateY(0);
+      margin-bottom: 0;
+    }
   }
 
   &__title {
@@ -90,5 +116,10 @@
 
     visibility: hidden;
     opacity: 0;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      visibility: visible;
+      opacity: 1;
+    }
   }
 }
