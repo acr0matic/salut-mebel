@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* global Swiper */
 
-const promoSlider = new Swiper('.promo__slider-container', {
+const promoSlider = new Swiper('.promo__slider', {
   loop: true,
   autoplay: {
     delay: 5000,
@@ -17,32 +17,74 @@ const promoSlider = new Swiper('.promo__slider-container', {
   },
 });
 
+const offerSlider = new Swiper('.promo__offer', {
+  loop: true,
+  autoplay: {
+    delay: 2000,
+  },
+
+  slidesPerView: 1,
+  spaceBetween: 25,
+
+  breakpoints: {
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+  },
+
+  pagination: {
+    el: '.promo__offer-pagination',
+  },
+});
+
 const articleSlider = new Swiper('.article__slider', {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 40,
 
   navigation: {
-    nextEl: '.article__slider-next',
-    prevEl: '.article__slider-prev',
+    nextEl: '.article__slider-right',
+    prevEl: '.article__slider-left',
+  },
+
+  breakpoints: {
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
   },
 });
 
 const kitchenSlider = new Swiper('.catalog__slider--kitchen', {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 40,
 
   navigation: {
     nextEl: '.catalog__slider--kitchen-right',
     prevEl: '.catalog__slider--kitchen-left',
   },
+
+  breakpoints: {
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
+  },
 });
 
 const hullSlider = new Swiper('.catalog__slider--hull', {
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 40,
 
   navigation: {
     nextEl: '.catalog__slider--hull-right',
     prevEl: '.catalog__slider--hull-left',
+  },
+
+  breakpoints: {
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 30,
+    },
   },
 });

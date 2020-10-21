@@ -5,9 +5,11 @@
 @import "vendors/family.scss";
 @import "vendors/breakpoint.scss";
 @import "vendors/swiper.scss";
+@import "vendors/hamburger";
 
 // 1.2. Импорт кастомизации библиотек
 @import "vendors-extended/swiper-custom";
+@import "vendors-extended/hamburger-custom";
 
 // 2. Подключение базовых функций и переменных
 @import "abstracts/abstracts.scss";

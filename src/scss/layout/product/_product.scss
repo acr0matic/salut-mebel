@@ -1,10 +1,18 @@
 .product {
   &__main {
     @include flex($align: stretch);
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-direction: column;
+    }
   }
 
   &__gallery {
     width: 47%;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
   }
 
   &__description {
@@ -12,6 +20,12 @@
     flex-direction: column;
 
     width: 47%;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+
+      margin-top: 40px;
+    }
   }
 
   &__title {
@@ -41,6 +55,13 @@
 
     font-size: $font-size-3;
     font-weight: $weight-bold;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-4;
+    }
+  }
+
+  &__button {
   }
 
   &__extra {
@@ -49,10 +70,19 @@
 
   &__picture {
     width: 47%;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
   }
 
   &__image {
     height: 560px;
     object-fit: cover;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      height: 360px;
+      border-radius: 5px;
+    }
   }
 }

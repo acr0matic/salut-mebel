@@ -1,11 +1,24 @@
 .catalog__slider {
+  @include breakpoint($breakpoint-mobile-large) {
+    padding: 0 20px;
+  }
+
   &-left,
   &-right {
     top: 165px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      top: 270px;
+    }
   }
 
   &-left {
     left: 0;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      left: 10px;
+    }
+
     &::after {
       content: url("../img/icons/controls/slider-left.svg");
     }
@@ -13,6 +26,11 @@
 
   &-right {
     right: 0;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      right: 10px;
+    }
+
     &::after {
       content: url("../img/icons/controls/slider-right.svg");
     }

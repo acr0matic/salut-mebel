@@ -129,6 +129,12 @@
         <!-- /.header-contact__phone -->
       </div>
       <!-- /.header__contact -->
+
+      <button class="header__hamburger hamburger hamburger--collapse" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
     </div>
     <!-- /.container -->
   </header>

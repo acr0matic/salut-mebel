@@ -21,6 +21,10 @@
     max-width: 670px;
 
     overflow: hidden;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 95%;
+    }
   }
 
   &__header {
@@ -64,6 +68,10 @@
 
     padding: 30px;
     overflow-y: auto;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      padding: 15px;
+    }
   }
 
   &__text {

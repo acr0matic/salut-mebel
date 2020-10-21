@@ -5,6 +5,10 @@
     flex-direction: row-reverse;
   }
 
+  @include breakpoint($breakpoint-mobile-large) {
+    display: none;
+  }
+
   &:not(:last-child) {
     margin-bottom: 70px;
   }

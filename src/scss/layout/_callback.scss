@@ -3,22 +3,38 @@
 
   &__wrapper {
     @include flex($align: flex-start);
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-wrap: wrap;
+    }
   }
 
   &__content {
     width: 48%;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
   }
 
   &__title {
     margin-bottom: 30px;
 
     font-weight: $weight-bold;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-4;
+    }
   }
 
   &__image {
     margin-bottom: 36px;
 
     border-radius: 5px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
   }
 
   &__action {
@@ -30,6 +46,10 @@
 
     background-color: $block-primary;
     box-shadow: $shadow-primary;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
 
     &__icon {
       width: 44px;
@@ -50,10 +70,18 @@
     flex-direction: column;
     width: 43%;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
+
     &--modal {
       width: 80%;
 
       margin: 0 auto;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        width: 100%;
+      }
     }
   }
 

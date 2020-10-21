@@ -2,6 +2,10 @@
   &__wrapper {
     @include flex();
     filter: drop-shadow($shadow-primary);
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-direction: column;
+    }
   }
 
   &__card {
@@ -14,6 +18,13 @@
 
     background-color: $block-primary;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+
     &--full {
     }
   }
@@ -24,6 +35,10 @@
 
     font-size: $font-size-4;
     font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-5;
+    }
   }
 
   &__title {
@@ -32,6 +47,10 @@
 
     font-size: $font-size-4;
     font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-5;
+    }
 
     &::before,
     &::after {

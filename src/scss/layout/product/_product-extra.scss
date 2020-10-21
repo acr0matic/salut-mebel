@@ -1,13 +1,26 @@
 .product-extra {
   &__wrapper {
     @include flex();
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-direction: column;
+    }
   }
 
   &__card {
     width: 33%;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
     &:not(:last-child) {
       margin-right: 45px;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        margin-right: 0;
+      }
     }
   }
 
@@ -18,6 +31,12 @@
 
     font-size: $font-size-4;
     font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+
+      font-size: $font-size-3;
+    }
   }
 
   &__picture {

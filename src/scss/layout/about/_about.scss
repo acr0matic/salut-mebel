@@ -2,6 +2,10 @@
   margin-top: 70px;
   filter: drop-shadow($shadow-primary);
 
+  @include breakpoint($breakpoint-mobile-large) {
+    margin-top: 0;
+  }
+
   &__header {
     position: relative;
   }
@@ -9,16 +13,30 @@
   &__picture {
     border-radius: 5px;
     overflow: hidden;
-    
+
     &--main {
       position: relative;
 
       margin-bottom: 180px;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        margin-bottom: 300px;
+      }
     }
   }
 
   &__image {
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-bottom: 15px;
+    }
 
+    &--main {
+      @include breakpoint($breakpoint-mobile-large) {
+        height: 435px;
+
+        object-fit: cover;
+      }
+    }
   }
 
   &__title {
@@ -29,6 +47,14 @@
     font-size: $font-size-1;
     color: $text-primary--inverted;
     font-weight: $weight-bold;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      top: unset;
+      bottom: 50px;
+      left: 5px;
+
+      font-size: $font-size-2 + 6;
+    }
   }
 
   &__information {
@@ -44,6 +70,15 @@
     padding: 30px 60px;
 
     background-color: $block-primary;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      bottom: -60%;
+      width: 95%;
+
+      padding: 10px;
+
+      border-radius: 5px;
+    }
   }
 
   &__text {
@@ -53,11 +88,21 @@
   }
 
   &__content {
-
   }
 
   &__row {
     @include flex();
+    @include even() {
+      flex-direction: row-reverse;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        flex-direction: column-reverse;
+      }
+    }
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-direction: column-reverse;
+    }
 
     &:not(:last-child) {
       margin-bottom: 70px;
@@ -66,5 +111,9 @@
 
   &__description {
     width: 47%;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
   }
 }

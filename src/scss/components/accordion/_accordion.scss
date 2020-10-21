@@ -40,6 +40,10 @@
     font-size: $font-size-5;
     font-weight: $weight-medium;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-6;
+    }
+
     &--regular {
       font-weight: $weight-regular;
     }

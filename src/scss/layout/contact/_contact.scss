@@ -8,6 +8,10 @@
     width: 55%;
     border-radius: 5px;
     overflow: hidden;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
   }
 
   &__image {

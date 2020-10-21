@@ -1,9 +1,17 @@
 .faq {
   &__wrapper {
     @include flex($align: flex-start);
+
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-wrap: wrap;
+    }
   }
 
   &__column {
     width: 48%;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+    }
   }
 }

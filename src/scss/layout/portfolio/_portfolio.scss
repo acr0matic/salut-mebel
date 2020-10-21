@@ -10,6 +10,12 @@
 
     transition: opacity 0.15s ease;
 
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 48%;
+      margin-bottom: 15px;
+    }
+
     &:hover {
       opacity: 0.7;
     }
