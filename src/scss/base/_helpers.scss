@@ -188,7 +188,7 @@
 }
 
 .breadcrumbs {
-  @include flex($justify: flex-start);
+  @include flex($justify: flex-start, $align: flex-start);
 
   &__item {
     @include flex();
