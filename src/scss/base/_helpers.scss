@@ -54,10 +54,6 @@
     }
   }
 
-  &__breadcrumbs {
-    margin-bottom: 10px;
-  }
-
   &__action {
     @include breakpoint($breakpoint-mobile-large) {
       display: none;
@@ -190,9 +186,13 @@
 .breadcrumbs {
   @include flex($justify: flex-start, $align: flex-start);
 
+  padding-bottom: 10px;
+  overflow-x: scroll;
+
   &__item {
     @include flex();
     margin-right: 10px;
+    white-space: nowrap;
 
     @include breakpoint($breakpoint-mobile-large) {
       font-size: $font-size-7;
