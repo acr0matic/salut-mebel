@@ -26,6 +26,10 @@
 
     &:not(:nth-child(4n)) {
       margin-right: 40px;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        margin-right: 0;
+      }
     }
   }
 
