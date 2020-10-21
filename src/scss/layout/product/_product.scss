@@ -55,6 +55,10 @@
 
     font-size: $font-size-3;
     font-weight: $weight-bold;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-4;
+    }
   }
 
   &__button {

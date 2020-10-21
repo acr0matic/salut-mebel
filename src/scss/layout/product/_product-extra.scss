@@ -31,6 +31,12 @@
 
     font-size: $font-size-4;
     font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+
+      font-size: $font-size-3;
+    }
   }
 
   &__picture {
