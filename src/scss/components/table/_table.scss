@@ -4,6 +4,10 @@
   border-collapse: separate;
   border-spacing: 0 5px;
 
+  @include breakpoint($breakpoint-mobile-large) {
+    font-size: $font-size-6;
+  }
+
   &__head {
     text-align: left;
   }
@@ -12,6 +16,14 @@
     background-color: $table__row;
 
     box-shadow: $shadow-primary;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      .price {
+        &::after {
+          display: none;
+        }
+      }
+    }
 
     &--head {
       background-color: $table__heading;
@@ -24,10 +36,8 @@
   &__column {
     padding: 8px 18px;
 
-    &--price {
-      &::after {
-        content: " руб.";
-      }
+    @include breakpoint($breakpoint-mobile-large) {
+      padding: 8px;
     }
   }
 }
