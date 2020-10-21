@@ -21,6 +21,10 @@
     margin-bottom: 30px;
 
     font-weight: $weight-bold;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-4;
+    }
   }
 
   &__image {
@@ -74,6 +78,10 @@
       width: 80%;
 
       margin: 0 auto;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        width: 100%;
+      }
     }
   }
 
