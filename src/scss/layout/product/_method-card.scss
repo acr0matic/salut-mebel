@@ -1,6 +1,14 @@
 .method-card {
+  @include breakpoint($breakpoint-mobile-large) {
+    margin-bottom: 30px;
+  }
+
   &__picture {
     margin-bottom: 10px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      display: none;
+    }
   }
 
   &__image {
