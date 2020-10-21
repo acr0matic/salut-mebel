@@ -15,7 +15,7 @@
       <div class="about">
         <div class="about__header">
           <div class="about__picture about__picture--main block-skewed">
-            <img src="img/about/header-image.jpg" alt="" class="about__image">
+            <img src="img/about/header-image.jpg" alt="" class="about__image about__image--main">
             <h2 class="about__title">
               О фабрике
               <br>
@@ -65,11 +65,6 @@
           <!-- /.about__row -->
 
           <div class="about__row">
-            <div class="about__picture">
-              <img src="img/about/2.jpg" alt="" class="about__image">
-            </div>
-            <!-- /.about__picture -->
-
             <div class="about__description">
               <p class="about__text">
                 Фабрика «Салют Мебель» предлагает приобрести кухни
@@ -84,6 +79,11 @@
               </p>
             </div>
             <!-- /.about__description -->
+
+            <div class="about__picture">
+              <img src="img/about/2.jpg" alt="" class="about__image">
+            </div>
+            <!-- /.about__picture -->
           </div>
           <!-- /.about__row -->
         </div>

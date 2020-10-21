@@ -2,18 +2,36 @@
   &__row {
     @include flex($align: stretch);
 
+    @include breakpoint($breakpoint-mobile-large) {
+      flex-direction: column;
+    }
+
     &--center {
       justify-content: center;
       margin-top: 35px;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        margin: 0;
+      }
     }
   }
 
   &__card {
     width: 260px;
 
+    @include breakpoint($breakpoint-mobile-large) {
+      width: 100%;
+
+      margin-bottom: 15px;
+    }
+
     &--margin {
       margin-left: 40px;
       margin-right: 40px;
+
+      @include breakpoint($breakpoint-mobile-large) {
+        margin: 0;
+      }
     }
   }
 }
