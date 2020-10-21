@@ -9,6 +9,8 @@
   transition: box-shadow 0.15s ease;
 
   @include breakpoint($breakpoint-mobile-large) {
+    width: 100%;
+
     box-shadow: $shadow-primary;
   }
 

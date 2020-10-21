@@ -11,6 +11,10 @@
 
   &--breadcrumbs {
     margin-top: 40px;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      margin-top: 100px;
+    }
   }
 
   &--hide {
