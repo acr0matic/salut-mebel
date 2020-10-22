@@ -262,6 +262,32 @@
     </ul>
   </nav>
 
+  <div id="mobile-menu" class="mobile-menu mobile-menu--slide">
+    <ul class="mobile-menu__navbar">
+      <li class="mobile-menu__item"><a href="#hero" class="mobile-menu__link">Главная</a></li>
+      <li class="mobile-menu__item"><a href="#fitting" class="mobile-menu__link">Каталог</a></li>
+      <li class="mobile-menu__item"><a href="#quiz" class="mobile-menu__link">Доставка и монтаж</a></li>
+      <li class="mobile-menu__item"><a href="#reason" class="mobile-menu__link">Портфолио</a></li>
+      <li class="mobile-menu__item"><a href="#manufacturing" class="mobile-menu__link">О нас</a></li>
+      <li class="mobile-menu__item"><a href="#work-scheme" class="mobile-menu__link">Статьи</a></li>
+      <li class="mobile-menu__item"><a href="#work-scheme" class="mobile-menu__link">Контакты</a></li>
+    </ul>
+
+    <div class="callback">
+      <div class="callback-action">
+        <button data-micromodal-trigger="modal-callback" class="button button-outline callback-action__label">Обратный звонок</button>
+      </div>
+      <!-- /.callback-action -->
+
+      <div class="callback__info callback-info">
+        <a class="callback-info__phone" href="tel:+7 926 630 45 56">+7 926 630 45 56</a>
+        <a class="callback-info__phone" href="tel:+7 926 630 45 56">+7 926 630 45 56</a>
+      </div>
+      <!-- /.callback-info -->
+    </div>
+    <!-- /.callback -->
+  </div>
+
   <div class="modal modal-callback micromodal-slide" id="modal-callback" aria-hidden="true">
     <div class="modal__overlay" data-micromodal-close>
       <div class="modal__container modal-callback__container" role="dialog" aria-modal="true">
