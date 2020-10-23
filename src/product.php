@@ -20,41 +20,110 @@
       <div class="product">
         <div class="product__main">
           <div class="product__gallery product-gallery">
-            <div class="product-gallery__main">
-              <img id="gallery-current" class="product-gallery__image product-gallery__image--current" src="img/product/1.jpg" alt="">
+            <div class="swiper-container product-gallery__main">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <a href="img/product/1.jpg" data-fslightbox>
+                      <img class="product-gallery__image product-gallery__image--current" src="img/product/1.jpg" alt="">
+                    </a>
+                  </div>
+                  <!-- /.product-gallery__main -->
+                </div>
+                <!-- /.swiper-slide -->
 
-              <div class="product-gallery__prev"></div>
-              <div class="product-gallery__next"></div>
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <a href="img/product/2.jpg" data-fslightbox>
+                      <img class="product-gallery__image product-gallery__image--current" src="img/product/2.jpg" alt="">
+                    </a>
+                  </div>
+                  <!-- /.product-gallery__main -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <a href="img/product/3.jpg" data-fslightbox>
+                      <img class="product-gallery__image product-gallery__image--current" src="img/product/3.jpg" alt="">
+                    </a>
+                  </div>
+                  <!-- /.product-gallery__main -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <a href="img/product/4.jpg" data-fslightbox>
+                      <img class="product-gallery__image product-gallery__image--current" src="img/product/4.jpg" alt="">
+                    </a>
+                  </div>
+                  <!-- /.product-gallery__main -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <a href="img/product/5.jpg" data-fslightbox>
+                      <img class="product-gallery__image product-gallery__image--current" src="img/product/5.jpg" alt="">
+                    </a>
+                  </div>
+                  <!-- /.product-gallery__main -->
+                </div>
+                <!-- /.swiper-slide -->
+              </div>
+              <!-- /.swiper-wrapper -->
+
+              <div class="swiper-button-prev product-gallery__prev"></div>
+              <div class="swiper-button-next product-gallery__next"></div>
             </div>
-            <!-- /.product-gallery__main -->
+            <!-- /.swiper-container -->
 
-            <div id="gallery-thumbs" class="product-gallery__thumbnails">
-              <div class="product-gallery__secondary">
-                <img class="product-gallery__image" src="img/product/thumbs/1.jpg" alt="">
-              </div>
-              <!-- /.product-gallery__secondary -->
+            <div class="swiper-container product-gallery__thumbnails">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <img class="product-gallery__image" src="img/product/thumbs/1.jpg" alt="">
+                  </div>
+                  <!-- /.product-gallery__secondary -->
+                </div>
+                <!-- /.swiper-slide -->
 
-              <div class="product-gallery__secondary">
-                <img class="product-gallery__image" src="img/product/thumbs/2.jpg" alt="">
-              </div>
-              <!-- /.product-gallery__secondary -->
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <img class="product-gallery__image" src="img/product/thumbs/2.jpg" alt="">
+                  </div>
+                  <!-- /.product-gallery__secondary -->
+                </div>
+                <!-- /.swiper-slide -->
 
-              <div class="product-gallery__secondary">
-                <img class="product-gallery__image" src="img/product/thumbs/3.jpg" alt="">
-              </div>
-              <!-- /.product-gallery__secondary -->
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <img class="product-gallery__image" src="img/product/thumbs/3.jpg" alt="">
+                  </div>
+                  <!-- /.product-gallery__secondary -->
+                </div>
+                <!-- /.swiper-slide -->
 
-              <div class="product-gallery__secondary">
-                <img class="product-gallery__image" src="img/product/thumbs/4.jpg" alt="">
-              </div>
-              <!-- /.product-gallery__secondary -->
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <img class="product-gallery__image" src="img/product/thumbs/4.jpg" alt="">
+                  </div>
+                  <!-- /.product-gallery__secondary -->
+                </div>
+                <!-- /.swiper-slide -->
 
-              <div class="product-gallery__secondary">
-                <img class="product-gallery__image" src="img/product/thumbs/5.jpg" alt="">
+                <div class="swiper-slide">
+                  <div class="product-gallery__picture">
+                    <img class="product-gallery__image" src="img/product/thumbs/5.jpg" alt="">
+                  </div>
+                  <!-- /.product-gallery__secondary -->
+                </div>
+                <!-- /.swiper-slide -->
               </div>
-              <!-- /.product-gallery__secondary -->
+              <!-- /.swiper-wrapper -->
             </div>
-            <!-- /.product-gallery__thumbnails -->
+            <!-- /.swiper-container -->
           </div>
           <!-- /.product__gallery -->
 

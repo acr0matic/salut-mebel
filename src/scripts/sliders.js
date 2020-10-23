@@ -88,3 +88,28 @@ const hullSlider = new Swiper('.catalog__slider--hull', {
     },
   },
 });
+
+const galleryPhoto = new Swiper('.product-gallery__main', {
+  slidesPerView: 1,
+  loop: true,
+  loopedSlides: 5,
+
+  navigation: {
+    nextEl: '.product-gallery__next',
+    prevEl: '.product-gallery__prev',
+  },
+});
+
+const galleryThumbnails = new Swiper('.product-gallery__thumbnails', {
+  slidesPerView: 5,
+  spaceBetween: 15,
+
+  loop: true,
+  touchRatio: 0.2,
+  slideToClickedSlide: true,
+
+  loopedSlides: 5,
+});
+
+if (document.querySelector('.product-gallery__main')) galleryPhoto.controller.control = galleryThumbnails;
+if (document.querySelector('.product-gallery__thumbnails')) galleryThumbnails.controller.control = galleryPhoto;

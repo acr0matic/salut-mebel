@@ -9,13 +9,9 @@
     margin-top: 10px;
   }
 
-  &__secondary {
+  &__picture {
     cursor: pointer;
     transition: opacity 0.15s ease;
-
-    &:not(:last-child) {
-      margin-right: 10px;
-    }
 
     &:hover {
       opacity: 0.75;
@@ -37,25 +33,19 @@
     }
   }
 
-  &__prev,
-  &__next {
-    &::after {
-      position: absolute;
-      top: 50%;
-    }
-  }
-
   &__prev {
+    left: 25px;
+
     &::after {
-      content: url("../img/icons/controls/arrow-left.svg");
-      left: 25px;
+      content: url("../img/icons/controls/arrow-right--white.svg");
     }
   }
 
   &__next {
+    right: 25px;
+
     &::after {
-      content: url("../img/icons/controls/arrow-right.svg");
-      right: 25px;
+      content: url("../img/icons/controls/arrow-left--white.svg");
     }
   }
 }
