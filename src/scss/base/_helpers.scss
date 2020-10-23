@@ -187,7 +187,7 @@
   @include flex($justify: flex-start, $align: flex-start);
 
   padding-bottom: 10px;
-  overflow-x: scroll;
+  overflow-x: auto;
 
   &__item {
     @include flex();

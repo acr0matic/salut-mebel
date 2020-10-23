@@ -218,7 +218,7 @@
 
             <div class="solution-card__wrapper">
               <h4 class="solution-card__title">Типовой проект 2</h4>
-              <a href="" class="solution-card__button button button-primary">Посмотреть</a>
+              <a href="solution.php" class="solution-card__button button button-primary">Посмотреть</a>
             </div>
             <!-- /.solution-card__wrapper -->
           </div>
@@ -232,7 +232,7 @@
 
             <div class="solution-card__wrapper">
               <h4 class="solution-card__title">Типовой проект 3</h4>
-              <a href="" class="solution-card__button button button-primary">Посмотреть</a>
+              <a href="solution.php" class="solution-card__button button button-primary">Посмотреть</a>
             </div>
             <!-- /.solution-card__wrapper -->
           </div>

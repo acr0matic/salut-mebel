@@ -16,7 +16,7 @@
         <div class="article__wrapper article__wrapper--wrap flex-wrapper-fix">
           <article class="article__item">
             <div class="article__picture">
-              <a href="">
+              <a href="article.php">
                 <img src="img/articles/article-1.jpg" alt="" class="article__image">
               </a>
             </div>
@@ -26,7 +26,7 @@
             <div class="article__content">
               <h3 class="article__title">Как собрать кухню самому?</h3>
               <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-              <button class="article__button button button-primary">Подробнее</button>
+              <a href="article.php" class="article__button button button-outline">Подробнее</a>
             </div>
             <!-- /.article__content -->
 
@@ -35,7 +35,7 @@
 
           <article class="article__item">
             <div class="article__picture">
-              <a href="">
+              <a href="article.php">
                 <img src="img/articles/article-2.jpg" alt="" class="article__image">
               </a>
             </div>
@@ -45,7 +45,7 @@
             <div class="article__content">
               <h3 class="article__title">Как собрать кухню самому?</h3>
               <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-              <button class="article__button button button-primary">Подробнее</button>
+              <a href="article.php" class="article__button button button-outline">Подробнее</button>
             </div>
             <!-- /.article__content -->
 
@@ -54,7 +54,7 @@
 
           <article class="article__item">
             <div class="article__picture">
-              <a href="">
+              <a href="article.php">
                 <img src="img/articles/article-3.jpg" alt="" class="article__image">
               </a>
             </div>
@@ -64,7 +64,7 @@
             <div class="article__content">
               <h3 class="article__title">Основные модные тенденции в кухнях?</h3>
               <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-              <button class="article__button button button-primary">Подробнее</button>
+              <a href="article.php" class="article__button button button-outline">Подробнее</a>
             </div>
             <!-- /.article__content -->
 
@@ -73,7 +73,7 @@
 
           <article class="article__item">
             <div class="article__picture">
-              <a href="">
+              <a href="article.php">
                 <img src="img/articles/article-4.jpg" alt="" class="article__image">
               </a>
             </div>
@@ -83,7 +83,7 @@
             <div class="article__content">
               <h3 class="article__title">Как собрать кухню самому?</h3>
               <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-              <button class="article__button button button-primary">Подробнее</button>
+              <a href="article.php" class="article__button button button-outline">Подробнее</a>
             </div>
             <!-- /.article__content -->
 
@@ -102,7 +102,7 @@
             <div class="article__content">
               <h3 class="article__title">Как собрать кухню самому?</h3>
               <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-              <button class="article__button button button-primary">Подробнее</button>
+              <a href="article.php" class="article__button button button-outline">Подробнее</a>
             </div>
             <!-- /.article__content -->
 
@@ -111,7 +111,7 @@
 
           <article class="article__item">
             <div class="article__picture">
-              <a href="">
+              <a href="article.php">
                 <img src="img/articles/article-1.jpg" alt="" class="article__image">
               </a>
             </div>
@@ -121,7 +121,7 @@
             <div class="article__content">
               <h3 class="article__title">Как собрать кухню самому?</h3>
               <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-              <button class="article__button button button-primary">Подробнее</button>
+              <a href="article.php" class="article__button button button-outline">Подробнее</a>
             </div>
             <!-- /.article__content -->
 
@@ -130,7 +130,7 @@
 
           <article class="article__item">
             <div class="article__picture">
-              <a href="">
+              <a href="article.php">
                 <img src="img/articles/article-1.jpg" alt="" class="article__image">
               </a>
             </div>
@@ -140,14 +140,11 @@
             <div class="article__content">
               <h3 class="article__title">Как собрать кухню самому?</h3>
               <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-              <button class="article__button button button-primary">Подробнее</button>
+              <a href="article.php" class="article__button button button-outline">Подробнее</a>
             </div>
             <!-- /.article__content -->
-
           </article>
           <!-- /.article__item -->
-
-
         </div>
         <!-- /.swiper-container -->
       </div>

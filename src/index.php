@@ -850,7 +850,7 @@
         </div>
         <!-- /.portfolio__wrapper -->
 
-        <a href="" class="portfolio__button button button-secondary">
+        <a href="portfolio.php" class="portfolio__button button button-secondary">
           <span class="button-secondary__text">Смотреть остальное </span>
         </a>
       </div>

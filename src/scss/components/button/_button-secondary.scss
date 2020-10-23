@@ -4,14 +4,10 @@
   background-color: $button-secondary;
   color: $button-secondary__text;
 
-  padding: 25px 25px;
+  padding: 20px 25px;
   margin-left: 5px;
 
   transform: skewX(-7deg);
-
-  @include breakpoint($breakpoint-mobile-large) {
-    padding: 20px 25px;
-  }
 
   &:hover {
     background-color: $button-secondary--hover;

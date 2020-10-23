@@ -264,13 +264,55 @@
 
   <div id="mobile-menu" class="mobile-menu mobile-menu--slide">
     <ul class="mobile-menu__navbar">
-      <li class="mobile-menu__item"><a href="#hero" class="mobile-menu__link">Главная</a></li>
-      <li class="mobile-menu__item"><a href="#fitting" class="mobile-menu__link">Каталог</a></li>
-      <li class="mobile-menu__item"><a href="#quiz" class="mobile-menu__link">Доставка и монтаж</a></li>
-      <li class="mobile-menu__item"><a href="#reason" class="mobile-menu__link">Портфолио</a></li>
-      <li class="mobile-menu__item"><a href="#manufacturing" class="mobile-menu__link">О нас</a></li>
-      <li class="mobile-menu__item"><a href="#work-scheme" class="mobile-menu__link">Статьи</a></li>
-      <li class="mobile-menu__item"><a href="#work-scheme" class="mobile-menu__link">Контакты</a></li>
+      <li class="mobile-menu__item"><a href="index.php" class="mobile-menu__link">Главная</a></li>
+      <li class="mobile-menu__item mobile-menu__item--extended">
+        <span class="mobile-menu__title">Каталог</span>
+        <ul class="mobile-submenu">
+          <li class="mobile-submenu__title">Кухни</li>
+          <li class="mobile-submenu__content">
+            <a href="" class="mobile-submenu__link">ДСП</a>
+            <a href="" class="mobile-submenu__link">МДФ</a>
+            <a href="" class="mobile-submenu__link">Эмаль</a>
+            <a href="" class="mobile-submenu__link">Пленка</a>
+            <a href="" class="mobile-submenu__link">Шпон</a>
+            <a href="" class="mobile-submenu__link">Массив Италия</a>
+            <a href="" class="mobile-submenu__link">Хай тек</a>
+            <a href="" class="mobile-submenu__link">Модерн</a>
+            <a href="" class="mobile-submenu__link">Классика</a>
+            <a href="" class="mobile-submenu__link">Пластик</a>
+            <a href="" class="mobile-submenu__link">Из акрила</a>
+            <a href="" class="mobile-submenu__link">Российский массив</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-submenu">
+          <li class="mobile-submenu__title">Корпусная мебель</li>
+          <li class="mobile-submenu__content">
+            <a href="" class="mobile-submenu__link">ДСП</a>
+            <a href="" class="mobile-submenu__link">МДФ</a>
+            <a href="" class="mobile-submenu__link">Эмаль</a>
+            <a href="" class="mobile-submenu__link">Пленка</a>
+            <a href="" class="mobile-submenu__link">Шпон</a>
+            <a href="" class="mobile-submenu__link">Массив Италия</a>
+            <a href="" class="mobile-submenu__link">Хай тек</a>
+          </li>
+        </ul>
+
+        <ul class="mobile-submenu">
+          <li class="mobile-submenu__title">Кухонные гарнитуры</li>
+          <li class="mobile-submenu__content">
+            <a href="" class="mobile-submenu__link">ДСП</a>
+            <a href="" class="mobile-submenu__link">МДФ</a>
+            <a href="" class="mobile-submenu__link">Эмаль</a>
+            <a href="" class="mobile-submenu__link">Пленка</a>
+          </li>
+        </ul>
+      </li>
+      <li class="mobile-menu__item"><a href="delivery.php" class="mobile-menu__link">Доставка и монтаж</a></li>
+      <li class="mobile-menu__item"><a href="portfolio.php" class="mobile-menu__link">Портфолио</a></li>
+      <li class="mobile-menu__item"><a href="about.php" class="mobile-menu__link">О нас</a></li>
+      <li class="mobile-menu__item"><a href="articles.php" class="mobile-menu__link">Статьи</a></li>
+      <li class="mobile-menu__item"><a href="contact.php" class="mobile-menu__link">Контакты</a></li>
     </ul>
 
     <div class="callback">
