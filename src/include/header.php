@@ -242,22 +242,22 @@
       </li>
 
       <li class="nav__item link">
-        <a href="/delivery.php" class="nav__link link__item link__item--nav">Доставка и монтаж</a>
+        <a href="delivery.php" class="nav__link link__item link__item--nav">Доставка и монтаж</a>
       </li>
 
       <li class="nav__item link">
-        <a href="/portfolio.php" class="nav__link link__item link__item--nav">Портфолио</a>
+        <a href="portfolio.php" class="nav__link link__item link__item--nav">Портфолио</a>
       </li>
       <li class="nav__item link">
-        <a href="/about.php" class="nav__link link__item link__item--nav">О нас</a>
-      </li>
-
-      <li class="nav__item link">
-        <a href="/articles.php" class="nav__link link__item link__item--nav">Статьи</a>
+        <a href="about.php" class="nav__link link__item link__item--nav">О нас</a>
       </li>
 
       <li class="nav__item link">
-        <a href="/contact.php" class="nav__link link__item link__item--nav">Контакты</a>
+        <a href="articles.php" class="nav__link link__item link__item--nav">Статьи</a>
+      </li>
+
+      <li class="nav__item link">
+        <a href="contact.php" class="nav__link link__item link__item--nav">Контакты</a>
       </li>
     </ul>
   </nav>
