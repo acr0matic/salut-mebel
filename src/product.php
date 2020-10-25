@@ -247,8 +247,6 @@
     <!-- /.container -->
   </section>
 
-  <section class="section"> </section>
-
   <?php include_once 'include/calculation.php' ?>
 
   <section id="solutions" class="section">
