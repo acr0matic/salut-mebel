@@ -161,7 +161,7 @@
               </div>
               <!-- /.product-extra__picture -->
 
-              <button class="product-extra__button button button-primary">Посмотреть</button>
+              <button data-micromodal-trigger="modal-colors" class="product-extra__button button button-primary">Посмотреть</button>
             </div>
             <!-- /.product-extra__card -->
 
@@ -172,7 +172,7 @@
               </div>
               <!-- /.product-extra__picture -->
 
-              <button class="product-extra__button button button-primary">Посмотреть</button>
+              <button data-micromodal-trigger="modal-facades" class="product-extra__button button button-primary">Посмотреть</button>
             </div>
             <!-- /.product-extra__card -->
           </div>
@@ -398,5 +398,139 @@
   <?php include_once 'include/callback.php' ?>
 
 </main>
+
+<div class="modal modal-callback micromodal-slide" id="modal-colors" aria-hidden="true">
+  <div class="modal__overlay" data-micromodal-close>
+    <div class="modal__container modal-product__container" role="dialog" aria-modal="true">
+      <header class="modal__header">
+        <span class="modal__title">Цветовые решения</span>
+        <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+      </header>
+      <main class="modal__content">
+        <div class="modal-product__wrapper flex-wrapper-fix">
+          <div class="modal-product__picture">
+            <a data-fslightbox="color" href="img/product/colors/color.jpg">
+              <img src="img/product/colors/color.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="color" href="img/product/colors/color.jpg">
+              <img src="img/product/colors/color.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="color" href="img/product/colors/color.jpg">
+              <img src="img/product/colors/color.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="color" href="img/product/colors/color.jpg">
+              <img src="img/product/colors/color.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="color" href="img/product/colors/color.jpg">
+              <img src="img/product/colors/color.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="color" href="img/product/colors/color.jpg">
+              <img src="img/product/colors/color.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="color" href="img/product/colors/color.jpg">
+              <img src="img/product/colors/color.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+        </div>
+        <!-- /.modal-product__wrapper -->
+      </main>
+    </div>
+    <!-- /.modal__container -->
+  </div>
+  <!-- /.modal__overlay -->
+</div>
+<!-- /.modal -->
+
+<div class="modal modal-callback micromodal-slide" id="modal-facades" aria-hidden="true">
+  <div class="modal__overlay" data-micromodal-close>
+    <div class="modal__container modal-product__container" role="dialog" aria-modal="true">
+      <header class="modal__header">
+        <span class="modal__title">Фасады кухонь</span>
+        <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>
+      </header>
+      <main class="modal__content">
+        <div class="modal-product__wrapper flex-wrapper-fix">
+          <div class="modal-product__picture">
+            <a data-fslightbox="facade" href="img/product/facades/facade.jpg">
+              <img src="img/product/facades/facade.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="facade" href="img/product/facades/facade.jpg">
+              <img src="img/product/facades/facade.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="facade" href="img/product/facades/facade.jpg">
+              <img src="img/product/facades/facade.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="facade" href="img/product/facades/facade.jpg">
+              <img src="img/product/facades/facade.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="facade" href="img/product/facades/facade.jpg">
+              <img src="img/product/facades/facade.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="facade" href="img/product/facades/facade.jpg">
+              <img src="img/product/facades/facade.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+
+          <div class="modal-product__picture">
+            <a data-fslightbox="facade" href="img/product/facades/facade.jpg">
+              <img src="img/product/facades/facade.jpg" alt="" class="modal-product__image">
+            </a>
+          </div>
+          <!-- /.modal-product__picture -->
+        </div>
+        <!-- /.modal-product__wrapper -->
+      </main>
+    </div>
+    <!-- /.modal__container -->
+  </div>
+  <!-- /.modal__overlay -->
+</div>
+<!-- /.modal -->
 
 <?php include_once 'include/footer.php' ?>

@@ -24,6 +24,7 @@
           <img src="img/articles/picture-1.jpg" alt="" class="article-block__image">
         </div>
         <!-- /.article-block__picture -->
+
         <h2 class="article-block__title section__title">Основные модные тенденции в кухнях</h2>
         <h3 class="article-block__subtitle">Краткое описание</h3>
 

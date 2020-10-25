@@ -6,6 +6,8 @@
 
   &__picture {
     width: 55%;
+    height: 247px;
+
     border-radius: 5px;
     overflow: hidden;
 
@@ -15,7 +17,7 @@
   }
 
   &__image {
-    height: 242px;
+    height: 100%;
     object-fit: cover;
   }
 }
