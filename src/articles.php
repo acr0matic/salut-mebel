@@ -45,7 +45,7 @@
             <div class="article__content">
               <h3 class="article__title">Как собрать кухню самому?</h3>
               <time class="article__date" datetime="2020-08-28">28.08.2020</time>
-              <a href="article.php" class="article__button button button-outline">Подробнее</button>
+              <a href="article.php" class="article__button button button-outline">Подробнее</a>
             </div>
             <!-- /.article__content -->
 
