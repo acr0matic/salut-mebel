@@ -3,6 +3,8 @@
   margin-bottom: 45px;
 
   border-radius: 5px;
+
+  background-color: $block-primary;
   box-shadow: $shadow-primary;
 
   @include breakpoint($breakpoint-mobile-large) {
