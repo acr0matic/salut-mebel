@@ -20,7 +20,7 @@ const promoSlider = new Swiper('.promo__slider', {
 const offerSlider = new Swiper('.promo__offer', {
   loop: true,
   autoplay: {
-    delay: 2000,
+    delay: 3000,
   },
 
   slidesPerView: 1,

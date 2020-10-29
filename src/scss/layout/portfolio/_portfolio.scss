@@ -8,16 +8,48 @@
     width: 49%;
     margin-bottom: 30px;
 
-    transition: opacity 0.15s ease;
-
+    box-shadow: $shadow-primary;
 
     @include breakpoint($breakpoint-mobile-large) {
       width: 48%;
       margin-bottom: 15px;
     }
 
+    @include breakpoint($breakpoint-mobile-medium) {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__picture {
+    transition: opacity 0.15s ease;
+
     &:hover {
       opacity: 0.7;
+    }
+  }
+
+  &__content {
+    padding: 15px;
+    background-color: $block-primary;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+
+    font-size: $font-size-5;
+    font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-6;
+    }
+  }
+
+  &__description {
+    font-size: $font-size-6;
+
+    @include breakpoint($breakpoint-mobile-large) {
+      font-size: $font-size-7;
     }
   }
 }

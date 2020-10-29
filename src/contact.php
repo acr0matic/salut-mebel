@@ -170,6 +170,8 @@
 
   <section class="section">
     <div class="container">
+      <h2 class="section__title">Наши офисы</h2>
+
       <div class="map">
         <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A31d27a0dad283184df1e76668d1fa3370fa8eed2d34eb90ad918e8eae525e570&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=false"></script>
       </div>

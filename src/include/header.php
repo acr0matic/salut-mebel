@@ -159,7 +159,7 @@
           <div class="dropdown__wrapper">
             <div class="dropdown__item dropdown-item dropdown-item--line">
               <div class="dropdown-item__container">
-                <a class="dropdown-item__link" href="/catalog.php">Кухни</a>
+                <a class="dropdown-item__link" href="catalog.php">Кухни</a>
               </div>
               <!-- /.dropdown-item__container -->
 
@@ -195,9 +195,9 @@
               <!-- /.dropdown-item__submenu -->
             </div>
 
-            <div class="dropdown__item dropdown-item dropdown-item--line">
+            <div class="dropdown__item dropdown-item">
               <div class="dropdown-item__container">
-                <a class="dropdown-item__link" href="">Корпусная мебель</a>
+                <a class="dropdown-item__link" href="catalog.php">Корпусная мебель</a>
               </div>
               <!-- /.dropdown-item__container -->
 
@@ -213,23 +213,6 @@
                   <a class="dropdown-item__link link" href="">Хай тек</a>
                   <a class="dropdown-item__link link" href="">Модерн</a>
                   <a class="dropdown-item__link link" href="">Классика</a>
-                </div>
-                <!-- /.dropdown-item__section -->
-              </div>
-              <!-- /.dropdown-item__submenu -->
-            </div>
-
-            <div class="dropdown__item dropdown-item">
-              <div class="dropdown-item__container">
-                <a class="dropdown-item__link" href="">Кухонные гарнитуры</a>
-              </div>
-              <!-- /.dropdown-item__container -->
-
-              <div class="dropdown-item__submenu dropdown-item__submenu--right">
-                <div class="dropdown-item__section">
-                  <a class="dropdown-item__link link" href="">ДСП</a>
-                  <a class="dropdown-item__link link" href="">МДФ</a>
-                  <a class="dropdown-item__link link" href="">Эмаль</a>
                 </div>
                 <!-- /.dropdown-item__section -->
               </div>
@@ -295,16 +278,6 @@
             <a href="" class="mobile-submenu__link">Шпон</a>
             <a href="" class="mobile-submenu__link">Массив Италия</a>
             <a href="" class="mobile-submenu__link">Хай тек</a>
-          </li>
-        </ul>
-
-        <ul class="mobile-submenu">
-          <li class="mobile-submenu__title">Кухонные гарнитуры</li>
-          <li class="mobile-submenu__content">
-            <a href="" class="mobile-submenu__link">ДСП</a>
-            <a href="" class="mobile-submenu__link">МДФ</a>
-            <a href="" class="mobile-submenu__link">Эмаль</a>
-            <a href="" class="mobile-submenu__link">Пленка</a>
           </li>
         </ul>
       </li>
