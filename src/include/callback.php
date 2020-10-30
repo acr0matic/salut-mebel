@@ -9,7 +9,7 @@
           <img src="img/callback/callback-image.jpg" alt="" class="callback__image">
           <div class="callback__action">
             <img class="callback__action__icon" src="img/icons/market.svg" alt="">
-            <h3 class="callback__action__title">Все магизины фабрики "Салют Мебель"</h3>
+            <h3 class="callback__action__title">Все магазины фабрики "Салют Мебель"</h3>
             <div class="callback__action__link link">
               <a class="link__item link__item--small svg-wrapper svg-wrapper--hover" href="">
                 Перейти

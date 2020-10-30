@@ -3,7 +3,7 @@
     @include flex();
     filter: drop-shadow($shadow-primary);
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       flex-direction: column;
     }
   }
@@ -18,7 +18,7 @@
 
     background-color: $block-primary;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
 
       padding: 15px;
@@ -36,7 +36,7 @@
     font-size: $font-size-4;
     font-weight: $weight-medium;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-laptop) {
       font-size: $font-size-5;
     }
   }
@@ -48,7 +48,7 @@
     font-size: $font-size-4;
     font-weight: $weight-medium;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-laptop) {
       font-size: $font-size-5;
     }
 

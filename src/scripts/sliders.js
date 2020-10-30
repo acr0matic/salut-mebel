@@ -28,6 +28,11 @@ const offerSlider = new Swiper('.promo__offer', {
 
   breakpoints: {
     480: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+
+    900: {
       slidesPerView: 3,
       spaceBetween: 30,
     },
@@ -49,6 +54,16 @@ const articleSlider = new Swiper('.article__slider', {
 
   breakpoints: {
     480: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+
+    720: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+
+    900: {
       slidesPerView: 4,
       spaceBetween: 30,
     },
@@ -66,6 +81,16 @@ const kitchenSlider = new Swiper('.catalog__slider--kitchen', {
 
   breakpoints: {
     480: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+
+    720: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+
+    900: {
       slidesPerView: 4,
       spaceBetween: 30,
     },
@@ -83,6 +108,16 @@ const hullSlider = new Swiper('.catalog__slider--hull', {
 
   breakpoints: {
     480: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+
+    720: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+
+    900: {
       slidesPerView: 4,
       spaceBetween: 30,
     },

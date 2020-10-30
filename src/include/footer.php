@@ -167,21 +167,21 @@
                   <h3 class="footer-section__title">Мы в социальных сетях</h3>
                   <div class="footer-section__social footer-social">
                     <div class="footer-social__item">
-                      <a href="">
+                      <a target="_blank" href="">
                         <img class="footer-social__icon" src="img/icons/social/vk.svg" alt="">
                       </a>
                     </div>
                     <!-- /.footer-section__social -->
 
                     <div class="footer-social__item">
-                      <a href="">
+                      <a target="_blank" href="">
                         <img class="footer-social__icon" src="img/icons/social/facebook.svg" alt="">
                       </a>
                     </div>
                     <!-- /.footer-section__social -->
 
                     <div class="footer-social__item">
-                      <a href="">
+                      <a target="_blank" href="https://www.instagram.com/salutmebel/">
                         <img class="footer-social__icon" src="img/icons/social/instagram.svg" alt="">
                       </a>
                     </div>

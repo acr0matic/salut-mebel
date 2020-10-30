@@ -14,7 +14,6 @@
   &__image {
     border-radius: 5px;
 
-    width: 360px;
     height: 130px;
 
     object-fit: cover;
@@ -25,6 +24,10 @@
     font-size: $font-size-4;
 
     margin-bottom: 10px;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-5;
+    }
   }
 
   &__list {

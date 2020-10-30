@@ -8,9 +8,17 @@
     color: $text-primary--inverted;
     font-size: $font-size-3;
 
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-4;
+    }
+
     &--old {
       font-size: $font-size-5;
       text-decoration: line-through;
+
+      @include breakpoint($breakpoint-laptop) {
+        font-size: $font-size-6;
+      }
     }
   }
 }

@@ -1,10 +1,26 @@
+#catalog-main {
+  .catalog__item {
+    @include breakpoint($breakpoint-laptop) {
+      width: 32%;
+    }
+  }
+}
+
 .catalog {
   &__row {
     position: relative;
+
+    @include breakpoint($breakpoint-laptop) {
+      padding: 0 15px;
+    }
   }
 
   &__title {
     margin-bottom: 30px;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-3;
+    }
   }
 
   &__wrapper {

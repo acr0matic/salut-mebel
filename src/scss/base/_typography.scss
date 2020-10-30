@@ -25,6 +25,19 @@ h3 {
 p {
   font-weight: $weight-regular;
   line-height: 20px;
+
+  @include breakpoint($breakpoint-laptop) {
+    font-size: $font-size-6;
+  }
+}
+
+ul,
+ol {
+  line-height: 20px;
+
+  @include breakpoint($breakpoint-laptop) {
+    font-size: $font-size-6;
+  }
 }
 
 .p-primary {

@@ -124,6 +124,12 @@ footer {
   &__wrapper {
     @include flex($align: flex-start);
 
+    font-size: $font-size-6;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-7;
+    }
+
     @include breakpoint($breakpoint-mobile-large) {
       margin-bottom: 30px;
     }
@@ -141,6 +147,10 @@ footer {
   &__title {
     font-size: $font-size-5;
     font-weight: $weight-medium;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-6;
+    }
   }
 }
 
@@ -169,10 +179,18 @@ footer {
     margin-bottom: 18px;
 
     line-height: 22px;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-6;
+    }
   }
 
   &__title {
     min-width: 75px;
+  }
+
+  &__content {
+
   }
 }
 
@@ -196,6 +214,10 @@ footer {
   }
 
   &__link {
-    font-size: 14px;
+    font-size: $font-size-6;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-7;
+    }
   }
 }

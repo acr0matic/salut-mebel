@@ -8,10 +8,12 @@
 
   transition: box-shadow 0.15s ease;
 
+  @include breakpoint($breakpoint-laptop) {
+    box-shadow: $shadow-primary;
+  }
+
   @include breakpoint($breakpoint-mobile-large) {
     width: 100%;
-
-    box-shadow: $shadow-primary;
   }
 
   &--shadow {
@@ -91,7 +93,7 @@
 
     transition: all 0.15s ease;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       transform: translateY(0);
       margin-bottom: 0;
     }
@@ -111,6 +113,11 @@
   &__price {
     margin-top: 15px;
     font-size: $font-size-3;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-4;
+      font-weight: $weight-medium;
+    }
   }
 
   &__button {
@@ -119,7 +126,7 @@
     visibility: hidden;
     opacity: 0;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       visibility: visible;
       opacity: 1;
     }

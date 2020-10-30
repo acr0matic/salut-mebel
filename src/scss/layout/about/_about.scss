@@ -20,7 +20,7 @@
       margin-bottom: 180px;
 
       @include breakpoint($breakpoint-mobile-large) {
-        margin-bottom: 300px;
+        margin-bottom: 0;
       }
     }
   }
@@ -66,13 +66,13 @@
     width: 100%;
     max-width: 620px;
 
-    margin: 0 auto;
+    margin: 0 auto 15px auto;
     padding: 30px 60px;
 
     background-color: $block-primary;
 
     @include breakpoint($breakpoint-mobile-large) {
-      bottom: -60%;
+      position: static;
       width: 95%;
 
       padding: 10px;
@@ -94,6 +94,10 @@
     @include flex();
     @include even() {
       flex-direction: row-reverse;
+
+      @include breakpoint($breakpoint-laptop) {
+        flex-direction: row;
+      }
 
       @include breakpoint($breakpoint-mobile-large) {
         flex-direction: column-reverse;

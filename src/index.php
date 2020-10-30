@@ -2,7 +2,7 @@
 
 <!-- Основной контент -->
 <main>
-  <section>
+  <section id="promo">
     <div class="container">
       <div class="promo">
         <div class="swiper-container promo__slider">

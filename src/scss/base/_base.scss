@@ -40,10 +40,6 @@ ul {
 
   margin: 0;
   padding: 0;
-
-  @include breakpoint($breakpoint-mobile-large) {
-    font-size: $font-size-6;
-  }
 }
 
 h1,

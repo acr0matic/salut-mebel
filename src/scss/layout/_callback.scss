@@ -4,7 +4,7 @@
   &__wrapper {
     @include flex($align: flex-start);
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       flex-wrap: wrap;
     }
   }
@@ -12,7 +12,7 @@
   &__content {
     width: 48%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
@@ -32,7 +32,7 @@
 
     border-radius: 5px;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       display: none;
     }
   }
@@ -47,17 +47,25 @@
     background-color: $block-primary;
     box-shadow: $shadow-primary;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       display: none;
     }
 
     &__icon {
       width: 44px;
       margin-right: 25px;
+
+      @include breakpoint($breakpoint-laptop) {
+        width: 36px;
+      }
     }
 
     &__title {
       font-size: $font-size-5;
+
+      @include breakpoint($breakpoint-laptop) {
+        font-size: $font-size-6;
+      }
     }
 
     &__link {
@@ -70,7 +78,7 @@
     flex-direction: column;
     width: 43%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
 

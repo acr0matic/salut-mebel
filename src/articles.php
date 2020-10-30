@@ -1,7 +1,7 @@
 <?php include_once 'include/header.php' ?>
 
 <main>
-  <section class="section section--breadcrumbs">
+  <section class="section section--breadcrumbs" id="article-main">
     <div class="container">
       <ul class="section__breadcrumbs breadcrumbs">
         <li class="breadcrumbs__item">

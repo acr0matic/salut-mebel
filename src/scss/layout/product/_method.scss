@@ -12,6 +12,7 @@
   &__card {
     width: 33%;
 
+
     @include breakpoint($breakpoint-mobile-large) {
       width: 100%;
     }

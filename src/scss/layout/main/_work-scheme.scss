@@ -24,7 +24,7 @@
     height: 140px;
     object-fit: cover;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       height: 70px;
     }
   }
@@ -38,7 +38,7 @@
     font-size: $font-size-0;
     font-weight: $weight-bold;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       top: 10px;
       bottom: unset;
 
@@ -49,7 +49,11 @@
   &__title {
     margin-top: 10px;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-4;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
       font-size: $font-size-5;
     }
   }

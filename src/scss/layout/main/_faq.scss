@@ -1,16 +1,14 @@
 .faq {
   &__wrapper {
     @include flex($align: flex-start);
+    flex-wrap: wrap;
 
-    @include breakpoint($breakpoint-mobile-large) {
-      flex-wrap: wrap;
-    }
   }
 
   &__column {
     width: 48%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
