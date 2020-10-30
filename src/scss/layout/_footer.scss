@@ -126,10 +126,6 @@ footer {
 
     font-size: $font-size-6;
 
-    @include breakpoint($breakpoint-laptop) {
-      font-size: $font-size-7;
-    }
-
     @include breakpoint($breakpoint-mobile-large) {
       margin-bottom: 30px;
     }
@@ -139,9 +135,12 @@ footer {
     margin-top: 8px;
   }
 
+  &__list {
+    margin-top: 10px;
+  }
+
   &__item {
     margin-right: 30px;
-    margin-top: 8px;
   }
 
   &__title {
@@ -150,6 +149,38 @@ footer {
 
     @include breakpoint($breakpoint-laptop) {
       font-size: $font-size-6;
+    }
+  }
+}
+
+.footer-list {
+  @include breakpoint($breakpoint-laptop) {
+    font-size: $font-size-7;
+  }
+
+  &__wrapper {
+    @include breakpoint($breakpoint-mobile-large) {
+      display: flex;
+    }
+
+    &--flex {
+      display: flex;
+    }
+  }
+
+  &__column {
+  }
+
+  &__item {
+    margin-bottom: 8px;
+    margin-right: 30px;
+  }
+
+  &__link {
+    font-size: $font-size-6;
+
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size-7;
     }
   }
 }
@@ -194,30 +225,4 @@ footer {
   }
 }
 
-.footer-list {
-  &__wrapper {
-    @include breakpoint($breakpoint-mobile-large) {
-      display: flex;
-    }
 
-    &--flex {
-      display: flex;
-    }
-  }
-
-  &__column {
-  }
-
-  &__item {
-    margin-top: 8px;
-    margin-right: 30px;
-  }
-
-  &__link {
-    font-size: $font-size-6;
-
-    @include breakpoint($breakpoint-laptop) {
-      font-size: $font-size-7;
-    }
-  }
-}

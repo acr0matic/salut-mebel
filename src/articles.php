@@ -152,6 +152,9 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <?php include_once 'include/calculation.php' ?>
+
 </main>
 
 <?php include_once 'include/footer.php' ?>

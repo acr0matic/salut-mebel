@@ -3,6 +3,10 @@
     @include breakpoint($breakpoint-laptop) {
       width: 32%;
     }
+
+    @include breakpoint($breakpoint-laptop) {
+      width: 100%;
+    }
   }
 }
 

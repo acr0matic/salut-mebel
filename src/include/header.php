@@ -265,7 +265,7 @@
             <a href="" class="mobile-submenu__link">Пластик</a>
             <a href="" class="mobile-submenu__link">Из акрила</a>
             <a href="" class="mobile-submenu__link">Российский массив</a>
-            <a href="" class="mobile-submenu__link link--red">Все кухни</a>
+            <a href="catalog.php" class="mobile-submenu__link link--red">Все кухни</a>
           </li>
         </ul>
 
@@ -279,7 +279,7 @@
             <a href="" class="mobile-submenu__link">Шпон</a>
             <a href="" class="mobile-submenu__link">Массив Италия</a>
             <a href="" class="mobile-submenu__link">Хай тек</a>
-            <a href="" class="mobile-submenu__link link link--red">Вся мебель</a>
+            <a href="catalog.php" class="mobile-submenu__link link link--red">Вся мебель</a>
           </li>
         </ul>
       </li>

@@ -123,19 +123,26 @@
                 <div class="footer-navigation__section footer-navigation__section--margin footer-section">
                   <h3 class="footer-section__title">Фурнитура</h3>
                   <div class="footer-section__wrapper">
-                    <ul class="footer-section__list">
-                      <li class="footer-section__item">
-                        <a href="" class="footer-section__link link">Мойки</a>
-                      </li>
+                    <div class="footer-section__list footer-list">
+                      <div class="footer-list__wrapper footer-list__wrapper--flex">
+                        <div class="footer-list__column">
+                          <div class="footer-list__item">
+                            <a href="" class="footer-list__link link">Смесители</a>
+                          </div>
 
-                      <li class="footer-section__item">
-                        <a href="" class="footer-section__link link">Смесители</a>
-                      </li>
+                          <div class="footer-list__item">
+                            <a href="" class="footer-list__link link">Вытяжки</a>
+                          </div>
 
-                      <li class="footer-section__item">
-                        <a href="" class="footer-section__link link">Вытяжки</a>
-                      </li>
-                    </ul>
+                          <div class="footer-list__item">
+                            <a href="" class="footer-list__link link">Мойки</a>
+                          </div>
+                        </div>
+                        <!-- /.footer-list__row -->
+                      </div>
+                      <!-- /.footer-list__wrapper -->
+                    </div>
+                    <!-- /.footer-section__list -->
                   </div>
                   <!-- /.footer-section__wrapper -->
                 </div>
@@ -144,19 +151,25 @@
                 <div class="footer-navigation__section footer-section">
                   <h3 class="footer-section__title">Корпусная мебель</h3>
                   <div class="footer-section__wrapper">
-                    <ul class="footer-section__list">
-                      <li class="footer-section__item">
-                        <a href="" class="footer-section__link link">Позиция 1</a>
-                      </li>
+                    <div class="footer-section__list footer-list">
+                      <div class="footer-list__wrapper footer-list__wrapper--flex">
+                        <div class="footer-list__column">
+                          <div class="footer-list__item">
+                            <a href="" class="footer-list__link link">Позиция 1</a>
+                          </div>
 
-                      <li class="footer-section__item">
-                        <a href="" class="footer-section__link link">Позиция 2</a>
-                      </li>
+                          <div class="footer-list__item">
+                            <a href="" class="footer-list__link link">Позиция 2</a>
+                          </div>
 
-                      <li class="footer-section__item">
-                        <a href="" class="footer-section__link link">Позиция 3</a>
-                      </li>
-                    </ul>
+                          <div class="footer-list__item">
+                            <a href="" class="footer-list__link link">Позиция 3</a>
+                          </div>
+                        </div>
+                        <!-- /.footer-list__row -->
+                      </div>
+                      <!-- /.footer-list__wrapper -->
+                    </div>
                     <!-- /.footer-section__list -->
                   </div>
                   <!-- /.footer-section__wrapper -->
