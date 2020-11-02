@@ -24,8 +24,8 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="product-gallery__picture">
-                    <a href="img/product/1.jpg" data-fslightbox>
-                      <img class="product-gallery__image product-gallery__image--current" src="img/product/1.jpg" alt="">
+                    <a href="img/portfolio/portfolio-item-4.jpg" data-fslightbox>
+                      <img class="product-gallery__image product-gallery__image--current" src="img/portfolio/portfolio-item-4.jpg" alt="">
                     </a>
                   </div>
                   <!-- /.product-gallery__main -->
@@ -82,7 +82,7 @@
             <div class="swiper-container product-gallery__thumbnails">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <div class="product-gallery__picture">
+                  <div class="product-gallery__picture product-gallery__picture--thumbnail">
                     <img class="product-gallery__image" src="img/product/thumbs/1.jpg" alt="">
                   </div>
                   <!-- /.product-gallery__secondary -->
@@ -90,7 +90,7 @@
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <div class="product-gallery__picture">
+                  <div class="product-gallery__picture product-gallery__picture--thumbnail">
                     <img class="product-gallery__image" src="img/product/thumbs/2.jpg" alt="">
                   </div>
                   <!-- /.product-gallery__secondary -->
@@ -98,7 +98,7 @@
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <div class="product-gallery__picture">
+                  <div class="product-gallery__picture product-gallery__picture--thumbnail">
                     <img class="product-gallery__image" src="img/product/thumbs/3.jpg" alt="">
                   </div>
                   <!-- /.product-gallery__secondary -->
@@ -106,7 +106,7 @@
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <div class="product-gallery__picture">
+                  <div class="product-gallery__picture product-gallery__picture--thumbnail">
                     <img class="product-gallery__image" src="img/product/thumbs/4.jpg" alt="">
                   </div>
                   <!-- /.product-gallery__secondary -->
@@ -114,7 +114,7 @@
                 <!-- /.swiper-slide -->
 
                 <div class="swiper-slide">
-                  <div class="product-gallery__picture">
+                  <div class="product-gallery__picture product-gallery__picture--thumbnail">
                     <img class="product-gallery__image" src="img/product/thumbs/5.jpg" alt="">
                   </div>
                   <!-- /.product-gallery__secondary -->

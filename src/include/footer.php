@@ -273,11 +273,13 @@
   <script src="scripts/libraries/fslightbox.js"></script>
   <script src="scripts/libraries/accordion.js"></script>
   <script src="scripts/libraries/micromodal.js"></script>
+  <script src="scripts/libraries/imask.js"></script>
 
   <script src="scripts/sliders.js"></script>
   <script src="scripts/accordions.js"></script>
   <script src="scripts/header.js"></script>
   <script src="scripts/mobile.js"></script>
+  <script src="scripts/utils.js"></script>
   <script src="scripts/script.js"></script>
 
   <!-- endbuild -->

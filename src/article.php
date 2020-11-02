@@ -20,7 +20,7 @@
 
     <div class="container container--tight">
       <div class="article-block">
-        <div class="article-block__picture block-skewed">
+        <div class="article-block__picture article-block__picture--main block-skewed">
           <img src="img/articles/picture-1.jpg" alt="" class="article-block__image">
         </div>
         <!-- /.article-block__picture -->
