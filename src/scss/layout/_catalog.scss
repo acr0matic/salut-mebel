@@ -4,7 +4,7 @@
       width: 32%;
     }
 
-    @include breakpoint($breakpoint-laptop) {
+    @include breakpoint($breakpoint-mobile-large) {
       width: 100%;
     }
   }

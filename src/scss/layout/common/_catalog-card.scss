@@ -12,6 +12,7 @@
   transition: box-shadow 0.15s ease;
 
   @include breakpoint($breakpoint-laptop) {
+    max-width: unset;
     box-shadow: $shadow-primary;
   }
 
