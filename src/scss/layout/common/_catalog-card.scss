@@ -23,11 +23,6 @@
   &:hover {
     box-shadow: $shadow-primary;
 
-    .catalog-card__thumbnails {
-      transform: translateY(0);
-      margin-bottom: 0;
-    }
-
     .catalog-card__button {
       visibility: visible;
       opacity: 1;
@@ -51,22 +46,6 @@
     @include breakpoint($breakpoint-mobile-large) {
       height: 250px;
     }
-
-    &--thumbnail {
-      height: 38px;
-
-      &:not(:last-child) {
-        margin-right: 5px;
-
-        @include breakpoint($breakpoint-mobile-large) {
-          margin-right: 10px;
-        }
-      }
-
-      @include breakpoint($breakpoint-mobile-large) {
-        height: 50px;
-      }
-    }
   }
 
   &__image {
@@ -85,22 +64,7 @@
     }
   }
 
-  &__thumbnails {
-    @include flex();
-
-    transform: translateY(-60px);
-    margin-bottom: -60px;
-
-    transition: all 0.15s ease;
-
-    @include breakpoint($breakpoint-tablet) {
-      transform: translateY(0);
-      margin-bottom: 0;
-    }
-  }
-
   &__title {
-    margin-top: 15px;
     margin-bottom: 15px;
 
     font-size: $font-size-5;
