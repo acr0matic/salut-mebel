@@ -1,8 +1,15 @@
 .promo-offer {
   position: relative;
-  border-radius: 5px;
+  height: 205px;
 
+  border-radius: 5px;
   overflow: hidden;
+
+  cursor: grab;
+
+  &:active {
+    cursor: grabbing;
+  }
 
   &__picture {
     position: absolute;
@@ -10,7 +17,7 @@
   }
 
   &__image {
-    height: 205px;
+    height: 100%;
     object-fit: cover;
   }
 
@@ -21,6 +28,8 @@
   }
 
   &__title {
+    min-height: 54px;
+
     color: $text-primary--inverted;
 
     @include breakpoint($breakpoint-laptop) {

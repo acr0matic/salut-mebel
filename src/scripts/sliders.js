@@ -18,7 +18,6 @@ const promoSlider = new Swiper('.promo__slider', {
 });
 
 const offerSlider = new Swiper('.promo__offer', {
-  loop: true,
   autoplay: {
     delay: 3000,
   },
@@ -34,12 +33,21 @@ const offerSlider = new Swiper('.promo__offer', {
 
     900: {
       slidesPerView: 3,
-      spaceBetween: 30,
     },
   },
 
   pagination: {
     el: '.promo__offer-pagination',
+  },
+
+  scrollbar: {
+    el: '.promo__offer-scrollbar',
+    draggable: true,
+  },
+
+  navigation: {
+    nextEl: '.promo__offer-right',
+    prevEl: '.promo__offer-left',
   },
 });
 
@@ -136,7 +144,7 @@ const galleryPhoto = new Swiper('.product-gallery__main', {
 });
 
 const galleryThumbnails = new Swiper('.product-gallery__thumbnails', {
-  slidesPerView: 5,
+  slidesPerView: 4,
   spaceBetween: 15,
 
   loop: true,
@@ -144,6 +152,12 @@ const galleryThumbnails = new Swiper('.product-gallery__thumbnails', {
   slideToClickedSlide: true,
 
   loopedSlides: 5,
+
+  breakpoints: {
+    480: {
+      slidesPerView: 5,
+    },
+  },
 });
 
 if (document.querySelector('.product-gallery__main')) galleryPhoto.controller.control = galleryThumbnails;

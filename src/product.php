@@ -24,8 +24,8 @@
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="product-gallery__picture">
-                    <a href="img/portfolio/portfolio-item-4.jpg" data-fslightbox>
-                      <img class="product-gallery__image product-gallery__image--current" src="img/portfolio/portfolio-item-4.jpg" alt="">
+                    <a href="/img/product/1.jpg" data-fslightbox>
+                      <img class="product-gallery__image product-gallery__image--current" src="img/product/1.jpg" alt="">
                     </a>
                   </div>
                   <!-- /.product-gallery__main -->
@@ -34,7 +34,7 @@
 
                 <div class="swiper-slide">
                   <div class="product-gallery__picture">
-                    <a href="img/product/2.jpg" data-fslightbox>
+                    <a href="/img/product/2.jpg" data-fslightbox>
                       <img class="product-gallery__image product-gallery__image--current" src="img/product/2.jpg" alt="">
                     </a>
                   </div>
@@ -44,7 +44,7 @@
 
                 <div class="swiper-slide">
                   <div class="product-gallery__picture">
-                    <a href="img/product/3.jpg" data-fslightbox>
+                    <a href="/img/product/3.jpg" data-fslightbox>
                       <img class="product-gallery__image product-gallery__image--current" src="img/product/3.jpg" alt="">
                     </a>
                   </div>
@@ -54,7 +54,7 @@
 
                 <div class="swiper-slide">
                   <div class="product-gallery__picture">
-                    <a href="img/product/4.jpg" data-fslightbox>
+                    <a href="/img/product/4.jpg" data-fslightbox>
                       <img class="product-gallery__image product-gallery__image--current" src="img/product/4.jpg" alt="">
                     </a>
                   </div>
@@ -64,7 +64,7 @@
 
                 <div class="swiper-slide">
                   <div class="product-gallery__picture">
-                    <a href="img/product/5.jpg" data-fslightbox>
+                    <a href="/img/product/5.jpg" data-fslightbox>
                       <img class="product-gallery__image product-gallery__image--current" src="img/product/5.jpg" alt="">
                     </a>
                   </div>

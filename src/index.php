@@ -10,7 +10,7 @@
             <div class="swiper-slide">
               <div class="promo-banner block-skewed">
                 <div class="promo-banner__picture gradient">
-                  <img class="promo-banner__image gradient__image" src="img/promo/1.jpg" alt="">
+                  <img class="promo-banner__image gradient__image" src="img/promo/promo-1.jpg" alt="">
                 </div>
                 <!-- /.image -->
                 <div class="promo-banner__content">
@@ -73,7 +73,7 @@
             <div class="swiper-slide">
               <div class="promo__list-item promo-offer">
                 <div class="promo-offer__picture gradient">
-                  <img src="img/promo/item-1.jpg" alt="" class="promo-offer__image gradient__image">
+                  <img src="img/promo/1.jpg" alt="" class="promo-offer__image gradient__image">
                 </div>
                 <!-- /.gradient -->
                 <div class="promo-offer__content">
@@ -92,7 +92,7 @@
                   </div>
                   <!-- /.promo-item__info -->
 
-                  <a href="" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
+                  <a href="product.php" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
                 </div>
                 <!-- /.promo-item__content -->
               </div>
@@ -103,15 +103,15 @@
             <div class="swiper-slide">
               <div class="promo__list-item promo-offer">
                 <div class="promo-offer__picture gradient">
-                  <img src="img/promo/item-1.jpg" alt="" class="promo-offer__image gradient__image">
+                  <img src="img/promo/2.jpg" alt="" class="promo-offer__image gradient__image">
                 </div>
                 <!-- /.gradient -->
                 <div class="promo-offer__content">
-                  <h3 class="promo-offer__title">Кухня Тропикана <br> (мдф + пленка)</h3>
+                  <h3 class="promo-offer__title">Кухня Евгения<br></h3>
                   <div class="promo-offer__info">
                     <div class="promo-offer__price promo-cost">
-                      <span class="promo-cost__price promo-cost__price--old price">220 000</span>
-                      <span class="promo-cost__price price">200 000</span>
+                      <span class="promo-cost__price promo-cost__price--old price">250 000</span>
+                      <span class="promo-cost__price price">130 000</span>
                     </div>
                     <!-- /.promo-item__price -->
 
@@ -122,7 +122,7 @@
                   </div>
                   <!-- /.promo-item__info -->
 
-                  <a href="" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
+                  <a href="product.php" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
                 </div>
                 <!-- /.promo-item__content -->
               </div>
@@ -133,7 +133,37 @@
             <div class="swiper-slide">
               <div class="promo__list-item promo-offer">
                 <div class="promo-offer__picture gradient">
-                  <img src="img/promo/item-1.jpg" alt="" class="promo-offer__image gradient__image">
+                  <img src="img/promo/3.jpg" alt="" class="promo-offer__image gradient__image">
+                </div>
+                <!-- /.gradient -->
+                <div class="promo-offer__content">
+                  <h3 class="promo-offer__title">Кухня Морской бриз <br> (Эмаль)</h3>
+                  <div class="promo-offer__info">
+                    <div class="promo-offer__price promo-cost">
+                      <span class="promo-cost__price promo-cost__price--old price">220 000</span>
+                      <span class="promo-cost__price price">200 000</span>
+                    </div>
+                    <!-- /.promo-item__price -->
+
+                    <div class="promo-offer__discount promo-discount">
+                      <div class="promo-discount__count">40</div>
+                    </div>
+                    <!-- /.promo-item__discount -->
+                  </div>
+                  <!-- /.promo-item__info -->
+
+                  <a href="product.php" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
+                </div>
+                <!-- /.promo-item__content -->
+              </div>
+              <!-- /.promo-list__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="promo__list-item promo-offer">
+                <div class="promo-offer__picture gradient">
+                  <img src="img/promo/4.jpg" alt="" class="promo-offer__image gradient__image">
                 </div>
                 <!-- /.gradient -->
                 <div class="promo-offer__content">
@@ -146,13 +176,73 @@
                     <!-- /.promo-item__price -->
 
                     <div class="promo-offer__discount promo-discount">
-                      <div class="promo-discount__count">90</div>
+                      <div class="promo-discount__count">30</div>
                     </div>
                     <!-- /.promo-item__discount -->
                   </div>
                   <!-- /.promo-item__info -->
 
-                  <a href="" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
+                  <a href="product.php" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
+                </div>
+                <!-- /.promo-item__content -->
+              </div>
+              <!-- /.promo-list__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="promo__list-item promo-offer">
+                <div class="promo-offer__picture gradient">
+                  <img src="img/promo/5.jpg" alt="" class="promo-offer__image gradient__image">
+                </div>
+                <!-- /.gradient -->
+                <div class="promo-offer__content">
+                  <h3 class="promo-offer__title">Кухня Летняя <br> (Акрил + МДФ)</h3>
+                  <div class="promo-offer__info">
+                    <div class="promo-offer__price promo-cost">
+                      <span class="promo-cost__price promo-cost__price--old price">220 000</span>
+                      <span class="promo-cost__price price">200 000</span>
+                    </div>
+                    <!-- /.promo-item__price -->
+
+                    <div class="promo-offer__discount promo-discount">
+                      <div class="promo-discount__count">30</div>
+                    </div>
+                    <!-- /.promo-item__discount -->
+                  </div>
+                  <!-- /.promo-item__info -->
+
+                  <a href="product.php" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
+                </div>
+                <!-- /.promo-item__content -->
+              </div>
+              <!-- /.promo-list__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="promo__list-item promo-offer">
+                <div class="promo-offer__picture gradient">
+                  <img src="img/promo/6.jpg" alt="" class="promo-offer__image gradient__image">
+                </div>
+                <!-- /.gradient -->
+                <div class="promo-offer__content">
+                  <h3 class="promo-offer__title">Кухня Тропикана <br> (мдф + пленка)</h3>
+                  <div class="promo-offer__info">
+                    <div class="promo-offer__price promo-cost">
+                      <span class="promo-cost__price promo-cost__price--old price">220 000</span>
+                      <span class="promo-cost__price price">200 000</span>
+                    </div>
+                    <!-- /.promo-item__price -->
+
+                    <div class="promo-offer__discount promo-discount">
+                      <div class="promo-discount__count">30</div>
+                    </div>
+                    <!-- /.promo-item__discount -->
+                  </div>
+                  <!-- /.promo-item__info -->
+
+                  <a href="product.php" class="promo-offer__button button button-outline button-outline--inverted">Подробнее</a>
                 </div>
                 <!-- /.promo-item__content -->
               </div>
@@ -163,7 +253,7 @@
           <!-- /.swiper-wrapper -->
 
           <div class="swiper-pagination promo__offer-pagination"></div>
-
+          <div class="swiper-scrollbar promo__offer-scrollbar"></div>
         </div>
         <!-- /.swiper-container -->
       </div>
@@ -277,7 +367,82 @@
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
 
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
+                  </div>
+                  <!-- /.catalog-card__wrapper -->
+                </div>
+                <!-- /.catalog__item -->
+              </div>
+              <!-- /.swiper-slide -->
+
+              <div class="swiper-slide">
+                <div class="catalog__item catalog-card">
+                  <div class="catalog-card__picture">
+                    <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
+                  </div>
+                  <!-- /.catalog-card__picture -->
+
+                  <div class="catalog-card__wrapper">
+                    <h3 class="catalog-card__title">
+                      Кухня Элла
+                      <br>
+                      (МДФ + Эмаль)
+                    </h3>
+
+                    <div class="catalog-card__price price">80 000</div>
+                    <!-- /.catalog-card__price -->
+
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
+                  </div>
+                  <!-- /.catalog-card__wrapper -->
+                </div>
+                <!-- /.catalog__item -->
+              </div>
+              <!-- /.swiper-slide -->
+
+              <div class="swiper-slide">
+                <div class="catalog__item catalog-card">
+                  <div class="catalog-card__picture">
+                    <img src="img/catalog/kitchen/3.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
+                  </div>
+                  <!-- /.catalog-card__picture -->
+
+                  <div class="catalog-card__wrapper">
+                    <h3 class="catalog-card__title">
+                      Кухня Элла
+                      <br>
+                      (МДФ + Эмаль)
+                    </h3>
+
+                    <div class="catalog-card__price price">80 000</div>
+                    <!-- /.catalog-card__price -->
+
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
+                  </div>
+                  <!-- /.catalog-card__wrapper -->
+                </div>
+                <!-- /.catalog__item -->
+              </div>
+              <!-- /.swiper-slide -->
+
+              <div class="swiper-slide">
+                <div class="catalog__item catalog-card">
+                  <div class="catalog-card__picture">
+                    <img src="img/catalog/kitchen/4.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
+                  </div>
+                  <!-- /.catalog-card__picture -->
+
+                  <div class="catalog-card__wrapper">
+                    <h3 class="catalog-card__title">
+                      Кухня Элла
+                      <br>
+                      (МДФ + Эмаль)
+                    </h3>
+
+                    <div class="catalog-card__price price">80 000</div>
+                    <!-- /.catalog-card__price -->
+
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -302,82 +467,7 @@
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
 
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
-                  </div>
-                  <!-- /.catalog-card__wrapper -->
-                </div>
-                <!-- /.catalog__item -->
-              </div>
-              <!-- /.swiper-slide -->
-
-              <div class="swiper-slide">
-                <div class="catalog__item catalog-card">
-                  <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
-                  </div>
-                  <!-- /.catalog-card__picture -->
-
-                  <div class="catalog-card__wrapper">
-                    <h3 class="catalog-card__title">
-                      Кухня Элла
-                      <br>
-                      (МДФ + Эмаль)
-                    </h3>
-
-                    <div class="catalog-card__price price">80 000</div>
-                    <!-- /.catalog-card__price -->
-
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
-                  </div>
-                  <!-- /.catalog-card__wrapper -->
-                </div>
-                <!-- /.catalog__item -->
-              </div>
-              <!-- /.swiper-slide -->
-
-              <div class="swiper-slide">
-                <div class="catalog__item catalog-card">
-                  <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
-                  </div>
-                  <!-- /.catalog-card__picture -->
-
-                  <div class="catalog-card__wrapper">
-                    <h3 class="catalog-card__title">
-                      Кухня Элла
-                      <br>
-                      (МДФ + Эмаль)
-                    </h3>
-
-                    <div class="catalog-card__price price">80 000</div>
-                    <!-- /.catalog-card__price -->
-
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
-                  </div>
-                  <!-- /.catalog-card__wrapper -->
-                </div>
-                <!-- /.catalog__item -->
-              </div>
-              <!-- /.swiper-slide -->
-
-              <div class="swiper-slide">
-                <div class="catalog__item catalog-card">
-                  <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/1.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
-                  </div>
-                  <!-- /.catalog-card__picture -->
-
-                  <div class="catalog-card__wrapper">
-                    <h3 class="catalog-card__title">
-                      Кухня Элла
-                      <br>
-                      (МДФ + Эмаль)
-                    </h3>
-
-                    <div class="catalog-card__price price">80 000</div>
-                    <!-- /.catalog-card__price -->
-
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -404,7 +494,7 @@
               <div class="swiper-slide">
                 <div class="catalog__item catalog-card">
                   <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
+                    <img src="img/catalog/hull/1.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
                   </div>
                   <!-- /.catalog-card__picture -->
 
@@ -418,7 +508,7 @@
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
 
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -429,7 +519,7 @@
               <div class="swiper-slide">
                 <div class="catalog__item catalog-card">
                   <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
+                    <img src="img/catalog/hull/2.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
                   </div>
                   <!-- /.catalog-card__picture -->
 
@@ -443,7 +533,7 @@
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
 
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -454,7 +544,7 @@
               <div class="swiper-slide">
                 <div class="catalog__item catalog-card">
                   <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
+                    <img src="img/catalog/hull/3.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
                   </div>
                   <!-- /.catalog-card__picture -->
 
@@ -468,7 +558,7 @@
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
 
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -479,7 +569,7 @@
               <div class="swiper-slide">
                 <div class="catalog__item catalog-card">
                   <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
+                    <img src="img/catalog/hull/4.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
                   </div>
                   <!-- /.catalog-card__picture -->
 
@@ -493,7 +583,7 @@
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
 
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -504,7 +594,7 @@
               <div class="swiper-slide">
                 <div class="catalog__item catalog-card">
                   <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
+                    <img src="img/catalog/hull/1.jpg" alt="" class="catalog-card__image catalog-card__image--scale">
                   </div>
                   <!-- /.catalog-card__picture -->
 
@@ -518,7 +608,7 @@
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
 
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
@@ -529,7 +619,7 @@
               <div class="swiper-slide">
                 <div class="catalog__item catalog-card">
                   <div class="catalog-card__picture">
-                    <img src="img/catalog/kitchen/2.jpg" alt="" class="catalog-card__image">
+                    <img src="img/catalog/hull/2.jpg" alt="" class="catalog-card__image">
                   </div>
                   <!-- /.catalog-card__picture -->
 
@@ -543,7 +633,7 @@
                     <div class="catalog-card__price price">80 000</div>
                     <!-- /.catalog-card__price -->
 
-                    <a href="" class="catalog-card__button button button-primary">Подробнее</a>
+                    <a href="product.php" class="catalog-card__button button button-primary">Подробнее</a>
                   </div>
                   <!-- /.catalog-card__wrapper -->
                 </div>
