@@ -1,14 +1,14 @@
 .price-block {
   @include flex();
 
-  @include breakpoint($breakpoint-mobile-large) {
+  @include breakpoint($breakpoint-tablet) {
     flex-direction: column;
   }
 
   &__content {
     width: 55%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
@@ -21,7 +21,7 @@
     background-color: $block-primary;
     box-shadow: $shadow-primary;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
