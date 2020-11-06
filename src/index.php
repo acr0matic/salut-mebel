@@ -253,7 +253,6 @@
           <!-- /.swiper-wrapper -->
 
           <div class="swiper-pagination promo__offer-pagination"></div>
-          <div class="swiper-scrollbar promo__offer-scrollbar"></div>
         </div>
         <!-- /.swiper-container -->
       </div>

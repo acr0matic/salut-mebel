@@ -18,6 +18,7 @@ const promoSlider = new Swiper('.promo__slider', {
 });
 
 const offerSlider = new Swiper('.promo__offer', {
+  loop: true,
   autoplay: {
     delay: 3000,
   },
@@ -38,11 +39,6 @@ const offerSlider = new Swiper('.promo__offer', {
 
   pagination: {
     el: '.promo__offer-pagination',
-  },
-
-  scrollbar: {
-    el: '.promo__offer-scrollbar',
-    draggable: true,
   },
 
   navigation: {
