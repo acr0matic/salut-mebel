@@ -9,14 +9,14 @@
 
   font-size: $font-size-6;
 
-  @include breakpoint($breakpoint-mobile-large) {
+  @include breakpoint($breakpoint-tablet) {
     width: 100%;
   }
 
   &:first-child {
     width: 44%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
@@ -37,7 +37,7 @@
   &__content {
     @include flex($align: flex-start);
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       flex-direction: column;
     }
   }
@@ -48,7 +48,7 @@
 
     min-height: 190px;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       min-height: auto;
 
       &:not(:last-child) {

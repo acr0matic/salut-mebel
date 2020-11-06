@@ -1,5 +1,5 @@
 .method-card {
-  @include breakpoint($breakpoint-mobile-large) {
+  @include breakpoint($breakpoint-tablet) {
     margin-bottom: 30px;
   }
 

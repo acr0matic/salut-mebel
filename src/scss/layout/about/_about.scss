@@ -20,6 +20,10 @@
       height: 435px;
       margin-bottom: 180px;
 
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 100px;
+      }
+
       @include breakpoint($breakpoint-mobile-large) {
         margin-bottom: 0;
       }
@@ -101,12 +105,12 @@
         flex-direction: row;
       }
 
-      @include breakpoint($breakpoint-mobile-large) {
+      @include breakpoint($breakpoint-tablet) {
         flex-direction: column-reverse;
       }
     }
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       flex-direction: column-reverse;
     }
 
@@ -118,8 +122,10 @@
   &__description {
     width: 47%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
+
+      margin-top: 30px;
     }
   }
 }

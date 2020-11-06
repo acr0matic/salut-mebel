@@ -7,7 +7,7 @@
 
   padding: 110px 0;
 
-  @include breakpoint($breakpoint-mobile-large) {
+  @include breakpoint($breakpoint-tablet) {
     flex-direction: column;
 
     padding: 30px 15px;
@@ -21,7 +21,7 @@
 
     object-fit: cover;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
@@ -36,7 +36,7 @@
 
     background-color: $block-primary;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       align-items: center;
       width: 100%;
 
@@ -48,7 +48,7 @@
   &__title {
     margin-bottom: 10px;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       margin-top: 25px;
 
       font-size: $font-size-4;
@@ -60,14 +60,14 @@
 
     font-size: $font-size-4;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       margin-top: 15px;
       font-size: $font-size-5;
     }
   }
 
   &__button {
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       margin-bottom: 15px;
     }
   }

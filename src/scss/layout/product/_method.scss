@@ -4,7 +4,7 @@
   &__wrapper {
     @include flex($align: flex-start);
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       flex-direction: column;
     }
   }
@@ -13,14 +13,14 @@
     width: 33%;
 
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
 
     &:not(:last-child) {
       margin-right: 45px;
 
-      @include breakpoint($breakpoint-mobile-large) {
+      @include breakpoint($breakpoint-tablet) {
         margin-right: 0;
       }
     }

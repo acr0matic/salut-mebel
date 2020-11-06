@@ -12,7 +12,7 @@
   &__content {
     width: 46%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
@@ -20,7 +20,7 @@
   &__picture {
     width: 45%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       display: none;
     }
   }

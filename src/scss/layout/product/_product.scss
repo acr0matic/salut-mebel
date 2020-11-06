@@ -2,7 +2,7 @@
   &__main {
     @include flex($align: stretch);
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       flex-direction: column;
     }
   }
@@ -10,7 +10,7 @@
   &__gallery {
     width: 47%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
@@ -21,7 +21,7 @@
 
     width: 47%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
 
       margin-top: 40px;
@@ -71,7 +71,7 @@
   &__picture {
     width: 47%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
@@ -80,7 +80,7 @@
     height: 560px;
     object-fit: cover;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       height: 360px;
       border-radius: 5px;
     }

@@ -6,7 +6,7 @@
 
   box-shadow: $shadow-navbar;
 
-  @include breakpoint($breakpoint-mobile-large) {
+  @include breakpoint($breakpoint-tablet) {
     display: none;
   }
 

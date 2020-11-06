@@ -112,7 +112,7 @@ const hullSlider = new Swiper('.catalog__slider--hull', {
 
   breakpoints: {
     480: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 30,
     },
 

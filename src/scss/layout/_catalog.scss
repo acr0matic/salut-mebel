@@ -4,6 +4,10 @@
       width: 32%;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      width: 48%;
+    }
+
     @include breakpoint($breakpoint-mobile-large) {
       width: 100%;
     }

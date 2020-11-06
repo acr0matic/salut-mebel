@@ -11,7 +11,7 @@
     border-radius: 5px;
     overflow: hidden;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       display: none;
     }
   }

@@ -4,7 +4,7 @@
   &__wrapper {
     @include flex($align: flex-start);
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       flex-direction: column;
     }
   }
@@ -12,7 +12,7 @@
   &__video-block {
     width: 48%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
@@ -24,7 +24,7 @@
     font-size: $font-size-5;
     font-weight: $weight-bold;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       margin-bottom: 25px;
     }
   }
@@ -36,7 +36,7 @@
   &__content {
     width: 48%;
 
-    @include breakpoint($breakpoint-mobile-large) {
+    @include breakpoint($breakpoint-tablet) {
       width: 100%;
     }
   }
